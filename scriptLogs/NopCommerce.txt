@@ -1,0 +1,7 @@
+[INFO ] [2022-12-14 08:28:59,226] Pre-condition - Step 01: Click register link
+[INFO ] [2022-12-14 08:28:59,963] Pre-condition - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:29:00,965] Pre-condition - Step 03: Click register button
+[INFO ] [2022-12-14 08:29:02,554] Pre-condition - Step 04: Verify success message displayed
+[INFO ] [2022-12-14 08:29:02,637] Pre-condition - Step 05: Click logout link
+[INFO ] [2022-12-14 08:29:11,099] OS name = windows 10
+[INFO ] [2022-12-14 08:29:11,100] Driver instance name = chromedriver: chrome on windows (8e988015b6f7906b59fb2ef28e1ea346)

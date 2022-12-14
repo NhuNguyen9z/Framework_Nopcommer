@@ -1,0 +1,97 @@
+[INFO ] [2022-12-14 08:11:24,671] Register_01 - Step 01: Click register link
+[INFO ] [2022-12-14 08:11:25,513] Register_01 - Step 02: Click register button
+[INFO ] [2022-12-14 08:11:25,689] Register_01 - Step 03: Verify error message displayed
+[INFO ] [2022-12-14 08:11:26,099] Register_02 - Step 01: Click register link
+[INFO ] [2022-12-14 08:11:27,113] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:11:28,092] Register_02 - Step 03: Click register button
+[INFO ] [2022-12-14 08:11:28,616] Register_02 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:11:28,706] Register_03 - Step 01: Click register link
+[INFO ] [2022-12-14 08:11:29,222] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:11:30,153] Register_03 - Step 03: Click register button
+[INFO ] [2022-12-14 08:11:31,163] Register_03 - Step 04: Verify success message displayed
+[INFO ] [2022-12-14 08:11:31,258] Register_03 - Step 05: Click logout link
+[INFO ] [2022-12-14 08:11:32,076] Register_04 - Step 01: Click register link
+[INFO ] [2022-12-14 08:11:32,578] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:11:33,488] Register_04 - Step 03: Click register button
+[INFO ] [2022-12-14 08:11:34,070] Register_04 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:11:34,148] Register_05 - Step 01: Click register link
+[INFO ] [2022-12-14 08:11:34,652] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:11:35,638] Register_05 - Step 03: Click register button
+[INFO ] [2022-12-14 08:11:35,780] Register_05 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:11:35,858] Register_06 - Step 01: Click register link
+[INFO ] [2022-12-14 08:11:36,336] Register_06 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:11:37,307] Register_06 - Step 03: Click register button
+[INFO ] [2022-12-14 08:11:37,440] Register_06 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:11:37,512] OS name = windows 10
+[INFO ] [2022-12-14 08:11:37,512] Driver instance name = chromedriver: chrome on windows (2ef0193271aafd1ae1640194f17bfd02)
+[INFO ] [2022-12-14 08:12:39,243] Register_01 - Step 01: Click register link
+[INFO ] [2022-12-14 08:12:39,927] Register_01 - Step 02: Click register button
+[INFO ] [2022-12-14 08:12:40,153] Register_01 - Step 03: Verify error message displayed
+[INFO ] [2022-12-14 08:12:40,588] Register_02 - Step 01: Click register link
+[INFO ] [2022-12-14 08:12:41,601] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:12:42,563] Register_02 - Step 03: Click register button
+[INFO ] [2022-12-14 08:12:43,060] Register_02 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:12:43,178] Register_03 - Step 01: Click register link
+[INFO ] [2022-12-14 08:12:43,672] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:12:44,577] Register_03 - Step 03: Click register button
+[INFO ] [2022-12-14 08:12:45,556] Register_03 - Step 04: Verify success message displayed
+[INFO ] [2022-12-14 08:12:45,661] Register_03 - Step 05: Click logout link
+[INFO ] [2022-12-14 08:12:46,559] Register_04 - Step 01: Click register link
+[INFO ] [2022-12-14 08:12:47,093] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:12:47,995] Register_04 - Step 03: Click register button
+[INFO ] [2022-12-14 08:12:48,538] Register_04 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:12:48,617] Register_05 - Step 01: Click register link
+[INFO ] [2022-12-14 08:12:49,127] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:12:50,127] Register_05 - Step 03: Click register button
+[INFO ] [2022-12-14 08:12:50,255] Register_05 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:12:50,321] Register_06 - Step 01: Click register link
+[INFO ] [2022-12-14 08:12:50,800] Register_06 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:12:51,737] Register_06 - Step 03: Click register button
+[INFO ] [2022-12-14 08:12:51,865] Register_06 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:12:51,945] OS name = windows 10
+[INFO ] [2022-12-14 08:12:51,945] Driver instance name = chromedriver: chrome on windows (13fba992208716b38140dad05146fd28)
+[INFO ] [2022-12-14 08:14:42,894] Register_01 - Step 01: Click register link
+[INFO ] [2022-12-14 08:14:43,638] Register_01 - Step 02: Click register button
+[INFO ] [2022-12-14 08:14:43,809] Register_01 - Step 03: Verify error message displayed
+[INFO ] [2022-12-14 08:14:44,236] Register_02 - Step 01: Click register link
+[INFO ] [2022-12-14 08:14:44,727] Register_02 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:14:45,703] Register_02 - Step 03: Click register button
+[INFO ] [2022-12-14 08:14:46,204] Register_02 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:14:46,287] Register_03 - Step 01: Click register link
+[INFO ] [2022-12-14 08:14:46,766] Register_03 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:14:47,684] Register_03 - Step 03: Click register button
+[INFO ] [2022-12-14 08:14:48,958] Register_03 - Step 04: Verify success message displayed
+[INFO ] [2022-12-14 08:14:49,032] Register_03 - Step 05: Click logout link
+[INFO ] [2022-12-14 08:14:49,878] Register_04 - Step 01: Click register link
+[INFO ] [2022-12-14 08:14:50,340] Register_04 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:14:51,237] Register_04 - Step 03: Click register button
+[INFO ] [2022-12-14 08:14:51,757] Register_04 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:14:51,827] Register_05 - Step 01: Click register link
+[INFO ] [2022-12-14 08:14:52,311] Register_05 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:14:53,257] Register_05 - Step 03: Click register button
+[INFO ] [2022-12-14 08:14:53,404] Register_05 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:14:53,488] Register_06 - Step 01: Click register link
+[INFO ] [2022-12-14 08:14:53,946] Register_06 - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:14:54,926] Register_06 - Step 03: Click register button
+[INFO ] [2022-12-14 08:14:55,048] Register_06 - Step 04: Verify error message displayed
+[INFO ] [2022-12-14 08:14:55,145] OS name = windows 10
+[INFO ] [2022-12-14 08:14:55,146] Driver instance name = chromedriver: chrome on windows (6a6bf576a8602cf5ab74161c0c04cf9c)
+[INFO ] [2022-12-14 08:16:02,102] Pre-condition - Step 01: Click register link
+[INFO ] [2022-12-14 08:16:02,807] Pre-condition - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:16:03,822] Pre-condition - Step 03: Click register button
+[INFO ] [2022-12-14 08:16:05,325] Pre-condition - Step 04: Verify success message displayed
+[INFO ] [2022-12-14 08:16:05,411] Pre-condition - Step 05: Click logout link
+[INFO ] [2022-12-14 08:22:49,519] Pre-condition - Step 01: Click register link
+[INFO ] [2022-12-14 08:22:50,255] Pre-condition - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:22:51,277] Pre-condition - Step 03: Click register button
+[INFO ] [2022-12-14 08:22:52,811] Pre-condition - Step 04: Verify success message displayed
+[INFO ] [2022-12-14 08:22:52,893] Pre-condition - Step 05: Click logout link
+[INFO ] [2022-12-14 08:23:01,396] OS name = windows 10
+[INFO ] [2022-12-14 08:23:01,396] Driver instance name = chromedriver: chrome on windows (95625e1e586567317e9d5acec4ee01a9)
+[INFO ] [2022-12-14 08:28:59,226] Pre-condition - Step 01: Click register link
+[INFO ] [2022-12-14 08:28:59,963] Pre-condition - Step 02: Input to required fields
+[INFO ] [2022-12-14 08:29:00,965] Pre-condition - Step 03: Click register button
+[INFO ] [2022-12-14 08:29:02,554] Pre-condition - Step 04: Verify success message displayed
+[INFO ] [2022-12-14 08:29:02,637] Pre-condition - Step 05: Click logout link
+[INFO ] [2022-12-14 08:29:11,099] OS name = windows 10
+[INFO ] [2022-12-14 08:29:11,100] Driver instance name = chromedriver: chrome on windows (8e988015b6f7906b59fb2ef28e1ea346)
