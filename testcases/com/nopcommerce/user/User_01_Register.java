@@ -14,7 +14,7 @@ import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
 @Listeners(commons.MethodListener.class)
-public class TC_01_Register extends BaseTest {
+public class User_01_Register extends BaseTest {
 
 	@Parameters({ "browser" })
 	@BeforeClass
@@ -149,13 +149,11 @@ public class TC_01_Register extends BaseTest {
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-
 		closeBrowserAndDriver();
 	}
 
 	private WebDriver driver;
 	private String firstName, lastName, emailAddess, password;
-
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 }

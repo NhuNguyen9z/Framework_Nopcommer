@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import commons.PageGeneratorManager;
+import pageUIs.nopCommerce.user.BasePageUI;
 import pageUIs.nopCommerce.user.UserHomePageUI;
 
 public class UserHomePageObject extends BasePage {
@@ -54,6 +55,12 @@ public class UserHomePageObject extends BasePage {
 		waitForElementClickable(driver, UserHomePageUI.MY_ACCOUNT_LINK);
 		clickToElement(driver, UserHomePageUI.MY_ACCOUNT_LINK);
 		return PageGeneratorManager.getCustomerInforPage(driver);
+	}
+
+	public UserProductCategoryPageObject clickToHeaderMenuByText(String textLabel) {
+		waitForElementClickable(driver, BasePageUI.HEADER_MENU_BY_TEXT, textLabel);
+		clickToElement(driver, BasePageUI.HEADER_MENU_BY_TEXT, textLabel);
+		return PageGeneratorManager.getUserProductCategoryPage(driver);
 	}
 
 }

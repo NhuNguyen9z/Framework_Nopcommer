@@ -5,10 +5,15 @@ import org.openqa.selenium.WebDriver;
 import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
+import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserProductCategoryPageObject;
+import pageObjects.nopCommerce.user.UserProductDetailPageObject;
+import pageObjects.nopCommerce.user.UserProductListPageObject;
+import pageObjects.nopCommerce.user.UserProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 
@@ -30,8 +35,11 @@ public class PageGeneratorManager {
 	}
 
 	public static UserCustomerInforPageObject getCustomerInforPage(WebDriver driver) {
-
 		return new UserCustomerInforPageObject(driver);
+	}
+
+	public static UserChangePasswordPageObject getChangePasswordPage(WebDriver driver) {
+		return new UserChangePasswordPageObject(driver);
 	}
 
 	public static UserAddressPageObject getAddressPage(WebDriver driver) {
@@ -52,5 +60,24 @@ public class PageGeneratorManager {
 
 	public static AdminDashboardPageObject getAdminDashboardPage(WebDriver driver) {
 		return new AdminDashboardPageObject(driver);
+	}
+
+	public static UserProductListPageObject getUserProductListPage(WebDriver driver) {
+
+		return new UserProductListPageObject(driver);
+	}
+
+	public static UserProductDetailPageObject getUserProductDetailPage(WebDriver driver) {
+
+		return new UserProductDetailPageObject(driver);
+	}
+
+	public static UserProductCategoryPageObject getUserProductCategoryPage(WebDriver driver) {
+		return new UserProductCategoryPageObject(driver);
+	}
+
+	public static UserProductReviewPageObject getUserProductReviewPage(WebDriver driver) {
+
+		return new UserProductReviewPageObject(driver);
 	}
 }

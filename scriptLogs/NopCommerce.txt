@@ -1,7 +1,109 @@
-[INFO ] [2022-12-14 08:28:59,226] Pre-condition - Step 01: Click register link
-[INFO ] [2022-12-14 08:28:59,963] Pre-condition - Step 02: Input to required fields
-[INFO ] [2022-12-14 08:29:00,965] Pre-condition - Step 03: Click register button
-[INFO ] [2022-12-14 08:29:02,554] Pre-condition - Step 04: Verify success message displayed
-[INFO ] [2022-12-14 08:29:02,637] Pre-condition - Step 05: Click logout link
-[INFO ] [2022-12-14 08:29:11,099] OS name = windows 10
-[INFO ] [2022-12-14 08:29:11,100] Driver instance name = chromedriver: chrome on windows (8e988015b6f7906b59fb2ef28e1ea346)
+[INFO ] [2022-12-15 22:47:28,424] Pre-condition - Step 01: Navigate to 'Register' page
+[INFO ] [2022-12-15 22:47:29,127] Pre-condition - Step 02: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-12-15 22:47:29,343] Pre-condition - Step 03: Enter to Lastname textbox with value is 'Testing'
+[INFO ] [2022-12-15 22:47:29,554] Pre-condition - Step 04: Enter to Email textbox with value is 'auto_42647@hotmail.com'
+[INFO ] [2022-12-15 22:47:29,781] Pre-condition - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-12-15 22:47:29,975] Pre-condition - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-12-15 22:47:30,162] Pre-condition - Step 07: Click to 'Register' button
+[INFO ] [2022-12-15 22:47:31,701] Pre-condition - Step 08: Verify Register success message is displayed
+[INFO ] [2022-12-15 22:47:31,786] -------------------------PASSED--------------------------
+[INFO ] [2022-12-15 22:47:31,786] Pre-condition - Step 09: Click to Logout link
+[INFO ] [2022-12-15 22:47:32,621] Pre-condition - Step 10: Navigate to 'Login' page
+[INFO ] [2022-12-15 22:47:33,219] Pre-condition - Step 11: Enter to Email textbox with value is 'auto_42647@hotmail.com'
+[INFO ] [2022-12-15 22:47:33,417] Pre-condition - Step 12: Enter to Password textbox with value is '123456'
+[INFO ] [2022-12-15 22:47:33,606] Pre-condition - Step 13: Click to Login button
+[INFO ] [2022-12-15 22:47:34,416] Pre-condition - Step 14: Verify 'My Account' link is displayed
+[INFO ] [2022-12-15 22:47:34,515] -------------------------PASSED--------------------------
+[INFO ] [2022-12-15 22:47:34,532] Customer-Infor - Step 01: Navigate to 'Customer Info' page 
+[INFO ] [2022-12-15 22:47:35,136] Customer-Infor - Step 02: Verify 'Customer Info' page is displayed
+[INFO ] [2022-12-15 22:47:35,221] -------------------------PASSED--------------------------
+[INFO ] [2022-12-15 22:47:35,221] Customer-Infor - Step 03: Select Radio is Female
+[INFO ] [2022-12-15 22:47:35,367] Customer-Infor - Step 04: Enter to Fistname textbox with value is 'Automation'
+[INFO ] [2022-12-15 22:47:35,561] Customer-Infor - Step 05: Enter to LastName textbox with value is 'Testing'
+[INFO ] [2022-12-15 22:47:35,746] Customer-Infor - Step 06: Select day with value is '10'
+[INFO ] [2022-12-15 22:47:35,946] Customer-Infor - Step 07: Select month with value is 'May'
+[INFO ] [2022-12-15 22:47:36,135] Customer-Infor - Step 08: Select year with value is '1999'
+[INFO ] [2022-12-15 22:47:36,310] Customer-Infor - Step 09: Enter to Email textbox with value is 'auto_42647@hotmail.com'
+[INFO ] [2022-12-15 22:47:36,524] Customer-Infor - Step 10: Select Newslatter textbox
+[INFO ] [2022-12-15 22:47:36,610] Customer-Infor - Step 11: Enter to Company textbox with value is 'Automation TC'
+[INFO ] [2022-12-15 22:47:37,825] Customer-Infor - Step 12: Click to button Save
+[INFO ] [2022-12-15 22:47:38,679] Customer-Infor - Step 13: Verify 'Radio' value is displayed
+[INFO ] [2022-12-15 22:47:38,744] Customer-Infor - Step 14: Verify 'First Name' value is correctly
+[INFO ] [2022-12-15 22:47:38,802] Customer-Infor - Step 15: Verify 'Last Name' is correctly
+[INFO ] [2022-12-15 22:47:38,897] Customer-Infor - Step 16: Verify 'Day' value is correctly
+[INFO ] [2022-12-15 22:47:38,977] Customer-Infor - Step 17: Verify 'Month' value is correctly
+[INFO ] [2022-12-15 22:47:39,038] Customer-Infor - Step 18: Verify 'Year' value is correctly
+[INFO ] [2022-12-15 22:47:39,119] Customer-Infor - Step 19: Verify 'Email' value is correctly with value is 'auto_42647@hotmail.com'
+[INFO ] [2022-12-15 22:47:39,180] Customer-Infor - Step 20: Verify 'Checkbox' Newsletter is displayed
+[INFO ] [2022-12-15 22:47:39,247] Customer-Infor - Step 21: Verify 'Company Name' value is correctly
+[INFO ] [2022-12-15 22:47:39,312] Addresses - Step 01: Navigate to 'Addresses' page 
+[INFO ] [2022-12-15 22:47:39,884] Addresses - Step 02: Click to button Add new 
+[INFO ] [2022-12-15 22:47:40,477] Addresses - Step 03: Enter to Fistname textbox with value is 'Automation_Address'
+[INFO ] [2022-12-15 22:47:40,681] Addresses - Step 04: Enter to LastName textbox with value is 'Testing_Address'
+[INFO ] [2022-12-15 22:47:40,891] Addresses - Step 05: Enter to Update Email textbox with value is 'update_42648@hotmail.com'
+[INFO ] [2022-12-15 22:47:41,133] Addresses - Step 06: Enter to Company textbox with value is 'Automation Address'
+[INFO ] [2022-12-15 22:47:41,371] Addresses - Step 07: Select Country
+[INFO ] [2022-12-15 22:47:41,542] Addresses - Step 08: Select State
+[INFO ] [2022-12-15 22:47:41,839] Addresses - Step 09: Enter to City textbox with value is 'Dan Nang'
+[INFO ] [2022-12-15 22:47:42,034] Addresses - Step 10: Enter to Address 1 textbox with value is '123/04 Le Lai'
+[INFO ] [2022-12-15 22:47:42,246] Addresses - Step 11: Enter to Address 2 textbox with value is '234/05 Hai Phong'
+[INFO ] [2022-12-15 22:47:42,455] Addresses - Step 12: Enter to Zipcode textbox with value is '550000'
+[INFO ] [2022-12-15 22:47:42,643] Addresses - Step 13: Enter to Phone Number textbox with value is '0123456789'
+[INFO ] [2022-12-15 22:47:42,848] Addresses - Step 14: Enter to Fax Number textbox with value is '9876543210'
+[INFO ] [2022-12-15 22:47:43,061] Addresses - Step 15: Verify Address_FirstName with value is 'Automation_Address'
+[INFO ] [2022-12-15 22:47:43,137] Addresses - Step 16: Verify Address_LastName with value is 'Testing_Address'
+[INFO ] [2022-12-15 22:47:43,199] Addresses - Step 17: Verify Address_Email with value is 'update_42648@hotmail.com'
+[INFO ] [2022-12-15 22:47:43,262] Addresses - Step 18: Verify Address_Company with value is 'Automation Address'
+[INFO ] [2022-12-15 22:47:43,324] Addresses - Step 19: Verify Country with value is 'Viet Nam'
+[INFO ] [2022-12-15 22:47:43,402] Addresses- Step 20: Verify State with value is 'Other'
+[INFO ] [2022-12-15 22:47:43,480] Addresses - Step 21: Verify City with value is 'Dan Nang'
+[INFO ] [2022-12-15 22:47:43,543] Addresses - Step 22: Verify Address_1 with value is '123/04 Le Lai'
+[INFO ] [2022-12-15 22:47:43,604] Addresses - Step 23: Verify address_2 with value is '234/05 Hai Phong'
+[INFO ] [2022-12-15 22:47:43,666] Addresses - Step 24: Verify ZipCode with value is '550000'
+[INFO ] [2022-12-15 22:47:43,728] Addresses - Step 25: Verify phoneNumber with value is '0123456789'
+[INFO ] [2022-12-15 22:47:43,791] Addresses - Step 26: Verify faxNumber with value is '9876543210'
+[INFO ] [2022-12-15 22:47:43,857] Change_Password - Step 01: open Change Password Page
+[INFO ] [2022-12-15 22:47:44,438] Change_Password - Step 02: Enter to OldPassword textbox with value is '123456'
+[INFO ] [2022-12-15 22:47:44,611] Change_Password - Step 03: Enter to NewPassword textbox with value is '654321'
+[INFO ] [2022-12-15 22:47:44,805] Change_Password - Step 04: Enter to ConfirmNewPassword textbox with value is '654321'
+[INFO ] [2022-12-15 22:47:44,981] Change_Password - Step 05: Click button Change Password
+[INFO ] [2022-12-15 22:47:45,517] Change_Password - Step 06: Close Alert Change Password Success
+[INFO ] [2022-12-15 22:47:47,634] Change_Password - Step 07: Click to Logout link
+[INFO ] [2022-12-15 22:47:48,475] Change_Password - Step 08: Navigate to 'Login' page
+[INFO ] [2022-12-15 22:47:49,008] Change_Password - Step 09: Enter to Email textbox with value is 'auto_42647@hotmail.com'
+[INFO ] [2022-12-15 22:47:49,203] Change_Password - Step 10: Enter to OldPassword textbox with value is '123456'
+[INFO ] [2022-12-15 22:47:49,398] Change_Password - Step 11: Click to Login Button
+[INFO ] [2022-12-15 22:47:49,911] Change_Password - Step 12: Verify alert Login was unsuccessful
+[INFO ] [2022-12-15 22:47:50,009] Change_Password - Step 13: Enter to Password textbox with value is '654321'
+[INFO ] [2022-12-15 22:47:50,177] Change_Password - Step 14: Click to Login button
+[INFO ] [2022-12-15 22:47:51,041] Change_Password - Step 15: Verify 'My Account' link is displayed
+[INFO ] [2022-12-15 22:47:51,120] -------------------------PASSED--------------------------
+[INFO ] [2022-12-15 22:47:51,123] My_Product_Reviews - Step 01: Click to Header menu
+[INFO ] [2022-12-15 22:47:51,754] My_Product_Reviews - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-15 22:47:51,839] My_Product_Reviews - Step 03: Click to Category
+[INFO ] [2022-12-15 22:47:52,377] My_Product_Reviews - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-15 22:47:52,471] My_Product_Reviews - Step 05: Click to Product title
+[INFO ] [2022-12-15 22:47:53,610] My_Product_Reviews - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-15 22:47:53,708] My_Product_Reviews - Step 07: Click to Add your review
+[INFO ] [2022-12-15 22:47:54,309] My_Product_Reviews - Step 08: Verify Product Name correctly in the Product Review Page
+[INFO ] [2022-12-15 22:47:54,371] My_Product_Reviews - Step 09: Enter to Review Title
+[INFO ] [2022-12-15 22:47:54,585] My_Product_Reviews - Step 10: Enter to Review Text
+[INFO ] [2022-12-15 22:47:54,764] My_Product_Reviews - Step 11: Select Rating
+[INFO ] [2022-12-15 22:47:54,925] My_Product_Reviews - Step 12: Click to button Submit Review
+[INFO ] [2022-12-15 22:47:55,416] My_Product_Reviews - Step 13: Verify message 'Product review is successfully added.'
+[INFO ] [2022-12-15 22:47:55,534] My_Product_Reviews - Step 14: Click to My Account link
+[INFO ] [2022-12-15 22:47:55,968] My_Product_Reviews - Step 15: Verify 'My account - Customer info' page is displayed
+[INFO ] [2022-12-15 22:47:56,048] -------------------------PASSED--------------------------
+[INFO ] [2022-12-15 22:47:56,049] My_Product_Reviews - Step 16: Click to 'My product reviews' link
+[INFO ] [2022-12-15 22:47:56,640] My_Product_Reviews - Step 17: Verify 'My account - My product reviews' page is displayed
+[INFO ] [2022-12-15 22:47:56,722] -------------------------PASSED--------------------------
+[INFO ] [2022-12-15 22:47:56,723] My_Product_Reviews - Step 18: Verify 'Review title' is displayed
+[INFO ] [2022-12-15 22:47:56,815] -------------------------PASSED--------------------------
+[INFO ] [2022-12-15 22:47:56,815] My_Product_Reviews - Step 19: Verify 'Review Text' is displayed
+[INFO ] [2022-12-15 22:47:56,876] -------------------------PASSED--------------------------
+[INFO ] [2022-12-15 22:47:56,876] My_Product_Reviews - Step 20: Verify 'Product title' is displayed
+[INFO ] [2022-12-15 22:47:56,953] -------------------------PASSED--------------------------
+[INFO ] [2022-12-15 22:47:56,954] My_Product_Reviews - Step 21: Verify 'Rating' is displayed
+[INFO ] [2022-12-15 22:47:57,016] -------------------------PASSED--------------------------
+[INFO ] [2022-12-15 22:47:57,018] OS name = windows 10
+[INFO ] [2022-12-15 22:47:57,018] Driver instance name = chromedriver: chrome on windows (f8d9023a34a33b8d1f305027fef0c032)

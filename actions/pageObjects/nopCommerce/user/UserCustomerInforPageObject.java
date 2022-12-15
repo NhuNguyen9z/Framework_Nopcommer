@@ -13,11 +13,6 @@ public class UserCustomerInforPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public boolean isCustomerInforPageDisplayed() {
-		waitForElementVisible(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS);
-		return isElementDisplayed(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS);
-	}
-
 	public void clickToNewsletterCheckbox() {
 		// TODO Auto-generated method stub
 

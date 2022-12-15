@@ -20,6 +20,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
+import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
@@ -28,6 +29,7 @@ import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 //import pageObjects.wordpress.UserHomePO;
 import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
 import pageUIs.nopCommerce.user.BasePageUI;
+import pageUIs.nopCommerce.user.UserCustomerInforPageUI;
 
 public class BasePage {
 
@@ -649,6 +651,18 @@ public class BasePage {
 		return PageGeneratorManager.getCustomerInforPage(driver);
 	}
 
+	public UserCustomerInforPageObject openMyAccountPage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.MY_ACCOUNT_LINK);
+		clickToElement(driver, BasePageUI.MY_ACCOUNT_LINK);
+		return PageGeneratorManager.getCustomerInforPage(driver);
+	}
+
+	public UserChangePasswordPageObject openChangePasswordPage(WebDriver driver, String pageName) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_PAGES_NAME_AT_MY_ACCOUNT_AREA, pageName);
+		clickToElement(driver, BasePageUI.DYNAMIC_PAGES_NAME_AT_MY_ACCOUNT_AREA, pageName);
+		return PageGeneratorManager.getChangePasswordPage(driver);
+	}
+
 	// Tối ưu ở bài học Level_09_Dynamic_Locator
 	public BasePage openPagesAtMyAccountByName(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, BasePageUI.DYNAMIC_PAGES_NAME_AT_MY_ACCOUNT_AREA, pageName);
@@ -797,6 +811,16 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
 		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
 		return PageGeneratorManager.getAminLoginPage(driver);
+	}
+
+	public boolean isPageTitleByTextDisplayed(WebDriver driver, String titleClass, String textLabel) {
+		waitForElementVisible(driver, BasePageUI.PAGE_TITLE_BY_TEXT, titleClass, textLabel);
+		return isElementDisplayed(driver, BasePageUI.PAGE_TITLE_BY_TEXT, titleClass, textLabel);
+	}
+
+	public boolean isSideBarPageDisplayed(WebDriver driver, String textLbel) {
+		waitForElementVisible(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS, textLbel);
+		return isElementDisplayed(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS, textLbel);
 	}
 
 	// public UserHomePO openEndUserSite(WebDriver driver, String urlUserSite) {

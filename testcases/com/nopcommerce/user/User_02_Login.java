@@ -13,7 +13,7 @@ import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
-public class TC_02_Login extends BaseTest {
+public class User_02_Login extends BaseTest {
 
 	@Parameters({ "browser" })
 	@BeforeClass
@@ -36,6 +36,8 @@ public class TC_02_Login extends BaseTest {
 		log.info("Pre-condition - Step 02: Input to required fields");
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastnameTextbox(lastName);
+
+		log.info("Pre-condition - Step 02: Input to required fields");
 		registerPage.inputToEmailTextbox(existingEmail);
 		registerPage.inputToPasswordTextbox(validPassword);
 		registerPage.inputToConfirmPasswordTextbox(validPassword);
@@ -114,6 +116,7 @@ public class TC_02_Login extends BaseTest {
 
 		loginPage = homePage.openLoginPage();
 
+		log.info("Login - Step 02: Enter to Email textbox with value is '" + existingEmail + "'");
 		loginPage.inputToEmailTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox(validPassword);
 		homePage = loginPage.clickToLoginButton();

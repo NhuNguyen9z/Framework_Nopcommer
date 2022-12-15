@@ -1,6 +1,7 @@
 package commons;
 
 import java.io.IOException;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -354,4 +355,13 @@ public class BaseTest {
 		return getCurrentMonth() + "/" + getCurrentDay() + "/" + getCurrentYear();
 	}
 
+	public static String getRandomEmail() {
+		return "_" + getRandomNumberByDateTime();
+	}
+
+	// Get random number by date time minute second (no duplicate)
+	public static long getRandomNumberByDateTime() {
+		return Calendar.getInstance().getTimeInMillis() % 100000;
+
+	}
 }
