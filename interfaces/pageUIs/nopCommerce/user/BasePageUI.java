@@ -27,4 +27,6 @@ public class BasePageUI {
 
 	public static final String BAR_NOTIFICATION_SUCCESS = "xpath=//div[contains(@class,'success')]//span";
 
+	public static final String FOOTER_LINK_BY_TEXT = "xpath=//div[@class='footer']//a[text()='%s']";
+
 }

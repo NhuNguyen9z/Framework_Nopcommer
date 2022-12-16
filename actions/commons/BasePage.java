@@ -25,6 +25,7 @@ import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
+import pageObjects.nopCommerce.user.UserSearchPageObject;
 //import pageObjects.wordpress.PageGenerator;
 //import pageObjects.wordpress.UserHomePO;
 import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
@@ -475,6 +476,12 @@ public class BasePage {
 		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, locatorType));
 	}
 
+	public void scrollToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, locatorType));
+	}
+
 	// Get element ValidationMessage phải dùng Javascript Executor chứ ko dùng getText() trong Selenium được
 	public String getElementValidationMessage(WebDriver driver, String locatorType) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
@@ -818,9 +825,15 @@ public class BasePage {
 		return isElementDisplayed(driver, BasePageUI.PAGE_TITLE_BY_TEXT, titleClass, textLabel);
 	}
 
-	public boolean isSideBarPageDisplayed(WebDriver driver, String textLbel) {
-		waitForElementVisible(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS, textLbel);
-		return isElementDisplayed(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS, textLbel);
+	public boolean isSideBarPageDisplayed(WebDriver driver, String textLabel) {
+		waitForElementVisible(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS, textLabel);
+		return isElementDisplayed(driver, UserCustomerInforPageUI.CUSTOMER_INFOR_HEADERS, textLabel);
+	}
+
+	public UserSearchPageObject openSearchPageAtFooter(WebDriver driver, String textLabel) {
+		waitForElementClickable(driver, BasePageUI.FOOTER_LINK_BY_TEXT, textLabel);
+		clickToElement(driver, BasePageUI.FOOTER_LINK_BY_TEXT, textLabel);
+		return PageGeneratorManager.getUserSearchPage(driver);
 	}
 
 	// public UserHomePO openEndUserSite(WebDriver driver, String urlUserSite) {

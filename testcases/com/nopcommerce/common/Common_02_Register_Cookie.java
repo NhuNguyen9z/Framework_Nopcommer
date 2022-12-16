@@ -4,7 +4,6 @@ import java.util.Set;
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -23,9 +22,9 @@ public class Common_02_Register_Cookie extends BaseTest {
 
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
-		firstName = "Automation";
-		lastName = "Testing";
-		emailAddress = "auto" + generateFakeNumber() + "@hotmail.com";
+		firstName = "Jonhny";
+		lastName = "Depp";
+		emailAddress = "jonh" + getRandomEmail() + "@hotmail.com";
 		password = "123456";
 
 		log.info("Pre-condition - Step 01: Navigate to 'Register' page");
@@ -68,14 +67,7 @@ public class Common_02_Register_Cookie extends BaseTest {
 		homePage = loginPage.clickToLoginButton();
 
 		loggedCookies = registerPage.getAllCookies(driver);
-		for (Cookie cookie : loggedCookies) {
-			System.out.println("Cookie at Common Class: " + cookie);
-		}
 
-	}
-
-	@AfterTest
-	public void AfterClass() {
 		driver.quit();
 	}
 
