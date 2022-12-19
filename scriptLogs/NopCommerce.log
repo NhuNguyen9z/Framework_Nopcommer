@@ -2292,3 +2292,772 @@ Session ID: 7f64c36ccc2d93ecf764558dd0b3f64a
 [INFO ] [2022-12-16 13:04:41,972] Advanced_Correct_Manufacturer - Step 08: Verify Product Name displayed is 'Apple MacBook Pro'
 [INFO ] [2022-12-16 13:04:44,102] OS name = windows 10
 [INFO ] [2022-12-16 13:04:44,103] Driver instance name = chromedriver: chrome on windows (1f337439281bf64e9bcce2e6801e39b7)
+[INFO ] [2022-12-16 16:41:47,535] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-16 16:41:48,169] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-16 16:41:50,265] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-16 16:41:51,252] -------------------------PASSED--------------------------
+[INFO ] [2022-12-16 16:41:51,252] Pre-condition - Step 04: Open Search page at Footer
+[INFO ] [2022-12-16 16:41:52,039] Empty_Data - Step 01: Click to Seach button
+[INFO ] [2022-12-16 16:41:52,570] Empty_Data - Step 02: Verify 'Search term minimum length is 3 characters' warning is displayed
+[INFO ] [2022-12-16 16:41:54,674] Data_Not_Exist - Step 01: Open Search page at Footer
+[INFO ] [2022-12-16 16:41:55,185] Data_Not_Exist - Step 02: Input to Textbox Search with value is 'Macbook Pro 2050'
+[INFO ] [2022-12-16 16:41:55,395] Data_Not_Exist - Step 03: Click to Seach button
+[INFO ] [2022-12-16 16:41:55,933] Data_Not_Exist - Step 04: Verify 'No products were found that matched your criteria.' message is displayed
+[INFO ] [2022-12-16 16:41:58,054] Relate_Search - Step 01: Open Search page at Footer
+[INFO ] [2022-12-16 16:41:58,568] Relate_Search - Step 02: Input to Textbox Search with value is 'Lenovo'
+[INFO ] [2022-12-16 16:41:58,739] Relate_Search - Step 03: Click to Seach button
+[INFO ] [2022-12-16 16:41:59,304] Relate_Search - Step 04: Verify Relative Product Name is displayed
+[INFO ] [2022-12-16 16:41:59,443] Absolute_Search - Step 01: Open Search page at Footer
+[INFO ] [2022-12-16 16:41:59,959] Absolute_Search - Step 02: Input to Textbox Search with value is 'Lenovo IdeaCentre 600 All-in-One PC'
+[INFO ] [2022-12-16 16:42:00,193] Absolute_Search - Step 03: Click to Seach button
+[INFO ] [2022-12-16 16:42:00,701] Absolute_Search - Step 04: Verify Absolute Product Name is displayed
+[INFO ] [2022-12-16 16:42:00,824] Advanced_Search_Parent_Categories - Step 01: Open Search page at Footer
+[INFO ] [2022-12-16 16:42:01,369] Advanced_Search_Parent_Categories - Step 02: Input to Textbox Search with value is 'Apple MacBook Pro'
+[INFO ] [2022-12-16 16:42:01,637] Advanced_Search_Parent_Categories - Step 03: Click to Advanced Search checkbox
+[INFO ] [2022-12-16 16:42:01,840] Advanced_Search_Parent_Categories - Step 04: Select Category
+[INFO ] [2022-12-16 16:42:04,046] Advanced_Search_Parent_Categories - Step 05: Click to Search button
+[INFO ] [2022-12-16 16:42:04,771] Advanced_Search_Parent_Categories - Step 06: Verify 'No products were found that matched your criteria.' message is displayed
+[INFO ] [2022-12-16 16:42:04,900] Advanced_Sub_Categories - Step 01: Open Search page at Footer
+[INFO ] [2022-12-16 16:42:05,391] Advanced_Sub_Categories - Step 02: Input to Textbox Search with value is 'Apple MacBook Pro'
+[INFO ] [2022-12-16 16:42:05,610] Advanced_Sub_Categories - Step 03: Checked to Advanced Search checkbox
+[INFO ] [2022-12-16 16:42:05,782] Advanced_Sub_Categories - Step 04: Select Category
+[INFO ] [2022-12-16 16:42:05,977] Advanced_Sub_Categories - Step 05: Checked to Automatically search sub categories
+[INFO ] [2022-12-16 16:42:06,169] Advanced_Sub_Categories - Step 06: Click to Search button
+[INFO ] [2022-12-16 16:42:06,850] Advanced_Sub_Categories - Step 07: Verify Product Name displayed is 'Apple MacBook Pro'
+[INFO ] [2022-12-16 16:42:07,015] Advanced_Incorrect_Manufacturer - Step 01: Open Search page at Footer
+[INFO ] [2022-12-16 16:42:07,662] Advanced_Incorrect_Manufacturer - Step 02: Input to Textbox Search with value is 'Apple MacBook Pro'
+[INFO ] [2022-12-16 16:42:07,882] Advanced_Incorrect_Manufacturer - Step 03: Checked to Advanced Search checkbox
+[INFO ] [2022-12-16 16:42:08,030] Advanced_Incorrect_Manufacturer - Step 04: Select Category
+[INFO ] [2022-12-16 16:42:10,220] Advanced_Incorrect_Manufacturer - Step 05: Checked to Automatically search sub categories
+[INFO ] [2022-12-16 16:42:10,397] Advanced_Incorrect_Manufacturer - Step 06: Select Manufacturer
+[INFO ] [2022-12-16 16:42:12,591] Advanced_Incorrect_Manufacturer - Step 07: Click to Search button
+[INFO ] [2022-12-16 16:42:13,224] Advanced_Incorrect_Manufacturer - Step 08: Verify 'No products were found that matched your criteria.' message is displayed
+[INFO ] [2022-12-16 16:42:16,312] Advanced_Correct_Manufacturer - Step 01: Open Search page at Footer
+[INFO ] [2022-12-16 16:42:16,826] Advanced_Correct_Manufacturer - Step 02: Input to Textbox Search with value is 'Apple MacBook Pro'
+[INFO ] [2022-12-16 16:42:17,018] Advanced_Correct_Manufacturer - Step 03: Checked to Advanced Search checkbox
+[INFO ] [2022-12-16 16:42:17,161] Advanced_Correct_Manufacturer - Step 04: Select Category
+[INFO ] [2022-12-16 16:42:19,314] Advanced_Correct_Manufacturer - Step 05: Checked to Automatically search sub categories
+[INFO ] [2022-12-16 16:42:19,514] Advanced_Correct_Manufacturer - Step 06: Select Manufacturer
+[INFO ] [2022-12-16 16:42:21,682] Advanced_Correct_Manufacturer - Step 07: Click to Search button
+[INFO ] [2022-12-16 16:42:22,318] Advanced_Correct_Manufacturer - Step 08: Verify Product Name displayed is 'Apple MacBook Pro'
+[INFO ] [2022-12-16 16:42:24,435] OS name = windows 10
+[INFO ] [2022-12-16 16:42:24,436] Driver instance name = chromedriver: chrome on windows (349b33e55b0f622b72a95edc91381252)
+[INFO ] [2022-12-16 21:36:42,930] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 21:36:44,780] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 21:36:44,896] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 21:36:46,088] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 21:37:16,221] OS name = windows 10
+[INFO ] [2022-12-16 21:37:16,221] Driver instance name = chromedriver: chrome on windows (85a027a9b6ed0221f24164db8d81cc96)
+[INFO ] [2022-12-16 21:38:35,396] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 21:38:36,679] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 21:38:36,784] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 21:38:38,942] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 21:39:09,108] OS name = windows 10
+[INFO ] [2022-12-16 21:39:09,109] Driver instance name = chromedriver: chrome on windows (6e598e590cdd93655a40f33296f22567)
+[INFO ] [2022-12-16 21:40:41,300] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 21:40:42,015] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 21:40:42,128] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 21:40:43,356] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 21:40:43,483] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:40:43,582] Sort_Z_to_A - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:40:43,668] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:40:43,761] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:40:43,862] OS name = windows 10
+[INFO ] [2022-12-16 21:40:43,862] Driver instance name = chromedriver: chrome on windows (ef77ff703bcaf2ea52ba541c40ed3479)
+[INFO ] [2022-12-16 21:45:00,024] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 21:45:00,714] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 21:45:00,850] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 21:45:01,979] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 21:45:02,101] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:45:02,304] Sort_A_to_Z - Step 02: Product Name sort by Ascending
+[INFO ] [2022-12-16 21:45:02,503] Sort_Z_to_A - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:45:02,672] Sort_Z_to_A - Step 02: Product Name sort by Descending
+[INFO ] [2022-12-16 21:45:02,877] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:45:03,059] Sort_Low_To_High - Step 02: Product Price sort by Ascending
+[INFO ] [2022-12-16 21:45:03,110] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:45:03,289] Sort_High_To_Low - Step 02: Product Price sort by Descending
+[INFO ] [2022-12-16 21:45:03,319] OS name = windows 10
+[INFO ] [2022-12-16 21:45:03,319] Driver instance name = chromedriver: chrome on windows (2f31d2221237c22408302279f44f3318)
+[INFO ] [2022-12-16 21:50:25,658] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 21:50:27,356] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 21:50:27,464] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 21:50:28,065] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 21:50:28,185] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:50:28,353] Sort_A_to_Z - Step 02: Product Name sort by Ascending
+[INFO ] [2022-12-16 21:50:28,536] Sort_Z_to_A - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:50:28,734] Sort_Z_to_A - Step 02: Product Name sort by Descending
+[INFO ] [2022-12-16 21:50:28,969] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:50:29,153] Sort_Low_To_High - Step 02: Product Price sort by Ascending
+[INFO ] [2022-12-16 21:50:29,203] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:50:29,363] Sort_High_To_Low - Step 02: Product Price sort by Descending
+[INFO ] [2022-12-16 21:50:29,401] OS name = windows 10
+[INFO ] [2022-12-16 21:50:29,401] Driver instance name = chromedriver: chrome on windows (562a607c5a29a6cb501f16eba3703328)
+[INFO ] [2022-12-16 21:52:27,556] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 21:52:28,266] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 21:52:28,371] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 21:52:29,537] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 21:52:29,651] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:52:29,839] Sort_A_to_Z - Step 02: Product Name sort by Ascending
+[INFO ] [2022-12-16 21:52:30,031] Sort_Z_to_A - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:52:30,198] Sort_Z_to_A - Step 02: Product Name sort by Descending
+[INFO ] [2022-12-16 21:52:30,400] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:52:30,571] Sort_Low_To_High - Step 02: Product Price sort by Ascending
+[INFO ] [2022-12-16 21:52:30,618] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:52:30,791] Sort_High_To_Low - Step 02: Product Price sort by Descending
+[INFO ] [2022-12-16 21:52:30,836] OS name = windows 10
+[INFO ] [2022-12-16 21:52:30,836] Driver instance name = chromedriver: chrome on windows (dfd8c2b22cf4ad79dd6a3ab3ccdbf1fc)
+[INFO ] [2022-12-16 21:53:24,043] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 21:53:25,315] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 21:53:25,413] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 21:53:26,519] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 21:53:26,629] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:53:26,800] Sort_A_to_Z - Step 02: Product Name sort by Ascending
+[INFO ] [2022-12-16 21:53:26,997] Sort_Z_to_A - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:53:28,177] Sort_Z_to_A - Step 02: Product Name sort by Descending
+[INFO ] [2022-12-16 21:53:28,427] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:53:29,620] Sort_Low_To_High - Step 02: Product Price sort by Ascending
+[INFO ] [2022-12-16 21:53:29,669] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:53:29,831] Sort_High_To_Low - Step 02: Product Price sort by Descending
+[INFO ] [2022-12-16 21:53:29,873] OS name = windows 10
+[INFO ] [2022-12-16 21:53:29,874] Driver instance name = chromedriver: chrome on windows (de2cb6e137679ea08abaf5df1b214012)
+[INFO ] [2022-12-16 21:56:26,408] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 21:56:27,102] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 21:56:27,216] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 21:56:28,294] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 21:56:28,405] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:56:28,590] Sort_A_to_Z - Step 02: Product Name sort by Ascending
+[INFO ] [2022-12-16 21:56:28,795] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:56:29,950] Sort_Low_To_High - Step 02: Product Price sort by Ascending
+[INFO ] [2022-12-16 21:56:30,017] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 21:56:30,170] Sort_High_To_Low - Step 02: Product Price sort by Descending
+[INFO ] [2022-12-16 21:56:30,215] OS name = windows 10
+[INFO ] [2022-12-16 21:56:30,215] Driver instance name = chromedriver: chrome on windows (ee0b052df82d8a31fd45501e752cc66d)
+[INFO ] [2022-12-16 22:13:45,429] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 22:13:46,165] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 22:13:46,282] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 22:13:47,389] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 22:13:47,509] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:13:47,700] Sort_A_to_Z - Step 02: Product Name sort by Ascending
+[INFO ] [2022-12-16 22:13:47,891] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:13:49,056] Sort_Low_To_High - Step 02: Product Price sort by Ascending
+[INFO ] [2022-12-16 22:13:49,134] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:13:49,306] Sort_High_To_Low - Step 02: Product Price sort by Descending
+[INFO ] [2022-12-16 22:13:49,353] OS name = windows 10
+[INFO ] [2022-12-16 22:13:49,353] Driver instance name = chromedriver: chrome on windows (ec455933766309b4391e7c0eeeb9eafa)
+[INFO ] [2022-12-16 22:18:37,543] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 22:18:38,276] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 22:18:38,378] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 22:18:39,494] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 22:18:39,610] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:18:39,814] Sort_A_to_Z - Step 02: Product Name sort by Ascending
+[INFO ] [2022-12-16 22:18:40,038] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:18:41,244] Sort_Low_To_High - Step 02: Product Price sort by Ascending
+[INFO ] [2022-12-16 22:18:41,327] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:18:41,481] Sort_High_To_Low - Step 02: Product Price sort by Descending
+[INFO ] [2022-12-16 22:18:41,522] OS name = windows 10
+[INFO ] [2022-12-16 22:18:41,522] Driver instance name = chromedriver: chrome on windows (2a18120737fd4f195f97f3cd7a4cf64f)
+[INFO ] [2022-12-16 22:22:50,660] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 22:22:51,378] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 22:22:51,487] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 22:22:52,684] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 22:22:52,786] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:22:52,986] Sort_A_to_Z - Step 02: Product Name sort by Ascending
+[INFO ] [2022-12-16 22:22:53,185] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:22:54,379] Sort_Low_To_High - Step 02: Product Price sort by Ascending
+[INFO ] [2022-12-16 22:22:54,476] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:22:54,649] Sort_High_To_Low - Step 02: Product Price sort by Descending
+[INFO ] [2022-12-16 22:22:54,696] OS name = windows 10
+[INFO ] [2022-12-16 22:22:54,696] Driver instance name = chromedriver: chrome on windows (6752367eb7a6e734e9565a5d6417a221)
+[INFO ] [2022-12-16 22:35:14,534] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 22:35:15,302] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 22:35:15,411] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 22:35:16,529] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 22:35:16,636] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:35:16,839] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 22:35:17,039] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:35:18,224] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 22:35:18,303] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:35:18,462] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 22:35:18,506] OS name = windows 10
+[INFO ] [2022-12-16 22:35:18,506] Driver instance name = chromedriver: chrome on windows (cefb6678882d712adbf430b64c54c1c7)
+[INFO ] [2022-12-16 22:49:54,230] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 22:49:54,936] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 22:49:55,052] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 22:49:55,661] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 22:49:55,772] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:49:55,974] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 22:49:56,165] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:49:57,364] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 22:49:57,447] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:49:57,608] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 22:49:57,644] OS name = windows 10
+[INFO ] [2022-12-16 22:49:57,644] Driver instance name = chromedriver: chrome on windows (99f030067ae6a6188cb03e119bbc31f3)
+[INFO ] [2022-12-16 22:55:11,335] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 22:55:12,050] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 22:55:12,169] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 22:55:13,382] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 22:55:13,499] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:55:13,695] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 22:55:13,893] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:55:15,057] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 22:55:15,150] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:55:15,321] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 22:55:15,366] OS name = windows 10
+[INFO ] [2022-12-16 22:55:15,366] Driver instance name = chromedriver: chrome on windows (9d1f74d2ed7543ba4e7bae6b37ab2055)
+[INFO ] [2022-12-16 22:56:48,839] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 22:56:49,588] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 22:56:49,684] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 22:56:50,729] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 22:56:50,860] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:56:51,036] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 22:56:51,247] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:56:52,411] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 22:56:52,470] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 22:56:52,633] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 22:56:52,675] OS name = windows 10
+[INFO ] [2022-12-16 22:56:52,676] Driver instance name = chromedriver: chrome on windows (295e0b3e2b968c2cd73f2dae9f3408d5)
+[INFO ] [2022-12-16 23:01:08,828] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:01:09,499] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:01:09,617] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:01:10,735] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:01:10,871] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:01:11,074] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:01:11,266] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:01:12,486] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:01:12,562] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:01:12,730] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:01:12,766] OS name = windows 10
+[INFO ] [2022-12-16 23:01:12,766] Driver instance name = chromedriver: chrome on windows (7fc3ac20456eb6afe8486106c62e7cb3)
+[INFO ] [2022-12-16 23:07:12,681] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:07:13,407] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:07:13,513] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:07:14,697] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:07:14,806] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:07:14,992] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:07:15,198] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:07:16,369] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:07:16,468] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:07:16,640] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:07:16,680] OS name = windows 10
+[INFO ] [2022-12-16 23:07:16,680] Driver instance name = chromedriver: chrome on windows (3be52ea3418c5f44e1b2290cd746d526)
+[INFO ] [2022-12-16 23:11:02,396] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:11:03,078] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:11:03,198] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:11:04,421] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:11:04,574] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:11:04,773] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:11:04,987] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:11:06,164] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:11:06,369] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:11:06,542] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:11:06,587] OS name = windows 10
+[INFO ] [2022-12-16 23:11:06,587] Driver instance name = chromedriver: chrome on windows (fea1a6098863800a85512c4e1b03ca9d)
+[INFO ] [2022-12-16 23:13:42,221] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:13:42,924] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:13:43,044] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:13:44,186] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:13:44,300] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:13:44,483] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:13:44,683] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:13:45,873] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:13:45,956] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:13:46,130] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:13:46,171] OS name = windows 10
+[INFO ] [2022-12-16 23:13:46,172] Driver instance name = chromedriver: chrome on windows (76da62bd0849ee04be6c2bd778ca7af7)
+[INFO ] [2022-12-16 23:21:53,878] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:21:54,597] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:21:54,718] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:21:55,834] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:21:55,943] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:21:56,115] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:21:56,307] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:21:57,495] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:21:57,718] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:21:57,892] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:21:57,946] OS name = windows 10
+[INFO ] [2022-12-16 23:21:57,946] Driver instance name = chromedriver: chrome on windows (4672260bc75c58a3ef2dfbe410b31969)
+[INFO ] [2022-12-16 23:24:02,451] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:24:03,153] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:24:03,278] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:24:04,342] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:24:04,455] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:24:04,623] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:24:04,822] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:24:06,019] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:24:06,250] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:24:06,401] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:24:06,447] OS name = windows 10
+[INFO ] [2022-12-16 23:24:06,447] Driver instance name = chromedriver: chrome on windows (c101c4d4152df5f48414b5cb65b1d69a)
+[INFO ] [2022-12-16 23:25:56,449] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:25:57,828] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:25:57,933] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:25:59,018] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:25:59,140] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:25:59,326] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:25:59,533] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:26:00,715] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:26:00,957] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:26:01,152] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:26:01,210] OS name = windows 10
+[INFO ] [2022-12-16 23:26:01,211] Driver instance name = chromedriver: chrome on windows (b69900a947011c58356f771d58c908cb)
+[INFO ] [2022-12-16 23:29:16,420] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:29:17,120] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:29:17,236] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:29:17,819] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:29:17,922] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:29:18,115] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:29:18,316] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:29:21,507] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:29:21,704] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:29:25,939] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:29:26,002] OS name = windows 10
+[INFO ] [2022-12-16 23:29:26,003] Driver instance name = chromedriver: chrome on windows (90c1af25696df8b92bce711c014e14bf)
+[INFO ] [2022-12-16 23:32:26,357] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:32:27,066] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:32:27,182] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:32:28,385] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:32:28,502] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:32:28,684] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:32:28,883] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:32:32,073] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:32:32,273] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:32:36,485] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:32:36,551] OS name = windows 10
+[INFO ] [2022-12-16 23:32:36,551] Driver instance name = chromedriver: chrome on windows (1831b977adbbfacee55565901977b975)
+[INFO ] [2022-12-16 23:34:35,023] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:34:35,777] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:34:35,894] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:34:37,010] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:34:37,143] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:34:37,326] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:34:37,535] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:34:40,696] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:34:40,898] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:34:45,092] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:34:45,169] OS name = windows 10
+[INFO ] [2022-12-16 23:34:45,169] Driver instance name = chromedriver: chrome on windows (93d8ce6ed4eec8f47f7b8c89d161ac31)
+[INFO ] [2022-12-16 23:37:44,015] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:37:44,741] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:37:44,850] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:37:45,880] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:37:46,031] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:37:46,258] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:37:46,466] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:37:49,640] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:37:49,854] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:37:54,061] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:37:54,125] OS name = windows 10
+[INFO ] [2022-12-16 23:37:54,125] Driver instance name = chromedriver: chrome on windows (a44483d7e29a169db1f87b6d5ec1dcdc)
+[INFO ] [2022-12-16 23:39:49,040] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:39:49,798] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:39:49,905] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:39:51,033] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:39:51,155] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:39:51,326] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:39:51,535] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:39:54,714] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:39:54,929] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:39:59,116] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:39:59,179] OS name = windows 10
+[INFO ] [2022-12-16 23:39:59,180] Driver instance name = chromedriver: chrome on windows (2d8a2bd09117bf2cff0257107e08715b)
+[INFO ] [2022-12-16 23:40:58,074] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:40:58,794] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:40:58,896] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:41:00,014] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:41:00,132] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:41:00,335] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:41:00,554] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:41:03,765] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:41:03,995] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:41:08,200] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:41:08,341] OS name = windows 10
+[INFO ] [2022-12-16 23:41:08,341] Driver instance name = chromedriver: chrome on windows (fb2144c46e4a9a14878a2e56f379c5d1)
+[INFO ] [2022-12-16 23:43:00,730] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:43:01,419] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:43:01,533] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:43:02,747] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:43:02,861] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:43:03,049] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:43:03,252] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:43:06,437] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:43:06,664] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:43:10,841] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:43:11,040] OS name = windows 10
+[INFO ] [2022-12-16 23:43:11,041] Driver instance name = chromedriver: chrome on windows (13a7325baf13f4de71b4015e2696cab5)
+[INFO ] [2022-12-16 23:44:24,831] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:44:25,524] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:44:25,633] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:44:26,680] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:44:26,793] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:44:26,977] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:44:27,178] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:44:30,358] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:44:30,576] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:44:34,770] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:44:34,981] OS name = windows 10
+[INFO ] [2022-12-16 23:44:34,982] Driver instance name = chromedriver: chrome on windows (e21b5f67f4e25195e36b24b13a3610ff)
+[INFO ] [2022-12-16 23:45:51,338] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:45:52,003] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:45:52,127] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:45:53,192] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:45:53,300] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:45:53,485] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:45:53,689] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:45:56,875] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:45:57,092] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:46:01,302] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:46:01,500] OS name = windows 10
+[INFO ] [2022-12-16 23:46:01,500] Driver instance name = chromedriver: chrome on windows (f0ecf2d0d798e69a1cd8aaaf61dae60d)
+[INFO ] [2022-12-16 23:47:22,243] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:47:22,966] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:47:23,087] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:47:24,206] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:47:24,332] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:47:24,518] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:47:24,735] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:47:27,925] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:47:28,138] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:47:32,329] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:47:32,536] OS name = windows 10
+[INFO ] [2022-12-16 23:47:32,536] Driver instance name = chromedriver: chrome on windows (4b0ef21b585a54e4d2646eaf019f481f)
+[INFO ] [2022-12-16 23:53:29,861] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:53:30,642] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:53:30,769] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:53:31,927] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:53:32,040] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:53:32,227] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:53:32,423] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:53:35,597] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:53:35,827] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:53:40,021] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:53:40,229] OS name = windows 10
+[INFO ] [2022-12-16 23:53:40,229] Driver instance name = chromedriver: chrome on windows (84171e9ce4225b5536036c124495d2df)
+[INFO ] [2022-12-16 23:57:32,980] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:57:33,733] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:57:33,840] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:57:34,976] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:57:35,085] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:57:35,294] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:57:35,494] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:57:35,667] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:57:35,866] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:57:36,029] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:57:36,215] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:57:38,411] OS name = windows 10
+[INFO ] [2022-12-16 23:57:38,412] Driver instance name = chromedriver: chrome on windows (7d0a5d833ab8a8715f2b348c1be0e6aa)
+[INFO ] [2022-12-16 23:59:03,445] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-16 23:59:04,166] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-16 23:59:04,287] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-16 23:59:05,363] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-16 23:59:05,484] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:59:05,679] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-16 23:59:05,882] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:59:07,054] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-16 23:59:07,285] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:59:08,475] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-16 23:59:08,698] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-16 23:59:10,911] OS name = windows 10
+[INFO ] [2022-12-16 23:59:10,911] Driver instance name = chromedriver: chrome on windows (5b0575b097afc6677b00bd04f85e0455)
+[INFO ] [2022-12-17 00:21:34,934] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-17 00:21:35,693] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-17 00:21:35,819] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-17 00:21:36,943] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-17 00:21:37,034] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:21:37,222] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-17 00:21:37,420] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:21:38,611] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-17 00:21:38,842] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:21:40,010] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-17 00:21:40,197] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:21:42,430] OS name = windows 10
+[INFO ] [2022-12-17 00:21:42,430] Driver instance name = chromedriver: chrome on windows (5b6f5c6a97d03e5611a64d97875c6ba1)
+[INFO ] [2022-12-17 00:22:17,833] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-17 00:22:18,536] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-17 00:22:18,650] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-17 00:22:19,863] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-17 00:22:19,975] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:22:20,166] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-17 00:22:20,375] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:22:21,544] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-17 00:22:21,806] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:22:22,988] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-17 00:22:23,181] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:22:25,383] OS name = windows 10
+[INFO ] [2022-12-17 00:22:25,383] Driver instance name = chromedriver: chrome on windows (85212a3d537ea09c0610476c329c6555)
+[INFO ] [2022-12-17 00:22:57,678] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-17 00:22:58,422] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-17 00:22:58,542] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-17 00:22:59,605] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-17 00:22:59,734] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:22:59,923] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-17 00:23:00,126] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:23:01,320] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-17 00:23:01,575] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:23:02,779] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-17 00:23:03,070] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:23:05,299] OS name = windows 10
+[INFO ] [2022-12-17 00:23:05,299] Driver instance name = chromedriver: chrome on windows (2925daa4cc9ceb6a5d26953615501607)
+[INFO ] [2022-12-17 00:23:55,436] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-17 00:23:56,127] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-17 00:23:56,241] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-17 00:23:56,880] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-17 00:23:57,008] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:23:57,176] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-17 00:23:57,387] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:23:58,572] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-17 00:23:58,791] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:23:59,983] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-17 00:24:00,199] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:24:02,424] OS name = windows 10
+[INFO ] [2022-12-17 00:24:02,424] Driver instance name = chromedriver: chrome on windows (c26a15e57f46526d875a8a9f4842b760)
+[INFO ] [2022-12-17 00:29:28,905] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-17 00:29:29,636] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-17 00:29:29,781] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-17 00:29:30,908] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-17 00:29:31,037] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:29:31,221] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-17 00:29:31,426] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:29:32,600] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-17 00:29:32,843] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:29:34,015] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-17 00:29:34,266] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:29:34,474] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:29:36,694] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:29:38,914] OS name = windows 10
+[INFO ] [2022-12-17 00:29:38,915] Driver instance name = chromedriver: chrome on windows (ab3cee6ecd5492bbc59525f35e7bc1d3)
+[INFO ] [2022-12-17 00:31:22,144] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-17 00:31:22,849] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-17 00:31:22,952] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-17 00:31:24,032] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-17 00:31:24,154] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:31:24,349] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-17 00:31:24,558] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:31:25,734] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-17 00:31:25,981] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:31:27,148] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-17 00:31:27,343] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:31:28,596] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:31:30,827] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:31:33,051] OS name = windows 10
+[INFO ] [2022-12-17 00:31:33,051] Driver instance name = chromedriver: chrome on windows (238ef2c6cd6b0881ab2d291011d61616)
+[INFO ] [2022-12-17 00:34:57,161] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-17 00:34:57,877] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-17 00:34:57,981] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-17 00:34:58,643] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-17 00:34:58,764] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:34:58,983] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-17 00:34:59,183] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:35:00,375] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-17 00:35:00,588] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:35:01,760] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-17 00:35:01,966] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:35:03,201] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:35:04,404] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-17 00:35:05,627] OS name = windows 10
+[INFO ] [2022-12-17 00:35:05,628] Driver instance name = chromedriver: chrome on windows (ee1a71c5fb00182ccea6c900b0df697a)
+[INFO ] [2022-12-19 09:04:43,432] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:04:44,083] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:04:44,197] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:04:45,299] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:04:45,390] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:04:45,574] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:04:45,794] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:04:47,001] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:04:47,205] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:04:48,368] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:04:48,623] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:04:49,793] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:04:49,817] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:04:49,898] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:04:50,035] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:04:50,414] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:04:51,638] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:04:52,847] OS name = windows 10
+[INFO ] [2022-12-19 09:04:52,847] Driver instance name = chromedriver: chrome on windows (cb387c173ce9890c99f30afd0899d035)
+[INFO ] [2022-12-19 09:05:41,952] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:05:42,671] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:05:42,781] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:05:43,918] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:05:44,050] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:05:44,222] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:05:44,421] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:05:45,594] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:05:45,804] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:05:46,964] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:05:47,147] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:05:48,343] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:05:48,366] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:05:49,459] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:05:49,611] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:05:49,967] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:05:51,175] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:05:52,395] OS name = windows 10
+[INFO ] [2022-12-19 09:05:52,395] Driver instance name = chromedriver: chrome on windows (4261bb57d861077367819b8da6f5fea0)
+[INFO ] [2022-12-19 09:06:26,106] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:06:26,794] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:06:26,894] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:06:27,959] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:06:28,055] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:06:28,219] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:06:28,417] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:06:29,597] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:06:29,802] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:06:30,980] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:06:31,191] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:06:32,391] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:06:32,415] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:06:33,507] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:06:33,656] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:06:33,982] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:06:35,206] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:06:36,410] OS name = windows 10
+[INFO ] [2022-12-19 09:06:36,410] Driver instance name = chromedriver: chrome on windows (e6737817ae86ba17e2cc5027ab9c2ca9)
+[INFO ] [2022-12-19 09:29:17,308] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:29:17,973] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:29:18,091] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:29:19,169] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:29:19,276] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:29:19,462] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:29:19,660] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:29:20,827] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:29:21,036] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:29:22,220] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:29:22,411] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:29:22,602] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:29:22,817] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:29:23,009] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:29:23,129] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:29:33,902] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:29:34,107] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:29:34,363] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:29:44,465] OS name = windows 10
+[INFO ] [2022-12-19 09:29:44,466] Driver instance name = chromedriver: chrome on windows (a8e20a98fa5883115ccef0a807417c09)
+[INFO ] [2022-12-19 09:32:53,982] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:32:54,682] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:32:54,788] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:32:55,856] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:32:55,944] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:32:56,128] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:32:56,321] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:32:57,489] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:32:57,720] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:32:58,916] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:32:59,100] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:32:59,292] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:32:59,520] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:32:59,708] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:32:59,842] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:33:10,610] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:33:10,817] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:33:11,038] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:33:21,198] OS name = windows 10
+[INFO ] [2022-12-19 09:33:21,199] Driver instance name = chromedriver: chrome on windows (07bf2ad938be00988acd12499c05099f)
+[INFO ] [2022-12-19 09:34:45,956] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:34:46,626] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:34:46,749] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:34:47,834] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:34:47,939] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:34:48,126] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:34:48,319] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:34:49,496] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:34:49,760] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:34:50,920] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:34:51,110] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:34:51,308] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:34:51,517] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:34:51,708] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:34:51,828] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:35:02,592] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:35:02,763] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:35:03,008] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:35:13,216] OS name = windows 10
+[INFO ] [2022-12-19 09:35:13,217] Driver instance name = chromedriver: chrome on windows (5b5b0758114a733ff5ad4db7c18dd25e)
+[INFO ] [2022-12-19 09:37:01,435] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:37:02,075] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:37:02,175] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:37:03,262] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:37:03,374] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:37:03,543] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:37:03,737] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:37:04,914] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:37:05,186] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:37:06,420] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:37:06,603] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:37:06,789] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:37:06,816] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:37:06,977] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:37:07,187] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:37:17,364] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:37:17,522] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:37:17,753] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:37:27,896] OS name = windows 10
+[INFO ] [2022-12-19 09:37:27,897] Driver instance name = chromedriver: chrome on windows (fa92dad882f574a4f96721c7834de6e2)
+[INFO ] [2022-12-19 09:40:24,576] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:40:25,280] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:40:25,399] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:40:26,480] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:40:26,591] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:40:26,776] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:40:26,977] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:40:28,176] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:40:28,402] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:40:29,558] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:40:29,745] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:40:31,939] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:40:32,057] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:40:32,139] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:40:32,277] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:40:32,622] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:40:32,797] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:40:32,920] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:40:43,673] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:40:43,850] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:40:44,036] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:40:54,191] OS name = windows 10
+[INFO ] [2022-12-19 09:40:54,192] Driver instance name = chromedriver: chrome on windows (bc8e289e28b7562910ae2e084ed2b4dc)
+[INFO ] [2022-12-19 09:42:01,926] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:42:02,594] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:42:02,704] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:42:03,259] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:42:03,383] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:42:03,548] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:42:03,742] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:42:04,919] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:42:05,138] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:42:06,296] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:42:06,487] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:42:07,676] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:42:07,778] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:42:07,862] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:42:07,996] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:42:08,327] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:42:08,502] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:42:08,620] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:42:19,379] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:42:19,567] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:42:19,813] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:42:30,032] OS name = windows 10
+[INFO ] [2022-12-19 09:42:30,033] Driver instance name = chromedriver: chrome on windows (217efc31aea0326c3f6eb861f9e602b2)
+[INFO ] [2022-12-19 09:45:09,774] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:45:10,503] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:45:10,598] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:45:11,655] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:45:11,768] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:11,936] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:45:12,125] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:13,305] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:45:13,526] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:14,699] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:45:14,882] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:16,078] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:45:16,167] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:45:16,247] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:45:16,383] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:45:16,730] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:16,895] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:45:16,994] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:45:27,713] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:27,895] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:45:28,108] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:45:38,286] OS name = windows 10
+[INFO ] [2022-12-19 09:45:38,287] Driver instance name = chromedriver: chrome on windows (acd6b2a4c7a8195d0824ed083656f349)

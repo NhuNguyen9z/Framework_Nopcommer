@@ -1,50 +1,23 @@
-[INFO ] [2022-12-16 13:04:07,962] Pre-condition - Step 01: Navigate to 'Login' page
-[INFO ] [2022-12-16 13:04:08,623] Pre-condition - Step 02: Set all Coolies and reload page
-[INFO ] [2022-12-16 13:04:10,728] Pre-condition - Step 03: Verify 'My Account' link is displayed
-[INFO ] [2022-12-16 13:04:11,698] -------------------------PASSED--------------------------
-[INFO ] [2022-12-16 13:04:11,698] Pre-condition - Step 04: Open Search page at Footer
-[INFO ] [2022-12-16 13:04:12,435] Empty_Data - Step 01: Click to Seach button
-[INFO ] [2022-12-16 13:04:12,973] Empty_Data - Step 02: Verify 'Search term minimum length is 3 characters' warning is displayed
-[INFO ] [2022-12-16 13:04:15,064] Data_Not_Exist - Step 01: Open Search page at Footer
-[INFO ] [2022-12-16 13:04:15,516] Data_Not_Exist - Step 02: Input to Textbox Search with value is 'Macbook Pro 2050'
-[INFO ] [2022-12-16 13:04:15,748] Data_Not_Exist - Step 03: Click to Seach button
-[INFO ] [2022-12-16 13:04:16,242] Data_Not_Exist - Step 04: Verify 'No products were found that matched your criteria.' message is displayed
-[INFO ] [2022-12-16 13:04:18,330] Relate_Search - Step 01: Open Search page at Footer
-[INFO ] [2022-12-16 13:04:18,804] Relate_Search - Step 02: Input to Textbox Search with value is 'Lenovo'
-[INFO ] [2022-12-16 13:04:18,979] Relate_Search - Step 03: Click to Seach button
-[INFO ] [2022-12-16 13:04:19,557] Relate_Search - Step 04: Verify Relative Product Name is displayed
-[INFO ] [2022-12-16 13:04:19,704] Absolute_Search - Step 01: Open Search page at Footer
-[INFO ] [2022-12-16 13:04:20,205] Absolute_Search - Step 02: Input to Textbox Search with value is 'Lenovo IdeaCentre 600 All-in-One PC'
-[INFO ] [2022-12-16 13:04:20,455] Absolute_Search - Step 03: Click to Seach button
-[INFO ] [2022-12-16 13:04:20,997] Absolute_Search - Step 04: Verify Absolute Product Name is displayed
-[INFO ] [2022-12-16 13:04:21,112] Advanced_Search_Parent_Categories - Step 01: Open Search page at Footer
-[INFO ] [2022-12-16 13:04:21,625] Advanced_Search_Parent_Categories - Step 02: Input to Textbox Search with value is 'Apple MacBook Pro'
-[INFO ] [2022-12-16 13:04:21,811] Advanced_Search_Parent_Categories - Step 03: Click to Advanced Search checkbox
-[INFO ] [2022-12-16 13:04:21,981] Advanced_Search_Parent_Categories - Step 04: Select Category
-[INFO ] [2022-12-16 13:04:24,144] Advanced_Search_Parent_Categories - Step 05: Click to Search button
-[INFO ] [2022-12-16 13:04:24,795] Advanced_Search_Parent_Categories - Step 06: Verify 'No products were found that matched your criteria.' message is displayed
-[INFO ] [2022-12-16 13:04:24,860] Advanced_Sub_Categories - Step 01: Open Search page at Footer
-[INFO ] [2022-12-16 13:04:25,347] Advanced_Sub_Categories - Step 02: Input to Textbox Search with value is 'Apple MacBook Pro'
-[INFO ] [2022-12-16 13:04:25,552] Advanced_Sub_Categories - Step 03: Checked to Advanced Search checkbox
-[INFO ] [2022-12-16 13:04:25,699] Advanced_Sub_Categories - Step 04: Select Category
-[INFO ] [2022-12-16 13:04:25,865] Advanced_Sub_Categories - Step 05: Checked to Automatically search sub categories
-[INFO ] [2022-12-16 13:04:26,009] Advanced_Sub_Categories - Step 06: Click to Search button
-[INFO ] [2022-12-16 13:04:26,532] Advanced_Sub_Categories - Step 07: Verify Product Name displayed is 'Apple MacBook Pro'
-[INFO ] [2022-12-16 13:04:26,685] Advanced_Incorrect_Manufacturer - Step 01: Open Search page at Footer
-[INFO ] [2022-12-16 13:04:27,221] Advanced_Incorrect_Manufacturer - Step 02: Input to Textbox Search with value is 'Apple MacBook Pro'
-[INFO ] [2022-12-16 13:04:27,424] Advanced_Incorrect_Manufacturer - Step 03: Checked to Advanced Search checkbox
-[INFO ] [2022-12-16 13:04:27,590] Advanced_Incorrect_Manufacturer - Step 04: Select Category
-[INFO ] [2022-12-16 13:04:29,833] Advanced_Incorrect_Manufacturer - Step 05: Checked to Automatically search sub categories
-[INFO ] [2022-12-16 13:04:30,018] Advanced_Incorrect_Manufacturer - Step 06: Select Manufacturer
-[INFO ] [2022-12-16 13:04:32,223] Advanced_Incorrect_Manufacturer - Step 07: Click to Search button
-[INFO ] [2022-12-16 13:04:32,935] Advanced_Incorrect_Manufacturer - Step 08: Verify 'No products were found that matched your criteria.' message is displayed
-[INFO ] [2022-12-16 13:04:36,053] Advanced_Correct_Manufacturer - Step 01: Open Search page at Footer
-[INFO ] [2022-12-16 13:04:36,528] Advanced_Correct_Manufacturer - Step 02: Input to Textbox Search with value is 'Apple MacBook Pro'
-[INFO ] [2022-12-16 13:04:36,709] Advanced_Correct_Manufacturer - Step 03: Checked to Advanced Search checkbox
-[INFO ] [2022-12-16 13:04:36,874] Advanced_Correct_Manufacturer - Step 04: Select Category
-[INFO ] [2022-12-16 13:04:39,039] Advanced_Correct_Manufacturer - Step 05: Checked to Automatically search sub categories
-[INFO ] [2022-12-16 13:04:39,229] Advanced_Correct_Manufacturer - Step 06: Select Manufacturer
-[INFO ] [2022-12-16 13:04:41,402] Advanced_Correct_Manufacturer - Step 07: Click to Search button
-[INFO ] [2022-12-16 13:04:41,972] Advanced_Correct_Manufacturer - Step 08: Verify Product Name displayed is 'Apple MacBook Pro'
-[INFO ] [2022-12-16 13:04:44,102] OS name = windows 10
-[INFO ] [2022-12-16 13:04:44,103] Driver instance name = chromedriver: chrome on windows (1f337439281bf64e9bcce2e6801e39b7)
+[INFO ] [2022-12-19 09:45:09,774] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:45:10,503] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:45:10,598] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:45:11,655] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:45:11,768] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:11,936] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:45:12,125] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:13,305] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:45:13,526] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:14,699] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:45:14,882] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:16,078] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:45:16,167] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:45:16,247] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:45:16,383] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:45:16,730] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:16,895] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:45:16,994] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:45:27,713] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:45:27,895] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:45:28,108] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:45:38,286] OS name = windows 10
+[INFO ] [2022-12-19 09:45:38,287] Driver instance name = chromedriver: chrome on windows (acd6b2a4c7a8195d0824ed083656f349)

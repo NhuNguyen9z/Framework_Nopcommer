@@ -14,9 +14,8 @@
 
 	<test name="Test On Chrome">
 		<parameter name="browser" value="chrome" />
-		<classes>
-			<class name="com.nopcommerce.common.Common_02_Register_Cookie" />
-			<class name="com.nopcommerce.user.User_04_Search_Advanced_Search" />
+		<classes>			
+			<class name="com.nopcommerce.user.User_05_Sort_Paging" />
 		</classes>
 	</test>
 
