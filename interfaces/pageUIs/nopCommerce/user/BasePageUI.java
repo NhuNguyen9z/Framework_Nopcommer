@@ -10,6 +10,7 @@ public class BasePageUI {
 	public static final String LOGOUT_LINK_AT_ADMIN = "xpath=//a[text()='Logout']";
 	public static final String ICON_HEADER_DISPLAYED = "xpath=//div[@id='navbarText']//i[contains(@class,'fa-cogs')]";
 	public static final String MY_ACCOUNT_LINK = "xpath=//a[@class='ico-account']";
+	public static final String DYNAMIC_LINK_BY_CLASS = "xpath=//a[@class='%s']";
 
 	// Pattern Object
 	public static final String DYNAMIC_TEXTBOX_BY_ID = "xpath=//input[@id='%s']";
@@ -20,7 +21,7 @@ public class BasePageUI {
 	public static final String DYNAMIC_DROPDOWN_VALUE = "xpath=//select[@name='%s']/option[text()='%s']";
 	public static final String DYNAMIC_RADIO_VALUE_BY_TEXT = "xpath=//label[text()='%s']/preceding-sibling::input";
 
-	public static final String PAGE_TITLE_BY_TEXT = "xpath=//div[@class='%s']/h1[text()='%s']";
+	public static final String DYNAMIC_PRODUCT_NAME = "xpath=//div[@class='%s']/h1[text()='%s']";
 	public static final String HEADER_MENU_BY_TEXT = "xpath=//ul[contains(@class,'notmobile')]//a[contains(text(),'%s')]";
 	public static final String PRODUCT_CATEGORY_BY_TEXT = "xpath=//div[@class='sub-category-item']//a[contains(text(),'%s')]";
 	public static final String PRODUCT_NAME_BY_TEXT = "xpath=//div[@class='products-container']//div[@class='item-box']//a[text()='%s']";
@@ -28,5 +29,8 @@ public class BasePageUI {
 	public static final String BAR_NOTIFICATION_SUCCESS = "xpath=//div[contains(@class,'success')]//span";
 
 	public static final String FOOTER_LINK_BY_TEXT = "xpath=//div[@class='footer']//a[text()='%s']";
+
+	public static final String BAR_NOTIFICATION_CONTENT = "xpath=//div[@id='bar-notification']//p";
+	public static final String EMPTY_MESSAGE = "xpath=//div[@class='no-data']";
 
 }

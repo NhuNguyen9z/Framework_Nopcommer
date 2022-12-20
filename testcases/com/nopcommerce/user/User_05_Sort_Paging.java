@@ -23,7 +23,7 @@ public class User_05_Sort_Paging extends BaseTest {
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		log.info("Pre-condition - Step 01: Click to Header menu");
-		productCategoryPage = homePage.clickToHeaderMenuByText("Computers ");
+		productCategoryPage = homePage.openProductCategoryPage(driver, "Computers ");
 
 		log.info("Pre-condition - Step 02: Verify Page Title correctly");
 		Assert.assertTrue(productCategoryPage.isPageTitleByTextDisplayed(driver, "page-title", "Computers"));

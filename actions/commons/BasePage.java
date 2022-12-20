@@ -24,13 +24,17 @@ import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserProductCategoryPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 import pageObjects.nopCommerce.user.UserSearchPageObject;
+import pageObjects.nopCommerce.user.UserWishListPageObject;
 //import pageObjects.wordpress.PageGenerator;
 //import pageObjects.wordpress.UserHomePO;
 import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
 import pageUIs.nopCommerce.user.BasePageUI;
 import pageUIs.nopCommerce.user.UserCustomerInforPageUI;
+import pageUIs.nopCommerce.user.UserProductDetailPageUI;
+import pageUIs.nopCommerce.user.UserWishlistPageUI;
 
 public class BasePage {
 
@@ -579,6 +583,14 @@ public class BasePage {
 		overrideImplicitWaitTimeout(driver, longTimeout);
 	}
 
+	public void waitForElementUndisplayed(WebDriver driver, String locatorType, String... dynamicValues) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, shortTimeout);
+		overrideImplicitWaitTimeout(driver, shortTimeout);
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
+		overrideImplicitWaitTimeout(driver, longTimeout);
+	}
+
 	// Tại sao: Wait lại nên truyền tham số là By - ko nên truyển tham số là WebElement
 	// Vì: trộn lẫn giữa 2 loại Wait thời gian chờ sẽ lâu hơn
 	// nó phải find element trước rồi nó mới apply lại cho hàm Wait
@@ -630,6 +642,17 @@ public class BasePage {
 		// Khi gọi hàm getWebElement này locatorType xpath= gì đó thì sẽ vào getByLocator này trước vào đúng xpath truyền vào By.xpath xóa 6 ký tự đầu đi
 		// lấy cái đuôi trả về đúng cái by thì thằng findElement nhận vào cái By - thì nó sẽ lấy dc cái element ra trả về 1 cái WebElement thì nó gọi
 		// thằng sendKeys ra truyền đường dẫn của file vào là nó upload file lên dc
+	}
+
+	public void hoverMouse(WebDriver driver, String locatorType) {
+		Actions action = new Actions(driver);
+		action.moveToElement(getWebElement(driver, locatorType)).perform();
+	}
+
+	public void hoverMouse(WebDriver driver, String locatorType, String... dynamicValues) {
+		Actions action = new Actions(driver);
+		locatorType = getDynamicXpath(locatorType, dynamicValues);
+		action.moveToElement(getWebElement(driver, locatorType)).perform();
 	}
 
 	// ----------------------------------------------------------------------------------------
@@ -820,9 +843,9 @@ public class BasePage {
 		return PageGeneratorManager.getAminLoginPage(driver);
 	}
 
-	public boolean isPageTitleByTextDisplayed(WebDriver driver, String titleClass, String textLabel) {
-		waitForElementVisible(driver, BasePageUI.PAGE_TITLE_BY_TEXT, titleClass, textLabel);
-		return isElementDisplayed(driver, BasePageUI.PAGE_TITLE_BY_TEXT, titleClass, textLabel);
+	public boolean isPageTitleByTextDisplayed(WebDriver driver, String attributeValue, String textLabel) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_PRODUCT_NAME, attributeValue, textLabel);
+		return isElementDisplayed(driver, BasePageUI.DYNAMIC_PRODUCT_NAME, attributeValue, textLabel);
 	}
 
 	public boolean isSideBarPageDisplayed(WebDriver driver, String textLabel) {
@@ -836,6 +859,43 @@ public class BasePage {
 		return PageGeneratorManager.getUserSearchPage(driver);
 	}
 
+	public UserWishListPageObject openWishlistPage(WebDriver driver, String attributeValue) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_LINK_BY_CLASS, attributeValue);
+		clickToElement(driver, BasePageUI.DYNAMIC_LINK_BY_CLASS, attributeValue);
+		return PageGeneratorManager.getUserWishListPage(driver);
+	}
+
+	public boolean isProductNameDisplayed(WebDriver driver, String atributeValue, String productName) {
+		waitForElementVisible(driver, UserWishlistPageUI.DYNAMIC_PRODUCT_NAME, atributeValue, productName);
+		return isElementDisplayed(driver, UserWishlistPageUI.DYNAMIC_PRODUCT_NAME, atributeValue, productName);
+	}
+
+	public boolean isBarNotificationDisplayed(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.BAR_NOTIFICATION_CONTENT);
+		return isElementDisplayed(driver, BasePageUI.BAR_NOTIFICATION_CONTENT);
+	}
+
+	public boolean isMessageEmptytDisplayed(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.EMPTY_MESSAGE);
+		return isElementDisplayed(driver, BasePageUI.EMPTY_MESSAGE);
+	}
+
+	public void clickCloseBarNotification(WebDriver driver) {
+		waitForElementClickable(driver, UserProductDetailPageUI.BAR_NOTIFICATION_CLOSE);
+		clickToElement(driver, UserProductDetailPageUI.BAR_NOTIFICATION_CLOSE);
+	}
+
+	public UserProductCategoryPageObject openProductCategoryPage(WebDriver driver, String textLabel) {
+		waitForElementClickable(driver, BasePageUI.HEADER_MENU_BY_TEXT, textLabel);
+		clickToElement(driver, BasePageUI.HEADER_MENU_BY_TEXT, textLabel);
+		return PageGeneratorManager.getUserProductCategoryPage(driver);
+	}
+
+	public UserHomePageObject clickToLogoutLink(WebDriver driver, String attributeValue) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_LINK_BY_CLASS, attributeValue);
+		clickToElement(driver, BasePageUI.DYNAMIC_LINK_BY_CLASS, attributeValue);
+		return PageGeneratorManager.getUserHomePage(driver);
+	}
 	// public UserHomePO openEndUserSite(WebDriver driver, String urlUserSite) {
 	// openPageUrl(driver, urlUserSite);
 	// return PageGenerator.getUserHomePage(driver);

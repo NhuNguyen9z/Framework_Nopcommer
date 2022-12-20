@@ -304,7 +304,7 @@ public class User_03_My_Account extends BaseTest {
 	@Test
 	public void My_Account_04_My_Product_Reviews() {
 		log.info("My_Product_Reviews - Step 01: Click to Header menu");
-		productCategoryPage = homePage.clickToHeaderMenuByText("Computers");
+		productCategoryPage = homePage.openProductCategoryPage(driver, "Computers");
 
 		log.info("My_Product_Reviews - Step 02: Verify Page Title correctly");
 		Assert.assertTrue(productCategoryPage.isPageTitleByTextDisplayed(driver, "page-title", "Computers"));
@@ -316,7 +316,7 @@ public class User_03_My_Account extends BaseTest {
 		Assert.assertTrue(productListPage.isPageTitleByTextDisplayed(driver, "page-title", "Desktops"));
 
 		log.info("My_Product_Reviews - Step 05: Click to Product title");
-		productDetailPage = productListPage.clickToProductByName(productName);
+		productDetailPage = productListPage.openProductDetailPage(productName);
 
 		log.info("My_Product_Reviews - Step 06: Verify Product Name correctly");
 		Assert.assertTrue(productDetailPage.isPageTitleByTextDisplayed(driver, "product-name", productName));

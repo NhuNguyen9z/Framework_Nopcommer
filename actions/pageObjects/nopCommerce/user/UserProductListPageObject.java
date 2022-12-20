@@ -24,7 +24,7 @@ public class UserProductListPageObject extends BasePage {
 		return false;
 	}
 
-	public UserProductDetailPageObject clickToProductByName(String textLabel) {
+	public UserProductDetailPageObject openProductDetailPage(String textLabel) {
 		waitForElementClickable(driver, BasePageUI.PRODUCT_NAME_BY_TEXT, textLabel);
 		clickToElement(driver, BasePageUI.PRODUCT_NAME_BY_TEXT, textLabel);
 		return PageGeneratorManager.getUserProductDetailPage(driver);
@@ -175,6 +175,17 @@ public class UserProductListPageObject extends BasePage {
 	public boolean isPagingUnDisplayed() {
 		waitForElementUndisplayed(driver, UserProductListPageUI.PAGING);
 		return isElementUndisplayed(driver, UserProductListPageUI.PAGING);
+	}
+
+	public void addProductToCompare(String productName) {
+		waitForElementClickable(driver, UserProductListPageUI.COMPARE_LIST_BUTTON, productName);
+		clickToElement(driver, UserProductListPageUI.COMPARE_LIST_BUTTON, productName);
+	}
+
+	public UserCompareProductPageObject openCompareProductPage(String attributeValue) {
+		waitForElementClickable(driver, BasePageUI.FOOTER_LINK_BY_TEXT, attributeValue);
+		clickToElement(driver, BasePageUI.FOOTER_LINK_BY_TEXT, attributeValue);
+		return PageGeneratorManager.getCompareProductsPage(driver);
 	}
 
 }

@@ -3061,3 +3061,1351 @@ Session ID: 7f64c36ccc2d93ecf764558dd0b3f64a
 [INFO ] [2022-12-19 09:45:28,108] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
 [INFO ] [2022-12-19 09:45:38,286] OS name = windows 10
 [INFO ] [2022-12-19 09:45:38,287] Driver instance name = chromedriver: chrome on windows (acd6b2a4c7a8195d0824ed083656f349)
+[INFO ] [2022-12-19 09:51:12,989] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:51:13,693] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:51:13,807] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:51:14,926] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:51:15,042] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:15,224] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:51:15,422] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:16,627] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:51:16,903] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:18,089] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:51:18,155] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:40,794] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:51:41,461] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:51:41,568] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:51:42,650] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:51:42,769] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:42,938] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:51:43,131] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:44,295] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:51:44,502] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:45,691] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:51:45,879] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:47,072] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:51:47,209] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:51:47,305] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:51:47,447] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:51:47,806] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:48,000] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:51:48,130] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:51:48,207] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:58,875] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:51:59,076] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:51:59,255] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:52:09,445] OS name = windows 10
+[INFO ] [2022-12-19 09:52:09,445] Driver instance name = chromedriver: chrome on windows (833b5ba98e21b97bf952c9dc17235e80)
+[INFO ] [2022-12-19 09:52:14,431] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:52:18,508] OS name = windows 10
+[INFO ] [2022-12-19 09:52:18,509] Driver instance name = chromedriver: chrome on windows (4551d5bfca984dcbcee414de1db17fd2)
+[INFO ] [2022-12-19 09:52:22,605] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29407
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-PC', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: RemoteWebDriver
+[INFO ] [2022-12-19 09:52:35,526] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:52:36,244] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:52:36,371] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:52:37,477] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:52:37,600] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:52:37,783] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:52:37,984] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:52:39,206] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:52:39,404] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:52:40,571] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:52:40,752] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:52:41,937] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:52:42,042] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:52:42,120] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:52:42,263] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:52:42,623] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:52:42,801] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:52:42,903] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:52:53,620] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:52:53,788] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:52:53,985] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:53:04,120] OS name = windows 10
+[INFO ] [2022-12-19 09:53:04,121] Driver instance name = chromedriver: chrome on windows (8121742fde09be2e310a3b8457e93b0f)
+[INFO ] [2022-12-19 09:53:15,313] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:53:15,972] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:53:16,082] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:53:17,215] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:53:17,308] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:53:17,476] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:53:17,666] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:53:18,858] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:53:19,066] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:53:20,244] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:53:20,425] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:53:21,624] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:53:21,742] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:53:21,823] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:53:21,962] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:53:22,306] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:53:22,481] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:53:22,585] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:53:33,309] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:53:33,506] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:53:33,655] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:53:43,824] OS name = windows 10
+[INFO ] [2022-12-19 09:53:43,825] Driver instance name = chromedriver: chrome on windows (c9edbf98ab1d4e59a70aceee6ae9f68b)
+[INFO ] [2022-12-19 09:53:54,961] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:53:55,651] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:53:55,758] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:53:56,294] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:53:56,410] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:53:56,580] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:53:56,773] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:53:57,945] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:53:58,069] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:53:59,231] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:53:59,432] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:54:00,687] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:54:00,790] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:54:00,903] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:54:01,082] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:54:01,464] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:54:01,657] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:54:01,771] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:54:12,466] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:54:12,686] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:54:12,930] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:54:23,090] OS name = windows 10
+[INFO ] [2022-12-19 09:54:23,090] Driver instance name = chromedriver: chrome on windows (a27829b056b00bc45d5a23559a1945bf)
+[INFO ] [2022-12-19 09:57:51,691] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:57:52,353] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:57:52,459] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:57:53,011] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:57:53,110] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:57:53,283] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:57:53,479] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:57:54,652] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:57:54,873] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:57:56,047] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:57:56,243] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:57:57,439] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:57:57,589] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:57:57,668] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:57:57,811] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:57:58,179] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:57:58,380] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:57:58,491] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:58:09,216] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:58:09,443] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:58:09,676] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:58:19,801] OS name = windows 10
+[INFO ] [2022-12-19 09:58:19,813] Driver instance name = chromedriver: chrome on windows (ac409f8d29a979cd1882501eb8e7eacc)
+[INFO ] [2022-12-19 09:58:40,140] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 09:58:40,876] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 09:58:41,043] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 09:58:42,139] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 09:58:42,240] Sort_A_to_Z - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:58:42,409] Sort_A_to_Z - Step 02: Verify Product Name sort by Ascending
+[INFO ] [2022-12-19 09:58:42,612] Sort_Low_To_High - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:58:43,795] Sort_Low_To_High - Step 02: Verify Product Price sort by Ascending
+[INFO ] [2022-12-19 09:58:43,983] Sort_High_To_Low - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:58:45,159] Sort_High_To_Low - Step 02: Verify Product Price sort by Descending
+[INFO ] [2022-12-19 09:58:45,349] Paging_Display_3_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:58:46,548] Paging_Display_3_Per_Page - Step 02: Verify displayed <= 3 product per page
+[INFO ] [2022-12-19 09:58:46,683] Paging_Display_3_Per_Page - Step 03: Verify displayed next icon at page 1
+[INFO ] [2022-12-19 09:58:46,762] Paging_Display_3_Per_Page - Step 04: Click to page 2
+[INFO ] [2022-12-19 09:58:46,911] Paging_Display_3_Per_Page - Step 05: Verify displayed previous icon at page 2
+[INFO ] [2022-12-19 09:58:47,287] Paging_Display_6_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:58:47,479] Paging_Display_6_Per_Page - Step 02: Verify displayed <= 6 product per page
+[INFO ] [2022-12-19 09:58:47,598] Paging_Display_6_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:58:58,383] Paging_Display_9_Per_Page - Step 01: Select item in Sort by dropdown
+[INFO ] [2022-12-19 09:58:58,580] Paging_Display_9_Per_Page - Step 02: Verify displayed <= 9 product per page
+[INFO ] [2022-12-19 09:58:58,817] Paging_Display_9_Per_Page - Step 03: Verify paging Undisplayed 
+[INFO ] [2022-12-19 09:59:09,012] OS name = windows 10
+[INFO ] [2022-12-19 09:59:09,012] Driver instance name = chromedriver: chrome on windows (9d2270896c11b1c3aff41be2788af500)
+[INFO ] [2022-12-19 09:59:57,232] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 09:59:57,919] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 09:59:57,963] OS name = windows 10
+[INFO ] [2022-12-19 09:59:57,963] Driver instance name = chromedriver: chrome on windows (708251c6a1ad6b6028dad3b9753b7156)
+[INFO ] [2022-12-19 10:01:11,387] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 10:01:12,804] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 10:01:14,898] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 10:01:15,875] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 10:01:15,910] OS name = windows 10
+[INFO ] [2022-12-19 10:01:15,910] Driver instance name = chromedriver: chrome on windows (b31dd6c6d3cf0d24366162607c34711a)
+[INFO ] [2022-12-19 10:23:02,701] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 10:23:03,296] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 10:23:05,412] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 10:23:06,363] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 10:23:06,364] My_Product_Reviews - Step 01: Click to Header menu
+[INFO ] [2022-12-19 10:23:07,071] My_Product_Reviews - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 10:23:07,149] My_Product_Reviews - Step 03: Click to Category
+[INFO ] [2022-12-19 10:23:07,682] My_Product_Reviews - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 10:23:07,758] My_Product_Reviews - Step 05: Click to Product title
+[INFO ] [2022-12-19 10:23:08,827] My_Product_Reviews - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-19 10:23:08,938] OS name = windows 10
+[INFO ] [2022-12-19 10:23:08,938] Driver instance name = chromedriver: chrome on windows (c448fb170adb252b01441290e4ace2ee)
+[INFO ] [2022-12-19 11:27:03,523] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 11:27:04,142] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 11:27:06,248] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 11:27:07,223] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 11:27:07,224] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 11:27:07,942] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 11:27:08,024] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 11:27:09,245] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 11:27:09,351] Pre-condition - Step 05: Click to Product title
+[INFO ] [2022-12-19 11:27:12,044] Pre-condition - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-19 11:27:12,230] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 11:27:42,331] OS name = windows 10
+[INFO ] [2022-12-19 11:27:42,332] Driver instance name = chromedriver: chrome on windows (5aaaa1a9f9b79cfafed17f77d2848e63)
+[INFO ] [2022-12-19 11:29:48,170] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 11:29:48,764] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 11:29:50,868] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 11:29:51,865] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 11:29:51,865] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 11:29:52,558] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 11:29:52,620] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 11:29:53,175] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 11:29:53,313] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 11:29:54,699] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 11:29:54,787] OS name = windows 10
+[INFO ] [2022-12-19 11:29:54,787] Driver instance name = chromedriver: chrome on windows (9285379e4a9a31233c9d0ef0d91cee8b)
+[INFO ] [2022-12-19 13:22:10,340] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 13:22:11,077] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 13:22:13,160] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 13:22:14,117] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 13:22:14,117] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 13:22:14,807] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 13:22:14,902] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 13:22:15,431] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 13:22:15,546] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 13:22:16,934] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 13:22:17,014] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 13:22:17,157] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 13:22:17,490] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 13:22:17,621] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 13:22:20,362] Add_To_Wishlist - Step 07: Verify 'Page Title' is displayed
+[INFO ] [2022-12-19 13:22:20,448] Add_To_Wishlist - Step 08: Verify the product name is displayed
+[INFO ] [2022-12-19 13:22:50,495] OS name = windows 10
+[INFO ] [2022-12-19 13:22:50,496] Driver instance name = chromedriver: chrome on windows (a60a62b1d422792667d3fa9612d58e4c)
+[INFO ] [2022-12-19 13:28:49,854] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 13:28:50,512] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 13:28:52,610] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 13:28:53,563] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 13:28:53,564] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 13:28:54,589] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 13:28:54,679] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 13:28:55,172] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 13:28:55,284] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 13:28:56,489] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 13:28:56,564] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 13:28:56,686] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 13:28:57,057] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 13:28:57,555] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 13:28:59,912] Add_To_Wishlist - Step 07: Verify 'Page Title' is displayed
+[INFO ] [2022-12-19 13:28:59,996] Add_To_Wishlist - Step 08: Verify the product name is displayed
+[INFO ] [2022-12-19 13:29:00,076] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 13:29:00,554] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of JonhnyDepp'
+[INFO ] [2022-12-19 13:29:30,645] OS name = windows 10
+[INFO ] [2022-12-19 13:29:30,645] Driver instance name = chromedriver: chrome on windows (632d840056af57307764bc2d2d40e394)
+[INFO ] [2022-12-19 13:31:50,221] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 13:31:50,828] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 13:31:53,860] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 13:31:53,971] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 13:31:53,971] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 13:31:54,992] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 13:31:55,075] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 13:31:55,617] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 13:31:55,748] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 13:31:57,151] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 13:31:57,255] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 13:31:57,395] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 13:31:57,792] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 13:31:58,105] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 13:31:59,588] Add_To_Wishlist - Step 07: Verify 'Page Title' is displayed
+[INFO ] [2022-12-19 13:31:59,679] Add_To_Wishlist - Step 08: Verify the product name is displayed
+[INFO ] [2022-12-19 13:31:59,758] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 13:32:00,216] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 13:32:00,307] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 13:32:00,374] OS name = windows 10
+[INFO ] [2022-12-19 13:32:00,374] Driver instance name = chromedriver: chrome on windows (c3c9c4dffc53c3bd3857b29f150ec1a5)
+[INFO ] [2022-12-19 13:32:40,213] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 13:32:40,792] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 13:32:42,887] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 13:32:43,926] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 13:32:43,927] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 13:32:44,611] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 13:32:44,697] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 13:32:45,243] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 13:32:45,347] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 13:32:46,539] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 13:32:46,656] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 13:32:46,799] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 13:32:47,180] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 13:32:47,578] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 13:32:48,904] Add_To_Wishlist - Step 07: Verify 'Page Title' is displayed
+[INFO ] [2022-12-19 13:32:49,003] Add_To_Wishlist - Step 08: Verify the product name is displayed
+[INFO ] [2022-12-19 13:32:49,079] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 13:32:49,569] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 13:32:49,657] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 13:32:49,753] OS name = windows 10
+[INFO ] [2022-12-19 13:32:49,753] Driver instance name = chromedriver: chrome on windows (9bb0a136c6478b487d210dea388da9c3)
+[INFO ] [2022-12-19 13:33:17,940] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 13:33:18,536] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 13:33:20,635] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 13:33:21,553] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 13:33:21,553] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 13:33:22,244] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 13:33:22,328] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 13:33:22,867] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 13:33:22,971] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 13:33:24,336] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 13:33:24,436] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 13:33:24,602] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 13:33:24,950] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 13:33:25,071] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 13:33:26,597] Add_To_Wishlist - Step 07: Verify 'Page Title' is displayed
+[INFO ] [2022-12-19 13:33:26,685] Add_To_Wishlist - Step 08: Verify the product name is displayed
+[INFO ] [2022-12-19 13:33:26,762] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 13:33:27,196] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 13:33:27,280] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 13:33:27,347] OS name = windows 10
+[INFO ] [2022-12-19 13:33:27,347] Driver instance name = chromedriver: chrome on windows (3ad1f7afe12845c41e35d202fba7c044)
+[INFO ] [2022-12-19 13:38:05,246] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 13:38:05,887] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 13:38:07,993] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 13:38:09,001] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 13:38:09,001] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 13:38:09,764] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 13:38:09,835] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 13:38:10,362] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 13:38:10,475] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 13:38:11,611] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 13:38:11,687] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 13:38:11,827] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 13:38:12,187] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 13:38:12,553] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 13:38:13,906] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 13:38:13,996] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 13:38:14,071] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 13:38:14,524] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 13:38:14,604] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 13:38:14,670] OS name = windows 10
+[INFO ] [2022-12-19 13:38:14,671] Driver instance name = chromedriver: chrome on windows (013fc523c316a6410b1ba58be5069198)
+[INFO ] [2022-12-19 15:05:00,504] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 15:05:01,104] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 15:05:03,200] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 15:05:04,149] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 15:05:04,150] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 15:05:04,870] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 15:05:04,946] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 15:05:05,489] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 15:05:05,596] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 15:05:07,037] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 15:05:07,156] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 15:05:07,310] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 15:05:07,661] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 15:05:08,079] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 15:05:10,162] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 15:05:10,252] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 15:05:10,348] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 15:05:10,824] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 15:05:10,906] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 15:05:10,973] Add_Product_To_Cart_From_Wishlist - Step 01: Open Wishlist page
+[INFO ] [2022-12-19 15:05:11,404] Add_Product_To_Cart_From_Wishlist - Step 02: Choose to checkbox Add to Cart
+[INFO ] [2022-12-19 15:05:41,502] OS name = windows 10
+[INFO ] [2022-12-19 15:05:41,502] Driver instance name = chromedriver: chrome on windows (e416e10931351349665e5631276b46fe)
+[INFO ] [2022-12-19 15:07:44,052] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 15:07:44,657] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 15:07:46,744] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 15:07:47,729] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 15:07:47,729] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 15:07:48,456] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 15:07:48,531] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 15:07:49,060] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 15:07:49,171] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 15:07:50,311] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 15:07:50,425] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 15:07:50,568] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 15:07:50,908] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 15:07:51,016] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 15:07:52,538] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 15:07:52,631] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 15:07:52,709] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 15:07:53,197] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 15:07:53,300] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 15:07:53,366] Add_Product_To_Cart_From_Wishlist - Step 01: Open Wishlist page
+[INFO ] [2022-12-19 15:07:53,798] Add_Product_To_Cart_From_Wishlist - Step 02: Choose to checkbox Add to Cart
+[INFO ] [2022-12-19 15:07:53,945] Add_Product_To_Cart_From_Wishlist - Step 03: Click to button Add to Cart
+[INFO ] [2022-12-19 15:07:55,444] Add_Product_To_Cart_From_Wishlist - Step 04: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-19 15:07:55,527] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-19 15:07:55,593] Add_Product_To_Cart_From_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 15:07:56,054] Add_Product_To_Cart_From_Wishlist - Step 07: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 15:08:01,138] OS name = windows 10
+[INFO ] [2022-12-19 15:08:01,138] Driver instance name = chromedriver: chrome on windows (9786da49dcdd4be70a247751c8de2e0e)
+[INFO ] [2022-12-19 15:16:49,933] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 15:16:50,567] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 15:16:52,676] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 15:16:53,660] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 15:16:53,660] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 15:16:54,372] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 15:16:54,448] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 15:16:54,987] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 15:16:55,103] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 15:16:56,225] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 15:16:56,331] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 15:16:56,469] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 15:16:56,822] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 15:16:56,956] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 15:16:58,475] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 15:16:58,556] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 15:16:58,633] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 15:16:59,106] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 15:16:59,194] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 15:16:59,261] Add_Product_To_Cart_From_Wishlist - Step 01: Open Wishlist page
+[INFO ] [2022-12-19 15:16:59,660] Add_Product_To_Cart_From_Wishlist - Step 02: Choose to checkbox Add to Cart
+[INFO ] [2022-12-19 15:16:59,808] Add_Product_To_Cart_From_Wishlist - Step 03: Click to button Add to Cart
+[INFO ] [2022-12-19 15:17:01,888] Add_Product_To_Cart_From_Wishlist - Step 04: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-19 15:17:01,976] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-19 15:17:02,037] Add_Product_To_Cart_From_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 15:17:02,488] Add_Product_To_Cart_From_Wishlist - Step 07: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 15:17:07,620] OS name = windows 10
+[INFO ] [2022-12-19 15:17:07,621] Driver instance name = chromedriver: chrome on windows (55bc9f8cd8331639b832e9f43b66627f)
+[INFO ] [2022-12-19 15:17:57,291] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 15:17:57,922] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 15:18:00,411] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 15:18:00,505] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 15:18:00,506] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 15:18:01,217] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 15:18:01,311] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 15:18:01,851] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 15:18:01,950] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 15:18:03,113] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 15:18:03,211] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 15:18:03,359] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 15:18:03,709] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 15:18:03,844] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 15:18:05,375] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 15:18:05,468] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 15:18:05,544] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 15:18:06,027] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 15:18:06,130] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 15:18:06,198] Add_Product_To_Cart_From_Wishlist - Step 01: Open Wishlist page
+[INFO ] [2022-12-19 15:18:06,633] Add_Product_To_Cart_From_Wishlist - Step 02: Choose to checkbox Add to Cart
+[INFO ] [2022-12-19 15:18:06,780] Add_Product_To_Cart_From_Wishlist - Step 03: Click to button Add to Cart
+[INFO ] [2022-12-19 15:18:07,697] Add_Product_To_Cart_From_Wishlist - Step 04: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-19 15:18:07,805] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-19 15:18:07,889] Add_Product_To_Cart_From_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 15:18:08,333] Add_Product_To_Cart_From_Wishlist - Step 07: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 15:18:13,469] OS name = windows 10
+[INFO ] [2022-12-19 15:18:13,470] Driver instance name = chromedriver: chrome on windows (75000699a8ccdc8a3ff260c4ef1f8297)
+[INFO ] [2022-12-19 15:26:11,480] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 15:26:12,112] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 15:26:14,218] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 15:26:14,673] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 15:26:14,673] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 15:26:15,389] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 15:26:15,471] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 15:26:15,985] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 15:26:16,082] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 15:26:17,175] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 15:26:17,292] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 15:26:17,427] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 15:26:17,757] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 15:26:17,878] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 15:26:19,346] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 15:26:19,434] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 15:26:19,514] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 15:26:19,969] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 15:26:20,046] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 15:26:20,114] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
+[INFO ] [2022-12-19 15:26:20,665] Add_Product_To_Cart_From_Wishlist - Step 02: Open Wishlist page
+[INFO ] [2022-12-19 15:26:21,093] Add_Product_To_Cart_From_Wishlist - Step 03: Choose to checkbox Add to Cart
+[INFO ] [2022-12-19 15:26:21,247] Add_Product_To_Cart_From_Wishlist - Step 04: Click to button Add to Cart
+[INFO ] [2022-12-19 15:26:22,130] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-19 15:26:22,209] Add_Product_To_Cart_From_Wishlist - Step 06: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-19 15:26:22,272] Add_Product_To_Cart_From_Wishlist - Step 07: Open Wishlist page
+[INFO ] [2022-12-19 15:26:22,688] Add_Product_To_Cart_From_Wishlist - Step 08: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 15:26:32,846] OS name = windows 10
+[INFO ] [2022-12-19 15:26:32,846] Driver instance name = chromedriver: chrome on windows (42b94540393af716fff9477b44806473)
+[INFO ] [2022-12-19 15:28:44,215] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 15:28:44,856] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 15:28:46,957] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 15:28:47,411] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 15:28:47,411] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 15:28:48,075] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 15:28:48,177] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 15:28:48,671] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 15:28:48,776] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 15:28:50,052] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 15:28:50,131] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 15:28:50,276] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 15:28:50,615] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 15:28:50,959] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 15:28:52,324] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 15:28:52,412] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 15:28:52,489] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 15:28:52,945] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 15:28:53,035] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 15:28:53,107] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
+[INFO ] [2022-12-19 15:28:53,659] Add_Product_To_Cart_From_Wishlist - Step 02: Open Wishlist page
+[INFO ] [2022-12-19 15:28:54,068] Add_Product_To_Cart_From_Wishlist - Step 03: Click to checkbox Add to Cart
+[INFO ] [2022-12-19 15:28:54,217] Add_Product_To_Cart_From_Wishlist - Step 04: Click to button Add to Cart
+[INFO ] [2022-12-19 15:28:55,684] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-19 15:28:55,821] Add_Product_To_Cart_From_Wishlist - Step 06: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-19 15:28:55,922] Add_Product_To_Cart_From_Wishlist - Step 07: Open Wishlist page
+[INFO ] [2022-12-19 15:28:56,386] Add_Product_To_Cart_From_Wishlist - Step 08: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 15:29:06,558] OS name = windows 10
+[INFO ] [2022-12-19 15:29:06,559] Driver instance name = chromedriver: chrome on windows (7f6e2ae8baedebea56d2ae7861f2a1ee)
+[INFO ] [2022-12-19 15:57:23,911] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 15:57:24,549] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 15:57:26,644] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 15:57:27,641] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 15:57:27,641] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 15:57:28,377] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 15:57:28,458] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 15:57:28,996] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 15:57:29,097] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 15:57:30,205] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 15:57:30,293] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 15:57:30,428] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 15:57:30,812] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 15:57:31,178] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 15:57:32,438] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 15:57:32,516] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 15:57:32,595] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 15:57:33,053] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 15:57:33,141] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 15:57:33,225] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
+[INFO ] [2022-12-19 15:57:33,796] Add_Product_To_Cart_From_Wishlist - Step 02: Open Wishlist page
+[INFO ] [2022-12-19 15:57:34,232] Add_Product_To_Cart_From_Wishlist - Step 03: Click to checkbox Add to Cart
+[INFO ] [2022-12-19 15:57:34,386] Add_Product_To_Cart_From_Wishlist - Step 04: Click to button Add to Cart
+[INFO ] [2022-12-19 15:57:35,354] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-19 15:57:35,441] Add_Product_To_Cart_From_Wishlist - Step 06: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-19 15:57:35,521] Add_Product_To_Cart_From_Wishlist - Step 07: Open Wishlist page
+[INFO ] [2022-12-19 15:57:35,944] Add_Product_To_Cart_From_Wishlist - Step 08: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 15:57:46,143] Remove_Product_In_Wishlist - Step 01: Click to Header menu
+[INFO ] [2022-12-19 15:57:47,270] Remove_Product_In_Wishlist - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 15:57:47,330] Remove_Product_In_Wishlist - Step 03: Click to Category
+[INFO ] [2022-12-19 15:57:47,823] Remove_Product_In_Wishlist - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 15:57:47,910] Remove_Product_In_Wishlist - Step 05: Click to Product title
+[INFO ] [2022-12-19 15:57:49,262] Remove_Product_In_Wishlist - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-19 15:57:49,354] Remove_Product_In_Wishlist - Step 07: Click to button Add to Wishlist
+[INFO ] [2022-12-19 15:57:49,494] Remove_Product_In_Wishlist - Step 08: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 15:57:49,873] Remove_Product_In_Wishlist - Step 09: Close Bar Notification
+[INFO ] [2022-12-19 15:57:50,025] Remove_Product_In_Wishlist - Step 10: Open Wishlist page
+[INFO ] [2022-12-19 15:57:52,078] Remove_Product_In_Wishlist - Step 11: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 15:57:52,176] Remove_Product_In_Wishlist - Step 12: Verify the product name 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+[INFO ] [2022-12-19 15:57:52,251] Remove_Product_In_Wishlist - Step 13: Click to Remove button
+[INFO ] [2022-12-19 15:57:53,519] Remove_Product_In_Wishlist - Step 14: Verify message 'The wishlist is empty!' is displayed
+[INFO ] [2022-12-19 15:58:23,610] OS name = windows 10
+[INFO ] [2022-12-19 15:58:23,610] Driver instance name = chromedriver: chrome on windows (2e7d8cfb198f9d7980f9e76d02b7cc54)
+[INFO ] [2022-12-19 16:03:00,858] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 16:03:01,515] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 16:03:04,485] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 16:03:04,593] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 16:03:04,593] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 16:03:05,297] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 16:03:05,396] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 16:03:05,987] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 16:03:06,146] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 16:03:07,280] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 16:03:07,368] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 16:03:07,509] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 16:03:07,858] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 16:03:07,984] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 16:03:09,543] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 16:03:09,650] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 16:03:09,744] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 16:03:10,203] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 16:03:10,325] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 16:03:10,408] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
+[INFO ] [2022-12-19 16:03:10,949] Add_Product_To_Cart_From_Wishlist - Step 02: Open Wishlist page
+[INFO ] [2022-12-19 16:03:11,391] Add_Product_To_Cart_From_Wishlist - Step 03: Click to checkbox Add to Cart
+[INFO ] [2022-12-19 16:03:11,541] Add_Product_To_Cart_From_Wishlist - Step 04: Click to button Add to Cart
+[INFO ] [2022-12-19 16:03:12,451] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-19 16:03:12,535] Add_Product_To_Cart_From_Wishlist - Step 06: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-19 16:03:12,598] Add_Product_To_Cart_From_Wishlist - Step 07: Open Wishlist page
+[INFO ] [2022-12-19 16:03:13,033] Add_Product_To_Cart_From_Wishlist - Step 08: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 16:03:23,222] Remove_Product_In_Wishlist - Step 01: Click to Header menu
+[INFO ] [2022-12-19 16:03:24,356] Remove_Product_In_Wishlist - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 16:03:24,445] Remove_Product_In_Wishlist - Step 03: Click to Category
+[INFO ] [2022-12-19 16:03:24,949] Remove_Product_In_Wishlist - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 16:03:25,041] Remove_Product_In_Wishlist - Step 05: Click to Product title
+[INFO ] [2022-12-19 16:03:26,375] Remove_Product_In_Wishlist - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-19 16:03:26,505] Remove_Product_In_Wishlist - Step 07: Click to button Add to Wishlist
+[INFO ] [2022-12-19 16:03:26,688] Remove_Product_In_Wishlist - Step 08: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 16:03:27,063] Remove_Product_In_Wishlist - Step 09: Close Bar Notification
+[INFO ] [2022-12-19 16:03:27,238] Remove_Product_In_Wishlist - Step 10: Open Wishlist page
+[INFO ] [2022-12-19 16:03:29,240] Remove_Product_In_Wishlist - Step 11: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 16:03:29,323] Remove_Product_In_Wishlist - Step 12: Verify the product name 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+[INFO ] [2022-12-19 16:03:29,416] Remove_Product_In_Wishlist - Step 13: Click to Remove button
+[INFO ] [2022-12-19 16:03:30,347] Remove_Product_In_Wishlist - Step 14: Verify message 'The wishlist is empty!' is displayed
+[INFO ] [2022-12-19 16:04:00,410] OS name = windows 10
+[INFO ] [2022-12-19 16:04:00,410] Driver instance name = chromedriver: chrome on windows (a7c514a1ebab125aba7c05e4842edcec)
+[INFO ] [2022-12-19 16:08:28,095] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 16:08:28,730] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 16:08:30,824] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 16:08:31,750] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 16:08:31,750] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 16:08:32,515] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 16:08:32,598] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 16:08:33,178] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 16:08:33,284] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 16:08:34,474] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 16:08:34,559] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 16:08:34,701] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 16:08:35,047] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 16:08:35,370] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 16:08:36,657] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 16:08:36,757] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 16:08:36,835] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 16:08:37,309] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 16:08:37,392] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 16:08:37,459] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
+[INFO ] [2022-12-19 16:08:37,980] Add_Product_To_Cart_From_Wishlist - Step 02: Open Wishlist page
+[INFO ] [2022-12-19 16:08:38,401] Add_Product_To_Cart_From_Wishlist - Step 03: Click to checkbox Add to Cart
+[INFO ] [2022-12-19 16:08:38,579] Add_Product_To_Cart_From_Wishlist - Step 04: Click to button Add to Cart
+[INFO ] [2022-12-19 16:08:39,466] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-19 16:08:39,544] Add_Product_To_Cart_From_Wishlist - Step 06: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-19 16:08:39,609] Add_Product_To_Cart_From_Wishlist - Step 07: Open Wishlist page
+[INFO ] [2022-12-19 16:08:40,019] Add_Product_To_Cart_From_Wishlist - Step 08: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 16:08:50,253] Remove_Product_In_Wishlist - Step 01: Click to Header menu
+[INFO ] [2022-12-19 16:08:50,746] Remove_Product_In_Wishlist - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 16:08:50,836] Remove_Product_In_Wishlist - Step 03: Click to Category
+[INFO ] [2022-12-19 16:08:51,360] Remove_Product_In_Wishlist - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 16:08:51,459] Remove_Product_In_Wishlist - Step 05: Click to Product title
+[INFO ] [2022-12-19 16:08:52,363] Remove_Product_In_Wishlist - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-19 16:08:52,490] Remove_Product_In_Wishlist - Step 07: Click to button Add to Wishlist
+[INFO ] [2022-12-19 16:08:52,728] Remove_Product_In_Wishlist - Step 08: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 16:08:53,056] Remove_Product_In_Wishlist - Step 09: Close Bar Notification
+[INFO ] [2022-12-19 16:08:53,163] Remove_Product_In_Wishlist - Step 10: Open Wishlist page
+[INFO ] [2022-12-19 16:08:54,568] Remove_Product_In_Wishlist - Step 11: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 16:08:54,628] Remove_Product_In_Wishlist - Step 12: Verify the product name 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+[INFO ] [2022-12-19 16:08:54,708] Remove_Product_In_Wishlist - Step 13: Click to Remove button
+[INFO ] [2022-12-19 16:08:55,196] Remove_Product_In_Wishlist - Step 14: Verify message 'The wishlist is empty!' is displayed
+[INFO ] [2022-12-19 16:08:55,284] Add_Product_To_Cart_From_Wishlist - Step 15: Verify Product Name is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 16:09:05,481] OS name = windows 10
+[INFO ] [2022-12-19 16:09:05,482] Driver instance name = chromedriver: chrome on windows (42c35112eeb6d4ceed4adc5d1b13aed3)
+[INFO ] [2022-12-19 16:09:50,804] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-19 16:09:51,456] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-19 16:09:53,551] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-19 16:09:54,523] -------------------------PASSED--------------------------
+[INFO ] [2022-12-19 16:09:54,523] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 16:09:55,237] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 16:09:55,336] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 16:09:55,888] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 16:09:55,993] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 16:09:57,220] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 16:09:57,305] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 16:09:57,443] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 16:09:57,786] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 16:09:57,909] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 16:09:59,448] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 16:09:59,552] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 16:09:59,628] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 16:10:00,131] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 16:10:00,208] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-19 16:10:00,274] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
+[INFO ] [2022-12-19 16:10:00,827] Add_Product_To_Cart_From_Wishlist - Step 02: Open Wishlist page
+[INFO ] [2022-12-19 16:10:01,237] Add_Product_To_Cart_From_Wishlist - Step 03: Click to checkbox Add to Cart
+[INFO ] [2022-12-19 16:10:01,388] Add_Product_To_Cart_From_Wishlist - Step 04: Click to button Add to Cart
+[INFO ] [2022-12-19 16:10:02,299] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-19 16:10:02,387] Add_Product_To_Cart_From_Wishlist - Step 06: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-19 16:10:02,451] Add_Product_To_Cart_From_Wishlist - Step 07: Open Wishlist page
+[INFO ] [2022-12-19 16:10:02,894] Add_Product_To_Cart_From_Wishlist - Step 08: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 16:10:13,045] Remove_Product_In_Wishlist - Step 01: Click to Header menu
+[INFO ] [2022-12-19 16:10:13,576] Remove_Product_In_Wishlist - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 16:10:13,657] Remove_Product_In_Wishlist - Step 03: Click to Category
+[INFO ] [2022-12-19 16:10:14,191] Remove_Product_In_Wishlist - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 16:10:14,304] Remove_Product_In_Wishlist - Step 05: Click to Product title
+[INFO ] [2022-12-19 16:10:15,410] Remove_Product_In_Wishlist - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-19 16:10:15,529] Remove_Product_In_Wishlist - Step 07: Click to button Add to Wishlist
+[INFO ] [2022-12-19 16:10:15,677] Remove_Product_In_Wishlist - Step 08: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 16:10:15,998] Remove_Product_In_Wishlist - Step 09: Close Bar Notification
+[INFO ] [2022-12-19 16:10:16,130] Remove_Product_In_Wishlist - Step 10: Open Wishlist page
+[INFO ] [2022-12-19 16:10:17,892] Remove_Product_In_Wishlist - Step 11: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 16:10:18,031] Remove_Product_In_Wishlist - Step 12: Verify the product name 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+[INFO ] [2022-12-19 16:10:18,153] Remove_Product_In_Wishlist - Step 13: Click to Remove button
+[INFO ] [2022-12-19 16:10:18,703] Remove_Product_In_Wishlist - Step 14: Verify message 'The wishlist is empty!' is displayed
+[INFO ] [2022-12-19 16:10:18,796] Remove_Product_In_Wishlist - Step 15: Verify Product Name is Undisplayed in Wishlist page
+[INFO ] [2022-12-19 16:10:28,941] OS name = windows 10
+[INFO ] [2022-12-19 16:10:28,941] Driver instance name = chromedriver: chrome on windows (1c662706a9fe3eb244f9cdb433edc5fd)
+[INFO ] [2022-12-19 23:14:27,329] OS name = windows 10
+[INFO ] [2022-12-19 23:14:27,330] 
+[INFO ] [2022-12-19 23:18:47,637] OS name = windows 10
+[INFO ] [2022-12-19 23:18:47,638] 
+[INFO ] [2022-12-19 23:20:00,501] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:20:04,884] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:20:05,032] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 23:20:06,083] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:20:06,198] Add_To_Wishlist - Step 01: Click to Product title
+[INFO ] [2022-12-19 23:20:07,334] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-19 23:20:07,414] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-19 23:20:07,545] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-19 23:20:07,869] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-19 23:20:08,005] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-19 23:20:10,090] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-19 23:20:10,182] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-19 23:20:10,259] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-19 23:20:10,714] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-19 23:20:40,969] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
+[INFO ] [2022-12-19 23:21:07,381] Pre-condition - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:21:08,029] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:21:08,140] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-19 23:21:09,211] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:21:09,343] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:21:09,800] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:21:09,880] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-19 23:21:10,362] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:21:10,447] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-19 23:21:10,584] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:21:10,917] Add_Product_To_Compare - Step 07: Add product to Compare
+[INFO ] [2022-12-19 23:21:11,044] Add_Product_To_Compare - Step 08: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:21:11,125] Add_Product_To_Compare - Step 09: Open Compare product page 
+[INFO ] [2022-12-19 23:21:11,217] Remove_Product_In_Wishlist - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:21:11,610] Add_Product_To_Compare - Step 10: Verify page title 'Compare products' is displayed correctly 
+[INFO ] [2022-12-19 23:21:11,709] Add_Product_To_Compare - Step 11: Verify remove button displayed 
+[INFO ] [2022-12-19 23:21:11,786] Add_Product_To_Compare - Step 12: Verify product name displayed 
+[INFO ] [2022-12-19 23:21:11,866] Add_Product_To_Compare - Step 13: Verify product price displayed 
+[INFO ] [2022-12-19 23:21:11,944] Add_Product_To_Compare - Step 14: Verify remove button displayed 
+[INFO ] [2022-12-19 23:21:41,720] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:21:42,055] OS name = windows 10
+[INFO ] [2022-12-19 23:21:42,056] Driver instance name = chromedriver: chrome on windows (5f0d59c4e6b7954dbfeaaa536716fcd5)
+[INFO ] [2022-12-19 23:21:47,369] OS name = windows 10
+[INFO ] [2022-12-19 23:21:47,369] Driver instance name = chromedriver: chrome on windows (3613b48e2886618c38b37cb3916ba4b8)
+[INFO ] [2022-12-19 23:21:51,460] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:46384
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-PC', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: RemoteWebDriver
+[INFO ] [2022-12-19 23:23:14,018] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:23:14,634] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:23:14,756] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-19 23:23:15,839] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:23:15,980] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-19 23:23:16,121] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:23:18,475] Add_Product_To_Compare - Step 07: Add product to Compare
+[INFO ] [2022-12-19 23:23:18,626] Add_Product_To_Compare - Step 08: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:23:18,708] Add_Product_To_Compare - Step 09: Open Compare product page 
+[INFO ] [2022-12-19 23:23:19,236] Add_Product_To_Compare - Step 10: Verify page title 'Compare products' is displayed correctly 
+[INFO ] [2022-12-19 23:23:19,318] Add_Product_To_Compare - Step 11: Verify remove button displayed 
+[INFO ] [2022-12-19 23:23:19,400] Add_Product_To_Compare - Step 12: Verify product name displayed 
+[INFO ] [2022-12-19 23:23:19,475] Add_Product_To_Compare - Step 13: Verify product price displayed 
+[INFO ] [2022-12-19 23:23:19,586] Add_Product_To_Compare - Step 14: Verify remove button displayed 
+[INFO ] [2022-12-19 23:23:49,661] OS name = windows 10
+[INFO ] [2022-12-19 23:23:49,662] Driver instance name = chromedriver: chrome on windows (7f57aff207b472c0e0252dc04fa61391)
+[INFO ] [2022-12-19 23:27:26,437] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:27:46,104] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:27:47,316] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:27:47,434] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-19 23:27:48,499] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:27:48,621] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-19 23:27:48,744] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:27:49,101] Add_Product_To_Compare - Step 07: Close Bar Notification
+[INFO ] [2022-12-19 23:27:49,222] Add_Product_To_Compare - Step 08: Add product to Compare
+[INFO ] [2022-12-19 23:27:49,350] Add_Product_To_Compare - Step 09: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:27:49,419] Add_Product_To_Compare - Step 10: Close Bar Notification
+[INFO ] [2022-12-19 23:27:49,524] Add_Product_To_Compare - Step 09: Open Compare product page 
+[INFO ] [2022-12-19 23:27:50,017] Add_Product_To_Compare - Step 10: Verify page title 'Compare products' is displayed correctly 
+[INFO ] [2022-12-19 23:27:50,106] Add_Product_To_Compare - Step 11: Verify remove button displayed 
+[INFO ] [2022-12-19 23:27:50,189] Add_Product_To_Compare - Step 12: Verify product name displayed 
+[INFO ] [2022-12-19 23:27:50,311] Add_Product_To_Compare - Step 13: Verify product price displayed 
+[INFO ] [2022-12-19 23:27:50,389] Add_Product_To_Compare - Step 14: Verify remove button displayed 
+[INFO ] [2022-12-19 23:27:50,486] Add_Product_To_Compare - Step 15: Verify product name displayed 
+[INFO ] [2022-12-19 23:27:50,563] Add_Product_To_Compare - Step 16: Verify product price displayed 
+[INFO ] [2022-12-19 23:27:50,643] Add_Product_To_Compare - Step 17: Click to Clear List button
+[INFO ] [2022-12-19 23:27:51,336] Add_Product_To_Compare - Step 18: Verify message 'You have no items to compare.' is displayed 
+[INFO ] [2022-12-19 23:27:51,418] Add_Product_To_Compare - Step 19: Verify product name Undisplayed 
+[INFO ] [2022-12-19 23:27:56,586] OS name = windows 10
+[INFO ] [2022-12-19 23:27:56,586] Driver instance name = chromedriver: chrome on windows (dd95dc82a4929cd42775d4a164ae29a7)
+[INFO ] [2022-12-19 23:27:56,593] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-PC', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd95dc82a4929cd42775d4a164ae29a7
+[INFO ] [2022-12-19 23:28:00,960] OS name = windows 10
+[INFO ] [2022-12-19 23:28:00,960] Driver instance name = chromedriver: chrome on windows (8b4071b2daa0dc07bd5611db83823e72)
+[INFO ] [2022-12-19 23:28:05,000] java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:47225
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LENOVO-PC', ip: '192.168.1.209', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: driver.version: RemoteWebDriver
+[INFO ] [2022-12-19 23:28:40,133] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:28:40,781] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:28:40,906] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-19 23:28:42,727] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:28:42,838] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-19 23:28:42,969] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:28:43,308] Add_Product_To_Compare - Step 07: Close Bar Notification
+[INFO ] [2022-12-19 23:28:43,428] Add_Product_To_Compare - Step 08: Add product to Compare
+[INFO ] [2022-12-19 23:28:43,558] Add_Product_To_Compare - Step 09: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:28:43,638] Add_Product_To_Compare - Step 10: Close Bar Notification
+[INFO ] [2022-12-19 23:28:43,742] Add_Product_To_Compare - Step 09: Open Compare product page 
+[INFO ] [2022-12-19 23:28:44,219] Add_Product_To_Compare - Step 10: Verify page title 'Compare products' is displayed correctly 
+[INFO ] [2022-12-19 23:28:44,301] Add_Product_To_Compare - Step 11: Verify remove button displayed 
+[INFO ] [2022-12-19 23:28:44,420] Add_Product_To_Compare - Step 12: Verify product name displayed 
+[INFO ] [2022-12-19 23:28:44,507] Add_Product_To_Compare - Step 13: Verify product price displayed 
+[INFO ] [2022-12-19 23:28:44,588] Add_Product_To_Compare - Step 14: Verify remove button displayed 
+[INFO ] [2022-12-19 23:28:44,685] Add_Product_To_Compare - Step 15: Verify product name displayed 
+[INFO ] [2022-12-19 23:28:44,760] Add_Product_To_Compare - Step 16: Verify product price displayed 
+[INFO ] [2022-12-19 23:28:44,837] Add_Product_To_Compare - Step 17: Click to Clear List button
+[INFO ] [2022-12-19 23:28:45,515] Add_Product_To_Compare - Step 18: Verify message 'You have no items to compare.' is displayed 
+[INFO ] [2022-12-19 23:28:45,613] Add_Product_To_Compare - Step 19: Verify product name Undisplayed 
+[INFO ] [2022-12-19 23:28:55,752] Add_Product_To_Compare - Step 20: Verify product name Undisplayed 
+[INFO ] [2022-12-19 23:29:05,918] OS name = windows 10
+[INFO ] [2022-12-19 23:29:05,918] Driver instance name = chromedriver: chrome on windows (55194e916db01dca5e4561b3fc5ede0a)
+[INFO ] [2022-12-19 23:31:58,814] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:32:00,044] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:32:00,167] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-19 23:32:01,248] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:32:01,350] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-19 23:32:01,508] OS name = windows 10
+[INFO ] [2022-12-19 23:32:01,508] Driver instance name = chromedriver: chrome on windows (61cc9a482f73f587f0f33d149ef8d4a5)
+[INFO ] [2022-12-19 23:32:36,194] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:32:36,991] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:32:37,110] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-19 23:32:38,111] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:32:38,216] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-19 23:32:38,373] OS name = windows 10
+[INFO ] [2022-12-19 23:32:38,373] Driver instance name = chromedriver: chrome on windows (f13e8f2a7f8605f4ae282acc59bd43c0)
+[INFO ] [2022-12-19 23:33:25,421] OS name = windows 10
+[INFO ] [2022-12-19 23:33:25,423] 
+[INFO ] [2022-12-19 23:34:19,649] OS name = windows 10
+[INFO ] [2022-12-19 23:34:19,651] 
+[INFO ] [2022-12-19 23:34:48,150] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:34:48,903] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:34:49,028] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-19 23:34:49,614] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:34:49,738] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-19 23:34:49,925] OS name = windows 10
+[INFO ] [2022-12-19 23:34:49,926] Driver instance name = chromedriver: chrome on windows (f8459b0030d636ce1616080a074321da)
+[INFO ] [2022-12-19 23:37:18,972] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:37:19,766] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:37:19,879] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-19 23:37:21,025] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:37:21,118] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-19 23:37:21,243] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:37:21,587] Add_Product_To_Compare - Step 07: Close Bar Notification
+[INFO ] [2022-12-19 23:37:21,720] OS name = windows 10
+[INFO ] [2022-12-19 23:37:21,720] Driver instance name = chromedriver: chrome on windows (4f79914e02153d28130c60bf7f3b4fe1)
+[INFO ] [2022-12-19 23:38:02,923] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:38:03,622] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:38:03,730] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-19 23:38:04,803] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:38:04,888] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-19 23:38:05,015] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:38:05,370] Add_Product_To_Compare - Step 07: Close Bar Notification
+[INFO ] [2022-12-19 23:38:05,497] Add_Product_To_Compare - Step 08: Add product to Compare
+[INFO ] [2022-12-19 23:38:05,622] Add_Product_To_Compare - Step 09: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:38:05,686] Add_Product_To_Compare - Step 10: Close Bar Notification
+[INFO ] [2022-12-19 23:38:05,803] OS name = windows 10
+[INFO ] [2022-12-19 23:38:05,804] Driver instance name = chromedriver: chrome on windows (24fe134d9615767dbc451e49b9f85d3d)
+[INFO ] [2022-12-19 23:39:16,891] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:39:17,597] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:39:17,699] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-19 23:39:18,273] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:39:18,383] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-19 23:39:18,527] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:39:18,886] Add_Product_To_Compare - Step 07: Close Bar Notification
+[INFO ] [2022-12-19 23:39:20,017] Add_Product_To_Compare - Step 08: Add product to Compare
+[INFO ] [2022-12-19 23:39:20,192] Add_Product_To_Compare - Step 09: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-19 23:39:20,479] Add_Product_To_Compare - Step 10: Close Bar Notification
+[INFO ] [2022-12-19 23:39:21,591] Add_Product_To_Compare - Step 11: Open Compare product page 
+[INFO ] [2022-12-19 23:39:22,221] Add_Product_To_Compare - Step 12: Verify page title 'Compare products' is displayed correctly 
+[INFO ] [2022-12-19 23:39:22,328] Add_Product_To_Compare - Step 13: Verify remove button displayed 
+[INFO ] [2022-12-19 23:39:22,425] Add_Product_To_Compare - Step 14: Verify product name displayed 
+[INFO ] [2022-12-19 23:39:22,520] Add_Product_To_Compare - Step 15: Verify product price displayed 
+[INFO ] [2022-12-19 23:39:22,597] Add_Product_To_Compare - Step 16: Verify remove button displayed 
+[INFO ] [2022-12-19 23:39:22,694] Add_Product_To_Compare - Step 17: Verify product name displayed 
+[INFO ] [2022-12-19 23:39:22,785] Add_Product_To_Compare - Step 18: Verify product price displayed 
+[INFO ] [2022-12-19 23:39:22,865] Add_Product_To_Compare - Step 19: Click to Clear List button
+[INFO ] [2022-12-19 23:39:23,548] Add_Product_To_Compare - Step 20: Verify message 'You have no items to compare.' is displayed 
+[INFO ] [2022-12-19 23:39:23,643] Add_Product_To_Compare - Step 21: Verify product name Undisplayed 
+[INFO ] [2022-12-19 23:39:33,803] Add_Product_To_Compare - Step 22: Verify product name Undisplayed 
+[INFO ] [2022-12-19 23:39:43,952] OS name = windows 10
+[INFO ] [2022-12-19 23:39:43,953] Driver instance name = chromedriver: chrome on windows (f1f912ce0a26becf0596375e077af106)
+[INFO ] [2022-12-19 23:55:05,477] Recently_Viewed_Products - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:55:05,490] OS name = windows 10
+[INFO ] [2022-12-19 23:55:05,491] Driver instance name = chromedriver: chrome on windows (d755dc1e584e2e3776b800835c1f7267)
+[INFO ] [2022-12-19 23:56:33,855] Recently_Viewed_Products - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:56:34,535] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:56:34,634] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-19 23:56:35,678] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:56:44,118] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-19 23:56:45,331] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-19 23:56:45,457] OS name = windows 10
+[INFO ] [2022-12-19 23:56:45,457] Driver instance name = chromedriver: chrome on windows (eb4f42749680cb456ba2b734cb83d4c4)
+[INFO ] [2022-12-19 23:57:31,216] Recently_Viewed_Products - Step 01: Click to Header menu
+[INFO ] [2022-12-19 23:57:31,908] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-19 23:57:32,009] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-19 23:57:33,060] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-19 23:57:33,163] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-19 23:57:34,233] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-19 23:57:34,380] OS name = windows 10
+[INFO ] [2022-12-19 23:57:34,381] Driver instance name = chromedriver: chrome on windows (bc96c95546ba519f26f5698fd2979b15)
+[INFO ] [2022-12-20 00:41:56,643] Recently_Viewed_Products - Step 01: Click to Header menu
+[INFO ] [2022-12-20 00:41:57,351] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 00:41:57,470] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 00:41:58,575] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 00:41:58,672] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 00:42:00,281] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 00:42:00,370] Recently_Viewed_Products - Step 07: Click to Sub-menu
+[INFO ] [2022-12-20 00:42:00,446] OS name = windows 10
+[INFO ] [2022-12-20 00:42:00,446] Driver instance name = chromedriver: chrome on windows (836a8c9a044bc2c4a58408b1e45d4b09)
+[INFO ] [2022-12-20 00:53:56,204] Recently_Viewed_Products - Step 01: Click to Header menu
+[INFO ] [2022-12-20 00:53:57,820] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 00:53:57,934] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 00:53:58,504] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 00:53:58,606] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 00:53:59,896] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 00:53:59,977] Recently_Viewed_Products - Step 07: Click to Sub-menu
+[INFO ] [2022-12-20 00:54:00,705] Recently_Viewed_Products - Step 08: Verify Page Title correctly
+[INFO ] [2022-12-20 00:54:00,806] OS name = windows 10
+[INFO ] [2022-12-20 00:54:00,806] Driver instance name = chromedriver: chrome on windows (84276dd0ad5e1d9dd135572221fee69c)
+[INFO ] [2022-12-20 00:56:08,654] Recently_Viewed_Products - Step 01: Click to Header menu
+[INFO ] [2022-12-20 00:56:09,331] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 00:56:09,457] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 00:56:10,033] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 00:56:10,113] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 00:56:11,169] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 00:56:11,257] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 00:56:11,466] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 00:56:11,936] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 00:56:12,023] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 00:56:13,716] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 00:56:13,839] OS name = windows 10
+[INFO ] [2022-12-20 00:56:13,839] Driver instance name = chromedriver: chrome on windows (dfed2a615a7c3b4cf41ced779c330a50)
+[INFO ] [2022-12-20 00:58:41,433] Recently_Viewed_Products - Step 01: Click to Header menu
+[INFO ] [2022-12-20 00:58:42,695] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 00:58:42,817] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 00:58:43,349] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 00:58:43,459] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 00:58:44,583] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 00:58:44,665] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 00:58:44,878] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 00:58:45,353] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 00:58:45,427] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 00:58:46,358] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 00:58:46,492] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 00:58:46,670] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 00:58:47,770] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 00:58:47,893] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 00:58:49,033] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 00:58:49,119] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 00:58:49,281] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 00:58:50,479] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 00:58:50,593] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 00:58:51,937] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 00:58:52,042] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 00:58:52,221] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 00:58:53,350] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 00:58:53,427] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 00:58:54,460] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 00:58:54,542] OS name = windows 10
+[INFO ] [2022-12-20 00:58:54,543] Driver instance name = chromedriver: chrome on windows (815c647ab95847fd0e00fac15901e853)
+[INFO ] [2022-12-20 00:59:49,535] Recently_Viewed_Products - Step 01: Click to Header menu
+[INFO ] [2022-12-20 00:59:50,173] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 00:59:50,283] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 00:59:50,858] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 00:59:50,958] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 00:59:52,037] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 00:59:52,126] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 00:59:52,336] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 00:59:52,848] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 00:59:52,932] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 00:59:53,822] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 00:59:53,953] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 00:59:54,160] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 00:59:54,641] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 00:59:54,735] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 00:59:55,583] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 00:59:55,689] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 00:59:55,884] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 00:59:56,353] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 00:59:56,484] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 00:59:57,329] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 00:59:57,432] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 00:59:57,609] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 00:59:58,090] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 00:59:58,163] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 00:59:59,058] Recently_Viewed_Products - Step 11: Verify Product Name correctly 'Lenovo Thinkpad X1 Carbon Laptop' 
+[INFO ] [2022-12-20 00:59:59,159] OS name = windows 10
+[INFO ] [2022-12-20 00:59:59,159] Driver instance name = chromedriver: chrome on windows (9feccd59093abe4a90fd0311405eb13e)
+[INFO ] [2022-12-20 01:00:18,733] Recently_Viewed_Products - Step 01: Click to Header menu
+[INFO ] [2022-12-20 01:00:19,484] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 01:00:19,600] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 01:00:20,636] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 01:00:20,750] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 01:00:21,937] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 01:00:22,081] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 01:00:22,307] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 01:00:22,795] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 01:00:22,903] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 01:00:24,102] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 01:00:24,226] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 01:00:24,437] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 01:00:25,494] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 01:00:25,585] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 01:00:26,555] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 01:00:26,670] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 01:00:26,875] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 01:00:27,320] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 01:00:27,420] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 01:00:28,349] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 01:00:28,424] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 01:00:28,591] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 01:00:29,052] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 01:00:29,145] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 01:00:30,242] Recently_Viewed_Products - Step 11: Verify Product Name correctly 'Lenovo Thinkpad X1 Carbon Laptop' 
+[INFO ] [2022-12-20 01:00:30,336] OS name = windows 10
+[INFO ] [2022-12-20 01:00:30,337] Driver instance name = chromedriver: chrome on windows (120432ba165a15b4d24f62e127bd9cb4)
+[INFO ] [2022-12-20 11:17:51,193] Recently_Viewed_Products - Step 01: Open Product Category page
+[INFO ] [2022-12-20 11:17:51,928] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 11:17:52,100] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 11:17:52,657] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 11:17:52,773] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 11:17:54,453] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 11:17:54,564] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 11:17:54,744] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 11:17:55,321] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 11:17:55,416] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 11:17:56,435] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 11:17:56,564] Recently_Viewed_Products - Step 12: Hover To Header Menu
+[INFO ] [2022-12-20 11:17:56,745] Recently_Viewed_Products - Step 13: Click to Sub-menu
+[INFO ] [2022-12-20 11:17:57,177] Recently_Viewed_Products - Step 14: Verify Page Title correctly
+[INFO ] [2022-12-20 11:17:57,282] Recently_Viewed_Products - Step 15: Click to Product Name
+[INFO ] [2022-12-20 11:17:58,111] Recently_Viewed_Products - Step 16: Verify Product Name correctly
+[INFO ] [2022-12-20 11:17:58,213] Recently_Viewed_Products - Step 17: Hover To Header Menu
+[INFO ] [2022-12-20 11:17:58,380] Recently_Viewed_Products - Step 18: Click to Sub-menu
+[INFO ] [2022-12-20 11:17:58,893] Recently_Viewed_Products - Step 19: Verify Page Title correctly
+[INFO ] [2022-12-20 11:17:58,979] Recently_Viewed_Products - Step 20: Click to Product Name
+[INFO ] [2022-12-20 11:17:59,853] Recently_Viewed_Products - Step 21: Verify Product Name correctly
+[INFO ] [2022-12-20 11:17:59,949] Recently_Viewed_Products - Step 22: Hover To Header Menu
+[INFO ] [2022-12-20 11:18:00,111] Recently_Viewed_Products - Step 23: Click to Sub-menu
+[INFO ] [2022-12-20 11:18:00,606] Recently_Viewed_Products - Step 24: Verify Page Title correctly
+[INFO ] [2022-12-20 11:18:00,694] Recently_Viewed_Products - Step 25: Click to Product Name
+[INFO ] [2022-12-20 11:18:01,586] Recently_Viewed_Products - Step 26: Verify Product Name correctly 'Lenovo Thinkpad X1 Carbon Laptop' 
+[INFO ] [2022-12-20 11:18:01,677] Recently_Viewed_Products - Step 27: Open 'Recently viewed products' page
+[INFO ] [2022-12-20 11:18:02,853] Recently_Viewed_Products - Step 28: Verify Page Title 'Recently viewed products' is displayed
+[INFO ] [2022-12-20 11:18:02,940] Recently_Viewed_Products - Step 29: Verify just last 3 product are displayed
+[INFO ] [2022-12-20 11:18:33,031] OS name = windows 10
+[INFO ] [2022-12-20 11:18:33,032] Driver instance name = chromedriver: chrome on windows (cd66877e8975ec068974ce941ac57738)
+[INFO ] [2022-12-20 11:29:36,178] Recently_Viewed_Products - Step 01: Open Product Category page
+[INFO ] [2022-12-20 11:29:36,902] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 11:29:37,019] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 11:29:38,072] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 11:29:38,222] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 11:29:39,205] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 11:29:39,335] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 11:29:39,573] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 11:29:40,077] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 11:29:40,160] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 11:29:41,621] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 11:29:41,705] Recently_Viewed_Products - Step 12: Hover To Header Menu
+[INFO ] [2022-12-20 11:29:41,886] Recently_Viewed_Products - Step 13: Click to Sub-menu
+[INFO ] [2022-12-20 11:29:43,046] Recently_Viewed_Products - Step 14: Verify Page Title correctly
+[INFO ] [2022-12-20 11:29:43,149] Recently_Viewed_Products - Step 15: Click to Product Name
+[INFO ] [2022-12-20 11:29:44,310] Recently_Viewed_Products - Step 16: Verify Product Name correctly
+[INFO ] [2022-12-20 11:29:44,386] Recently_Viewed_Products - Step 17: Hover To Header Menu
+[INFO ] [2022-12-20 11:29:44,566] Recently_Viewed_Products - Step 18: Click to Sub-menu
+[INFO ] [2022-12-20 11:29:45,702] Recently_Viewed_Products - Step 19: Verify Page Title correctly
+[INFO ] [2022-12-20 11:29:45,788] Recently_Viewed_Products - Step 20: Click to Product Name
+[INFO ] [2022-12-20 11:29:47,111] Recently_Viewed_Products - Step 21: Verify Product Name correctly
+[INFO ] [2022-12-20 11:29:47,195] Recently_Viewed_Products - Step 22: Hover To Header Menu
+[INFO ] [2022-12-20 11:29:47,360] Recently_Viewed_Products - Step 23: Click to Sub-menu
+[INFO ] [2022-12-20 11:29:48,443] Recently_Viewed_Products - Step 24: Verify Page Title correctly
+[INFO ] [2022-12-20 11:29:48,526] Recently_Viewed_Products - Step 25: Click to Product Name
+[INFO ] [2022-12-20 11:29:49,708] Recently_Viewed_Products - Step 26: Verify Product Name correctly 'Lenovo Thinkpad X1 Carbon Laptop' 
+[INFO ] [2022-12-20 11:29:49,806] Recently_Viewed_Products - Step 27: Open 'Recently viewed products' page
+[INFO ] [2022-12-20 11:29:50,951] Recently_Viewed_Products - Step 28: Verify Page Title 'Recently viewed products' is displayed
+[INFO ] [2022-12-20 11:29:51,086] Recently_Viewed_Products - Step 29: Verify just last 3 product are displayed
+[INFO ] [2022-12-20 11:29:51,307] OS name = windows 10
+[INFO ] [2022-12-20 11:29:51,307] Driver instance name = chromedriver: chrome on windows (9314f692aecb4f77756da6e867b8b074)
+[INFO ] [2022-12-20 11:44:06,398] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-20 11:44:06,998] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-20 11:44:07,032] OS name = windows 10
+[INFO ] [2022-12-20 11:44:07,032] Driver instance name = chromedriver: chrome on windows (a3c7c371c44fcd267ecab554495799f2)
+[INFO ] [2022-12-20 11:44:33,774] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-20 11:44:34,352] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-20 11:44:36,802] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-20 11:44:36,906] -------------------------PASSED--------------------------
+[INFO ] [2022-12-20 11:44:36,906] Pre-condition - Step 01: Open Computers Page
+[INFO ] [2022-12-20 11:44:37,607] Pre-condition - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 11:44:37,698] Pre-condition - Step 03: Click to Category
+[INFO ] [2022-12-20 11:44:38,235] Pre-condition - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 11:44:38,336] Add_To_Wishlist - Step 01: Open Product detail page
+[INFO ] [2022-12-20 11:44:39,533] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-20 11:44:39,668] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-20 11:44:39,824] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-20 11:44:40,149] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-20 11:44:40,273] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-20 11:44:42,371] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-20 11:44:42,494] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-20 11:44:42,590] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-20 11:44:43,099] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-20 11:44:43,190] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-20 11:44:43,260] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
+[INFO ] [2022-12-20 11:44:43,714] Add_Product_To_Cart_From_Wishlist - Step 02: Open Wishlist page
+[INFO ] [2022-12-20 11:44:44,181] Add_Product_To_Cart_From_Wishlist - Step 03: Click to checkbox Add to Cart
+[INFO ] [2022-12-20 11:44:44,351] Add_Product_To_Cart_From_Wishlist - Step 04: Click to button Add to Cart
+[INFO ] [2022-12-20 11:44:45,818] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-20 11:44:45,948] Add_Product_To_Cart_From_Wishlist - Step 06: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-20 11:44:46,073] Add_Product_To_Cart_From_Wishlist - Step 07: Open Wishlist page
+[INFO ] [2022-12-20 11:44:46,554] Add_Product_To_Cart_From_Wishlist - Step 08: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-20 11:44:56,729] Remove_Product_In_Wishlist - Step 01: Click to Header menu
+[INFO ] [2022-12-20 11:44:57,855] Remove_Product_In_Wishlist - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 11:44:57,977] Remove_Product_In_Wishlist - Step 03: Click to Category
+[INFO ] [2022-12-20 11:44:58,547] Remove_Product_In_Wishlist - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 11:44:58,647] Remove_Product_In_Wishlist - Step 05: Click to Product Name
+[INFO ] [2022-12-20 11:45:00,017] Remove_Product_In_Wishlist - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 11:45:00,112] Remove_Product_In_Wishlist - Step 07: Click to button Add to Wishlist
+[INFO ] [2022-12-20 11:45:00,268] Remove_Product_In_Wishlist - Step 08: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-20 11:45:00,614] Remove_Product_In_Wishlist - Step 09: Close Bar Notification
+[INFO ] [2022-12-20 11:45:00,755] Remove_Product_In_Wishlist - Step 10: Open Wishlist page
+[INFO ] [2022-12-20 11:45:02,936] Remove_Product_In_Wishlist - Step 11: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-20 11:45:03,021] Remove_Product_In_Wishlist - Step 12: Verify the product name 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+[INFO ] [2022-12-20 11:45:03,102] Remove_Product_In_Wishlist - Step 13: Click to Remove button
+[INFO ] [2022-12-20 11:45:03,721] Remove_Product_In_Wishlist - Step 14: Verify message 'The wishlist is empty!' is displayed
+[INFO ] [2022-12-20 11:45:03,859] Remove_Product_In_Wishlist - Step 15: Verify Product Name is Undisplayed in Wishlist page
+[INFO ] [2022-12-20 11:45:13,995] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-20 11:45:15,222] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 11:45:15,361] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-20 11:45:15,907] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 11:45:16,014] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-20 11:45:16,143] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-20 11:45:16,462] Add_Product_To_Compare - Step 07: Close Bar Notification
+[INFO ] [2022-12-20 11:45:17,599] Add_Product_To_Compare - Step 08: Add product to Compare
+[INFO ] [2022-12-20 11:45:17,764] Add_Product_To_Compare - Step 09: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-20 11:45:18,136] Add_Product_To_Compare - Step 10: Close Bar Notification
+[INFO ] [2022-12-20 11:45:19,346] Add_Product_To_Compare - Step 11: Open Compare product page 
+[INFO ] [2022-12-20 11:45:19,848] Add_Product_To_Compare - Step 12: Verify page title 'Compare products' is displayed correctly 
+[INFO ] [2022-12-20 11:45:19,934] Add_Product_To_Compare - Step 13: Verify remove button displayed 
+[INFO ] [2022-12-20 11:45:20,012] Add_Product_To_Compare - Step 14: Verify product name displayed 
+[INFO ] [2022-12-20 11:45:20,081] Add_Product_To_Compare - Step 15: Verify product price displayed 
+[INFO ] [2022-12-20 11:45:20,169] Add_Product_To_Compare - Step 16: Verify remove button displayed 
+[INFO ] [2022-12-20 11:45:20,247] Add_Product_To_Compare - Step 17: Verify product name displayed 
+[INFO ] [2022-12-20 11:45:20,326] Add_Product_To_Compare - Step 18: Verify product price displayed 
+[INFO ] [2022-12-20 11:45:20,402] Add_Product_To_Compare - Step 19: Click to Clear List button
+[INFO ] [2022-12-20 11:45:21,110] Add_Product_To_Compare - Step 20: Verify message 'You have no items to compare.' is displayed 
+[INFO ] [2022-12-20 11:45:21,203] Add_Product_To_Compare - Step 21: Verify product name Undisplayed 
+[INFO ] [2022-12-20 11:45:31,394] Add_Product_To_Compare - Step 22: Verify product name Undisplayed 
+[INFO ] [2022-12-20 11:45:41,561] Recently_Viewed_Products - Step 01: Open Product Category page
+[INFO ] [2022-12-20 11:45:42,065] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 11:45:42,157] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 11:45:42,729] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 11:45:42,809] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 11:45:43,698] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 11:45:43,776] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 11:45:43,969] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 11:45:44,575] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 11:45:44,661] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 11:45:45,627] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 11:45:45,714] Recently_Viewed_Products - Step 12: Hover To Header Menu
+[INFO ] [2022-12-20 11:45:45,879] Recently_Viewed_Products - Step 13: Click to Sub-menu
+[INFO ] [2022-12-20 11:45:46,379] Recently_Viewed_Products - Step 14: Verify Page Title correctly
+[INFO ] [2022-12-20 11:45:46,456] Recently_Viewed_Products - Step 15: Click to Product Name
+[INFO ] [2022-12-20 11:45:47,396] Recently_Viewed_Products - Step 16: Verify Product Name correctly
+[INFO ] [2022-12-20 11:45:47,502] Recently_Viewed_Products - Step 17: Hover To Header Menu
+[INFO ] [2022-12-20 11:45:47,666] Recently_Viewed_Products - Step 18: Click to Sub-menu
+[INFO ] [2022-12-20 11:45:48,295] Recently_Viewed_Products - Step 19: Verify Page Title correctly
+[INFO ] [2022-12-20 11:45:48,362] Recently_Viewed_Products - Step 20: Click to Product Name
+[INFO ] [2022-12-20 11:45:49,318] Recently_Viewed_Products - Step 21: Verify Product Name correctly
+[INFO ] [2022-12-20 11:45:49,404] Recently_Viewed_Products - Step 22: Hover To Header Menu
+[INFO ] [2022-12-20 11:45:49,583] Recently_Viewed_Products - Step 23: Click to Sub-menu
+[INFO ] [2022-12-20 11:45:50,115] Recently_Viewed_Products - Step 24: Verify Page Title correctly
+[INFO ] [2022-12-20 11:45:50,188] Recently_Viewed_Products - Step 25: Click to Product Name
+[INFO ] [2022-12-20 11:45:51,098] Recently_Viewed_Products - Step 26: Verify Product Name correctly 'Lenovo Thinkpad X1 Carbon Laptop' 
+[INFO ] [2022-12-20 11:45:51,187] Recently_Viewed_Products - Step 27: Open 'Recently viewed products' page
+[INFO ] [2022-12-20 11:45:51,702] Recently_Viewed_Products - Step 28: Verify Page Title 'Recently viewed products' is displayed
+[INFO ] [2022-12-20 11:45:51,800] Recently_Viewed_Products - Step 29: Verify just last 3 product are displayed
+[INFO ] [2022-12-20 11:45:52,007] OS name = windows 10
+[INFO ] [2022-12-20 11:45:52,008] Driver instance name = chromedriver: chrome on windows (821eaae28d6b948381028fe905166657)
+[INFO ] [2022-12-20 11:58:29,388] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-20 11:58:29,973] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-20 11:58:32,075] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-20 11:58:33,048] -------------------------PASSED--------------------------
+[INFO ] [2022-12-20 11:58:33,049] Pre-condition - Step 04: Open Computers Page
+[INFO ] [2022-12-20 11:58:33,753] Pre-condition - Step 05: Verify Page Title correctly
+[INFO ] [2022-12-20 11:58:33,834] Pre-condition - Step 06: Click to Category
+[INFO ] [2022-12-20 11:58:34,406] Pre-condition - Step 07: Verify Page Title correctly
+[INFO ] [2022-12-20 11:58:34,515] Add_To_Wishlist - Step 01: Open Product detail page
+[INFO ] [2022-12-20 11:58:35,589] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-20 11:58:35,720] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-20 11:58:35,887] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-20 11:58:36,246] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-20 11:58:36,367] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-20 11:58:37,753] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-20 11:58:37,829] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-20 11:58:37,908] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-20 11:58:38,400] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-20 11:58:38,490] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-20 11:58:38,559] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
+[INFO ] [2022-12-20 11:58:39,013] Add_Product_To_Cart_From_Wishlist - Step 02: Open Wishlist page
+[INFO ] [2022-12-20 11:58:39,437] Add_Product_To_Cart_From_Wishlist - Step 03: Click to checkbox Add to Cart
+[INFO ] [2022-12-20 11:58:39,583] Add_Product_To_Cart_From_Wishlist - Step 04: Click to button Add to Cart
+[INFO ] [2022-12-20 11:58:40,393] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-20 11:58:40,468] Add_Product_To_Cart_From_Wishlist - Step 06: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-20 11:58:40,533] Add_Product_To_Cart_From_Wishlist - Step 07: Open Wishlist page
+[INFO ] [2022-12-20 11:58:40,949] Add_Product_To_Cart_From_Wishlist - Step 08: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-20 11:58:51,071] Remove_Product_In_Wishlist - Step 01: Click to Header menu
+[INFO ] [2022-12-20 11:58:51,575] Remove_Product_In_Wishlist - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 11:58:51,665] Remove_Product_In_Wishlist - Step 03: Click to Category
+[INFO ] [2022-12-20 11:58:52,166] Remove_Product_In_Wishlist - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 11:58:52,256] Remove_Product_In_Wishlist - Step 05: Click to Product Name
+[INFO ] [2022-12-20 11:58:53,193] Remove_Product_In_Wishlist - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 11:58:53,303] Remove_Product_In_Wishlist - Step 07: Click to button Add to Wishlist
+[INFO ] [2022-12-20 11:58:53,446] Remove_Product_In_Wishlist - Step 08: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-20 11:58:53,817] Remove_Product_In_Wishlist - Step 09: Close Bar Notification
+[INFO ] [2022-12-20 11:58:53,921] Remove_Product_In_Wishlist - Step 10: Open Wishlist page
+[INFO ] [2022-12-20 11:58:55,476] Remove_Product_In_Wishlist - Step 11: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-20 11:58:55,601] Remove_Product_In_Wishlist - Step 12: Verify the product name 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+[INFO ] [2022-12-20 11:58:55,703] Remove_Product_In_Wishlist - Step 13: Click to Remove button
+[INFO ] [2022-12-20 11:58:56,171] Remove_Product_In_Wishlist - Step 14: Verify message 'The wishlist is empty!' is displayed
+[INFO ] [2022-12-20 11:58:56,289] Remove_Product_In_Wishlist - Step 15: Verify Product Name is Undisplayed in Wishlist page
+[INFO ] [2022-12-20 11:59:06,475] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-20 11:59:07,024] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 11:59:07,098] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-20 11:59:07,599] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 11:59:07,665] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-20 11:59:07,796] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-20 11:59:08,145] Add_Product_To_Compare - Step 07: Close Bar Notification
+[INFO ] [2022-12-20 11:59:09,259] Add_Product_To_Compare - Step 08: Add product to Compare
+[INFO ] [2022-12-20 11:59:09,463] Add_Product_To_Compare - Step 09: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-20 11:59:09,853] Add_Product_To_Compare - Step 10: Close Bar Notification
+[INFO ] [2022-12-20 11:59:11,030] Add_Product_To_Compare - Step 11: Open Compare product page 
+[INFO ] [2022-12-20 11:59:11,551] Add_Product_To_Compare - Step 12: Verify page title 'Compare products' is displayed correctly 
+[INFO ] [2022-12-20 11:59:11,647] Add_Product_To_Compare - Step 13: Verify remove button displayed 
+[INFO ] [2022-12-20 11:59:11,725] Add_Product_To_Compare - Step 14: Verify product name displayed 
+[INFO ] [2022-12-20 11:59:11,787] Add_Product_To_Compare - Step 15: Verify product price displayed 
+[INFO ] [2022-12-20 11:59:11,850] Add_Product_To_Compare - Step 16: Verify remove button displayed 
+[INFO ] [2022-12-20 11:59:11,927] Add_Product_To_Compare - Step 17: Verify product name displayed 
+[INFO ] [2022-12-20 11:59:12,005] Add_Product_To_Compare - Step 18: Verify product price displayed 
+[INFO ] [2022-12-20 11:59:12,066] Add_Product_To_Compare - Step 19: Click to Clear List button
+[INFO ] [2022-12-20 11:59:12,786] Add_Product_To_Compare - Step 20: Verify message 'You have no items to compare.' is displayed 
+[INFO ] [2022-12-20 11:59:12,849] Add_Product_To_Compare - Step 21: Verify product name Undisplayed 
+[INFO ] [2022-12-20 11:59:22,995] Add_Product_To_Compare - Step 22: Verify product name Undisplayed 
+[INFO ] [2022-12-20 11:59:33,097] Recently_Viewed_Products - Step 01: Open Product Category page
+[INFO ] [2022-12-20 11:59:33,628] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 11:59:33,707] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 11:59:34,231] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 11:59:34,316] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 11:59:35,310] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 11:59:35,435] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 11:59:35,615] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 11:59:36,165] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 11:59:36,247] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 11:59:37,322] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 11:59:37,403] Recently_Viewed_Products - Step 12: Hover To Header Menu
+[INFO ] [2022-12-20 11:59:37,584] Recently_Viewed_Products - Step 13: Click to Sub-menu
+[INFO ] [2022-12-20 11:59:38,103] Recently_Viewed_Products - Step 14: Verify Page Title correctly
+[INFO ] [2022-12-20 11:59:38,199] Recently_Viewed_Products - Step 15: Click to Product Name
+[INFO ] [2022-12-20 11:59:39,273] Recently_Viewed_Products - Step 16: Verify Product Name correctly
+[INFO ] [2022-12-20 11:59:39,421] Recently_Viewed_Products - Step 17: Hover To Header Menu
+[INFO ] [2022-12-20 11:59:39,643] Recently_Viewed_Products - Step 18: Click to Sub-menu
+[INFO ] [2022-12-20 11:59:40,144] Recently_Viewed_Products - Step 19: Verify Page Title correctly
+[INFO ] [2022-12-20 11:59:40,229] Recently_Viewed_Products - Step 20: Click to Product Name
+[INFO ] [2022-12-20 11:59:41,292] Recently_Viewed_Products - Step 21: Verify Product Name correctly
+[INFO ] [2022-12-20 11:59:41,383] Recently_Viewed_Products - Step 22: Hover To Header Menu
+[INFO ] [2022-12-20 11:59:41,544] Recently_Viewed_Products - Step 23: Click to Sub-menu
+[INFO ] [2022-12-20 11:59:42,080] Recently_Viewed_Products - Step 24: Verify Page Title correctly
+[INFO ] [2022-12-20 11:59:42,141] Recently_Viewed_Products - Step 25: Click to Product Name
+[INFO ] [2022-12-20 11:59:43,149] Recently_Viewed_Products - Step 26: Verify Product Name correctly 'Lenovo Thinkpad X1 Carbon Laptop' 
+[INFO ] [2022-12-20 11:59:43,261] Recently_Viewed_Products - Step 27: Open 'Recently viewed products' page
+[INFO ] [2022-12-20 11:59:43,778] Recently_Viewed_Products - Step 28: Verify Page Title 'Recently viewed products' is displayed
+[INFO ] [2022-12-20 11:59:43,858] Recently_Viewed_Products - Step 29: Verify just last 3 product are displayed
+[INFO ] [2022-12-20 11:59:44,061] Recently_Viewed_Products - Step 30: Click to Logout link
+[INFO ] [2022-12-20 11:59:44,828] OS name = windows 10
+[INFO ] [2022-12-20 11:59:44,828] Driver instance name = chromedriver: chrome on windows (932c02f332a195d27e89579366fe1c2a)
+[INFO ] [2022-12-20 12:01:35,589] Pre-condition - Step 01: Navigate to 'Login' page
+[INFO ] [2022-12-20 12:01:36,173] Pre-condition - Step 02: Set all Coolies and reload page
+[INFO ] [2022-12-20 12:01:38,933] Pre-condition - Step 03: Verify 'My Account' link is displayed
+[INFO ] [2022-12-20 12:01:39,037] -------------------------PASSED--------------------------
+[INFO ] [2022-12-20 12:01:39,038] Pre-condition - Step 04: Open Computers Page
+[INFO ] [2022-12-20 12:01:39,785] Pre-condition - Step 05: Verify Page Title correctly
+[INFO ] [2022-12-20 12:01:39,865] Pre-condition - Step 06: Click to Category
+[INFO ] [2022-12-20 12:01:40,350] Pre-condition - Step 07: Verify Page Title correctly
+[INFO ] [2022-12-20 12:01:40,438] Add_To_Wishlist - Step 01: Open Product detail page
+[INFO ] [2022-12-20 12:01:41,771] Add_To_Wishlist - Step 02: Verify Product Name correctly
+[INFO ] [2022-12-20 12:01:41,860] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
+[INFO ] [2022-12-20 12:01:41,992] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-20 12:01:42,364] Add_To_Wishlist - Step 05: Close Bar Notification
+[INFO ] [2022-12-20 12:01:42,486] Add_To_Wishlist - Step 06: Open Wishlist page
+[INFO ] [2022-12-20 12:01:44,504] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-20 12:01:44,578] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
+[INFO ] [2022-12-20 12:01:44,658] Add_To_Wishlist - Step 09: Click View wishlist from share link
+[INFO ] [2022-12-20 12:01:45,112] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
+[INFO ] [2022-12-20 12:01:47,205] Add_To_Wishlist - Step 11: Verify the product name is displayed
+[INFO ] [2022-12-20 12:01:47,285] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
+[INFO ] [2022-12-20 12:01:47,750] Add_Product_To_Cart_From_Wishlist - Step 02: Open Wishlist page
+[INFO ] [2022-12-20 12:01:48,181] Add_Product_To_Cart_From_Wishlist - Step 03: Click to checkbox Add to Cart
+[INFO ] [2022-12-20 12:01:48,353] Add_Product_To_Cart_From_Wishlist - Step 04: Click to button Add to Cart
+[INFO ] [2022-12-20 12:01:49,786] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Shopping Cart page is displayed
+[INFO ] [2022-12-20 12:01:49,909] Add_Product_To_Cart_From_Wishlist - Step 06: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
+[INFO ] [2022-12-20 12:01:50,003] Add_Product_To_Cart_From_Wishlist - Step 07: Open Wishlist page
+[INFO ] [2022-12-20 12:01:50,405] Add_Product_To_Cart_From_Wishlist - Step 08: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
+[INFO ] [2022-12-20 12:02:00,543] Remove_Product_In_Wishlist - Step 01: Click to Header menu
+[INFO ] [2022-12-20 12:02:01,714] Remove_Product_In_Wishlist - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 12:02:01,838] Remove_Product_In_Wishlist - Step 03: Click to Category
+[INFO ] [2022-12-20 12:02:02,353] Remove_Product_In_Wishlist - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 12:02:02,435] Remove_Product_In_Wishlist - Step 05: Click to Product Name
+[INFO ] [2022-12-20 12:02:03,796] Remove_Product_In_Wishlist - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 12:02:03,885] Remove_Product_In_Wishlist - Step 07: Click to button Add to Wishlist
+[INFO ] [2022-12-20 12:02:04,020] Remove_Product_In_Wishlist - Step 08: Verify message 'The product has been added to your wishlist' is dispplayed
+[INFO ] [2022-12-20 12:02:04,392] Remove_Product_In_Wishlist - Step 09: Close Bar Notification
+[INFO ] [2022-12-20 12:02:04,908] Remove_Product_In_Wishlist - Step 10: Open Wishlist page
+[INFO ] [2022-12-20 12:02:06,646] Remove_Product_In_Wishlist - Step 11: Verify Page Title 'Wishlist' is displayed
+[INFO ] [2022-12-20 12:02:06,775] Remove_Product_In_Wishlist - Step 12: Verify the product name 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
+[INFO ] [2022-12-20 12:02:06,849] Remove_Product_In_Wishlist - Step 13: Click to Remove button
+[INFO ] [2022-12-20 12:02:07,309] Remove_Product_In_Wishlist - Step 14: Verify message 'The wishlist is empty!' is displayed
+[INFO ] [2022-12-20 12:02:07,394] Remove_Product_In_Wishlist - Step 15: Verify Product Name is Undisplayed in Wishlist page
+[INFO ] [2022-12-20 12:02:17,531] Add_Product_To_Compare - Step 01: Click to Header menu
+[INFO ] [2022-12-20 12:02:18,702] Add_Product_To_Compare - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 12:02:18,776] Add_Product_To_Compare - Step 03: Click to Category
+[INFO ] [2022-12-20 12:02:19,312] Add_Product_To_Compare - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 12:02:19,382] Add_Product_To_Compare - Step 05: Add product to Compare
+[INFO ] [2022-12-20 12:02:19,517] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-20 12:02:19,834] Add_Product_To_Compare - Step 07: Close Bar Notification
+[INFO ] [2022-12-20 12:02:20,961] Add_Product_To_Compare - Step 08: Add product to Compare
+[INFO ] [2022-12-20 12:02:21,131] Add_Product_To_Compare - Step 09: Verify message 'The product has been added to your product comparison' 
+[INFO ] [2022-12-20 12:02:21,534] Add_Product_To_Compare - Step 10: Close Bar Notification
+[INFO ] [2022-12-20 12:02:22,673] Add_Product_To_Compare - Step 11: Open Compare product page 
+[INFO ] [2022-12-20 12:02:23,208] Add_Product_To_Compare - Step 12: Verify page title 'Compare products' is displayed correctly 
+[INFO ] [2022-12-20 12:02:23,290] Add_Product_To_Compare - Step 13: Verify remove button displayed 
+[INFO ] [2022-12-20 12:02:23,369] Add_Product_To_Compare - Step 14: Verify product name displayed 
+[INFO ] [2022-12-20 12:02:23,430] Add_Product_To_Compare - Step 15: Verify product price displayed 
+[INFO ] [2022-12-20 12:02:23,491] Add_Product_To_Compare - Step 16: Verify remove button displayed 
+[INFO ] [2022-12-20 12:02:23,572] Add_Product_To_Compare - Step 17: Verify product name displayed 
+[INFO ] [2022-12-20 12:02:23,635] Add_Product_To_Compare - Step 18: Verify product price displayed 
+[INFO ] [2022-12-20 12:02:23,695] Add_Product_To_Compare - Step 19: Click to Clear List button
+[INFO ] [2022-12-20 12:02:24,401] Add_Product_To_Compare - Step 20: Verify message 'You have no items to compare.' is displayed 
+[INFO ] [2022-12-20 12:02:24,477] Add_Product_To_Compare - Step 21: Verify product name Undisplayed 
+[INFO ] [2022-12-20 12:02:34,623] Add_Product_To_Compare - Step 22: Verify product name Undisplayed 
+[INFO ] [2022-12-20 12:02:44,807] Recently_Viewed_Products - Step 01: Open Product Category page
+[INFO ] [2022-12-20 12:02:45,306] Recently_Viewed_Products - Step 02: Verify Page Title correctly
+[INFO ] [2022-12-20 12:02:45,386] Recently_Viewed_Products - Step 03: Click to Category
+[INFO ] [2022-12-20 12:02:45,929] Recently_Viewed_Products - Step 04: Verify Page Title correctly
+[INFO ] [2022-12-20 12:02:46,011] Recently_Viewed_Products - Step 05: Click to Product Name
+[INFO ] [2022-12-20 12:02:46,926] Recently_Viewed_Products - Step 06: Verify Product Name correctly
+[INFO ] [2022-12-20 12:02:47,009] Recently_Viewed_Products - Step 07: Hover To Header Menu
+[INFO ] [2022-12-20 12:02:47,201] Recently_Viewed_Products - Step 08: Click to Sub-menu
+[INFO ] [2022-12-20 12:02:47,678] Recently_Viewed_Products - Step 09: Verify Page Title correctly
+[INFO ] [2022-12-20 12:02:47,754] Recently_Viewed_Products - Step 10: Click to Product Name
+[INFO ] [2022-12-20 12:02:48,926] Recently_Viewed_Products - Step 11: Verify Product Name correctly
+[INFO ] [2022-12-20 12:02:49,017] Recently_Viewed_Products - Step 12: Hover To Header Menu
+[INFO ] [2022-12-20 12:02:49,182] Recently_Viewed_Products - Step 13: Click to Sub-menu
+[INFO ] [2022-12-20 12:02:50,351] Recently_Viewed_Products - Step 14: Verify Page Title correctly
+[INFO ] [2022-12-20 12:02:50,424] Recently_Viewed_Products - Step 15: Click to Product Name
+[INFO ] [2022-12-20 12:02:51,279] Recently_Viewed_Products - Step 16: Verify Product Name correctly
+[INFO ] [2022-12-20 12:02:51,376] Recently_Viewed_Products - Step 17: Hover To Header Menu
+[INFO ] [2022-12-20 12:02:51,554] Recently_Viewed_Products - Step 18: Click to Sub-menu
+[INFO ] [2022-12-20 12:02:52,722] Recently_Viewed_Products - Step 19: Verify Page Title correctly
+[INFO ] [2022-12-20 12:02:52,844] Recently_Viewed_Products - Step 20: Click to Product Name
+[INFO ] [2022-12-20 12:02:54,009] Recently_Viewed_Products - Step 21: Verify Product Name correctly
+[INFO ] [2022-12-20 12:02:54,083] Recently_Viewed_Products - Step 22: Hover To Header Menu
+[INFO ] [2022-12-20 12:02:54,248] Recently_Viewed_Products - Step 23: Click to Sub-menu
+[INFO ] [2022-12-20 12:02:55,423] Recently_Viewed_Products - Step 24: Verify Page Title correctly
+[INFO ] [2022-12-20 12:02:55,548] Recently_Viewed_Products - Step 25: Click to Product Name
+[INFO ] [2022-12-20 12:02:56,849] Recently_Viewed_Products - Step 26: Verify Product Name correctly 'Lenovo Thinkpad X1 Carbon Laptop' 
+[INFO ] [2022-12-20 12:02:56,946] Recently_Viewed_Products - Step 27: Open 'Recently viewed products' page
+[INFO ] [2022-12-20 12:02:57,439] Recently_Viewed_Products - Step 28: Verify Page Title 'Recently viewed products' is displayed
+[INFO ] [2022-12-20 12:02:57,523] Recently_Viewed_Products - Step 29: Verify just last 3 product are displayed
+[INFO ] [2022-12-20 12:02:57,727] Recently_Viewed_Products - Step 30: Click to Logout link
+[INFO ] [2022-12-20 12:02:58,479] OS name = windows 10
+[INFO ] [2022-12-20 12:02:58,480] Driver instance name = chromedriver: chrome on windows (39654d2b3fdd07aac5e7b150868ecaad)

@@ -6,6 +6,7 @@ import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
 import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
+import pageObjects.nopCommerce.user.UserCompareProductPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
@@ -14,9 +15,12 @@ import pageObjects.nopCommerce.user.UserProductCategoryPageObject;
 import pageObjects.nopCommerce.user.UserProductDetailPageObject;
 import pageObjects.nopCommerce.user.UserProductListPageObject;
 import pageObjects.nopCommerce.user.UserProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserRecentlyViewedProductsPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 import pageObjects.nopCommerce.user.UserSearchPageObject;
+import pageObjects.nopCommerce.user.UserShoppingCartPageObject;
+import pageObjects.nopCommerce.user.UserWishListPageObject;
 
 public class PageGeneratorManager {
 
@@ -84,5 +88,25 @@ public class PageGeneratorManager {
 
 	public static UserSearchPageObject getUserSearchPage(WebDriver driver) {
 		return new UserSearchPageObject(driver);
+	}
+
+	public static UserWishListPageObject getUserWishListPage(WebDriver driver) {
+
+		return new UserWishListPageObject(driver);
+	}
+
+	public static UserShoppingCartPageObject getUserShoppingCartPage(WebDriver driver) {
+
+		return new UserShoppingCartPageObject(driver);
+	}
+
+	public static UserCompareProductPageObject getCompareProductsPage(WebDriver driver) {
+
+		return new UserCompareProductPageObject(driver);
+	}
+
+	public static UserRecentlyViewedProductsPageObject getUserRecentlyViewedProductsPage(WebDriver driver) {
+
+		return new UserRecentlyViewedProductsPageObject(driver);
 	}
 }

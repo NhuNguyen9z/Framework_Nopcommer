@@ -51,19 +51,16 @@ public class Common_02_Register_Cookie extends BaseTest {
 		log.info("Pre-condition - Step 08: Verify Register success message is displayed");
 		verifyEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
-		log.info("Pre-condition - Step 09: Click to Logout link");
-		homePage = registerPage.clickToLogoutLink();
-
-		log.info("Pre-condition - Step 10: Navigate to 'Login' page");
+		log.info("Pre-condition - Step 09: Navigate to 'Login' page");
 		loginPage = homePage.openLoginPage();
 
-		log.info("Pre-condition - Step 11: Enter to Email textbox with value is '" + emailAddress + "'");
+		log.info("Pre-condition - Step 10: Enter to Email textbox with value is '" + emailAddress + "'");
 		loginPage.inputToEmailTextbox(emailAddress);
 
-		log.info("Pre-condition - Step 12: Enter to Password textbox with value is '" + password + "'");
+		log.info("Pre-condition - Step 11: Enter to Password textbox with value is '" + password + "'");
 		loginPage.inputToPasswordTextbox(password);
 
-		log.info("Pre-condition - Step 13: Click to Login button");
+		log.info("Pre-condition - Step 12: Click to Login button");
 		homePage = loginPage.clickToLoginButton();
 
 		loggedCookies = registerPage.getAllCookies(driver);
