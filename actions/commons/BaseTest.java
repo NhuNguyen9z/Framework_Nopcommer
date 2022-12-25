@@ -53,7 +53,19 @@ public class BaseTest {
 			driverBaseTest = new FirefoxDriver(options);
 		} else if (browserList == BrowserList.CHROME) {
 			WebDriverManager.chromedriver().setup();
-			driverBaseTest = new ChromeDriver();
+			ChromeOptions options = new ChromeOptions();
+			options.setAcceptInsecureCerts(true);
+			options.addArguments("--start-maximized");
+			options.addArguments("--disable-web-security");
+			options.addArguments("--no-proxy-server");
+			options.addArguments("--disable-geolocation");
+			options.setExperimentalOption("useAutomationExtension", false);
+			options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+			Map<String, Object> prefs = new HashMap<String, Object>();
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			options.setExperimentalOption("prefs", prefs);
+			driverBaseTest = new ChromeDriver(options);
 		} else if (browserList == BrowserList.H_CHROME) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();

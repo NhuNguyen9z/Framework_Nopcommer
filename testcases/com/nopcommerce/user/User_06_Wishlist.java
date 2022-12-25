@@ -268,10 +268,10 @@ public class User_06_Wishlist extends BaseTest {
 		Assert.assertTrue(productDetailPage.isPageTitleByTextDisplayed(driver, "product-name", "Apple MacBook Pro 13-inch"));
 
 		log.info("Recently_Viewed_Products - Step 07: Hover To Header Menu");
-		productDetailPage.hoverToHeaderMenu("Computers");
+		productDetailPage.hoverToHeaderMenu(driver, "Computers");
 
 		log.info("Recently_Viewed_Products - Step 08: Click to Sub-menu");
-		productListPage = productDetailPage.clickToSubMenu("Computers", "Notebooks");
+		productListPage = productDetailPage.clickToSubMenu(driver, "Computers", "Notebooks");
 
 		log.info("Recently_Viewed_Products - Step 09: Verify Page Title correctly");
 		Assert.assertTrue(productListPage.isPageTitleByTextDisplayed(driver, "page-title", "Notebooks"));
@@ -283,10 +283,10 @@ public class User_06_Wishlist extends BaseTest {
 		Assert.assertTrue(productDetailPage.isPageTitleByTextDisplayed(driver, "product-name", "Asus N551JK-XO076H Laptop"));
 
 		log.info("Recently_Viewed_Products - Step 12: Hover To Header Menu");
-		productDetailPage.hoverToHeaderMenu("Computers");
+		productDetailPage.hoverToHeaderMenu(driver, "Computers");
 
 		log.info("Recently_Viewed_Products - Step 13: Click to Sub-menu");
-		productListPage = productDetailPage.clickToSubMenu("Computers", "Notebooks");
+		productListPage = productDetailPage.clickToSubMenu(driver, "Computers", "Notebooks");
 
 		log.info("Recently_Viewed_Products - Step 14: Verify Page Title correctly");
 		Assert.assertTrue(productListPage.isPageTitleByTextDisplayed(driver, "page-title", "Notebooks"));
@@ -298,10 +298,10 @@ public class User_06_Wishlist extends BaseTest {
 		Assert.assertTrue(productDetailPage.isPageTitleByTextDisplayed(driver, "product-name", "HP Envy 6-1180ca 15.6-Inch Sleekbook"));
 
 		log.info("Recently_Viewed_Products - Step 17: Hover To Header Menu");
-		productDetailPage.hoverToHeaderMenu("Computers");
+		productDetailPage.hoverToHeaderMenu(driver, "Computers");
 
 		log.info("Recently_Viewed_Products - Step 18: Click to Sub-menu");
-		productListPage = productDetailPage.clickToSubMenu("Computers", "Notebooks");
+		productListPage = productDetailPage.clickToSubMenu(driver, "Computers", "Notebooks");
 
 		log.info("Recently_Viewed_Products - Step 19: Verify Page Title correctly");
 		Assert.assertTrue(productListPage.isPageTitleByTextDisplayed(driver, "page-title", "Notebooks"));
@@ -313,10 +313,10 @@ public class User_06_Wishlist extends BaseTest {
 		Assert.assertTrue(productDetailPage.isPageTitleByTextDisplayed(driver, "product-name", "HP Spectre XT Pro UltraBook"));
 
 		log.info("Recently_Viewed_Products - Step 22: Hover To Header Menu");
-		productDetailPage.hoverToHeaderMenu("Computers");
+		productDetailPage.hoverToHeaderMenu(driver, "Computers");
 
 		log.info("Recently_Viewed_Products - Step 23: Click to Sub-menu");
-		productListPage = productDetailPage.clickToSubMenu("Computers", "Notebooks");
+		productListPage = productDetailPage.clickToSubMenu(driver, "Computers", "Notebooks");
 
 		log.info("Recently_Viewed_Products - Step 24: Verify Page Title correctly");
 		Assert.assertTrue(productListPage.isPageTitleByTextDisplayed(driver, "page-title", "Notebooks"));

@@ -1,96 +1,191 @@
-[INFO ] [2022-12-20 12:01:35,589] Pre-condition - Step 01: Navigate to 'Login' page
-[INFO ] [2022-12-20 12:01:36,173] Pre-condition - Step 02: Set all Coolies and reload page
-[INFO ] [2022-12-20 12:01:38,933] Pre-condition - Step 03: Verify 'My Account' link is displayed
-[INFO ] [2022-12-20 12:01:39,037] -------------------------PASSED--------------------------
-[INFO ] [2022-12-20 12:01:39,038] Pre-condition - Step 04: Open Computers Page
-[INFO ] [2022-12-20 12:01:39,785] Pre-condition - Step 05: Verify Page Title correctly
-[INFO ] [2022-12-20 12:01:39,865] Pre-condition - Step 06: Click to Category
-[INFO ] [2022-12-20 12:01:40,350] Pre-condition - Step 07: Verify Page Title correctly
-[INFO ] [2022-12-20 12:01:40,438] Add_To_Wishlist - Step 01: Open Product detail page
-[INFO ] [2022-12-20 12:01:41,771] Add_To_Wishlist - Step 02: Verify Product Name correctly
-[INFO ] [2022-12-20 12:01:41,860] Add_To_Wishlist - Step 03: Click to button Add to Wishlist
-[INFO ] [2022-12-20 12:01:41,992] Add_To_Wishlist - Step 04: Verify message 'The product has been added to your wishlist' is dispplayed
-[INFO ] [2022-12-20 12:01:42,364] Add_To_Wishlist - Step 05: Close Bar Notification
-[INFO ] [2022-12-20 12:01:42,486] Add_To_Wishlist - Step 06: Open Wishlist page
-[INFO ] [2022-12-20 12:01:44,504] Add_To_Wishlist - Step 07: Verify Page Title 'Wishlist' is displayed
-[INFO ] [2022-12-20 12:01:44,578] Add_To_Wishlist - Step 08: Verify the product name 'Lenovo IdeaCentre 600 All-in-One PC' is displayed
-[INFO ] [2022-12-20 12:01:44,658] Add_To_Wishlist - Step 09: Click View wishlist from share link
-[INFO ] [2022-12-20 12:01:45,112] Add_To_Wishlist - Step 10: Verify 'Page Title' is displayed: 'Wishlist of Jonhny Depp'
-[INFO ] [2022-12-20 12:01:47,205] Add_To_Wishlist - Step 11: Verify the product name is displayed
-[INFO ] [2022-12-20 12:01:47,285] Add_Product_To_Cart_From_Wishlist - Step 01: Open My Account page
-[INFO ] [2022-12-20 12:01:47,750] Add_Product_To_Cart_From_Wishlist - Step 02: Open Wishlist page
-[INFO ] [2022-12-20 12:01:48,181] Add_Product_To_Cart_From_Wishlist - Step 03: Click to checkbox Add to Cart
-[INFO ] [2022-12-20 12:01:48,353] Add_Product_To_Cart_From_Wishlist - Step 04: Click to button Add to Cart
-[INFO ] [2022-12-20 12:01:49,786] Add_Product_To_Cart_From_Wishlist - Step 05: Verify Shopping Cart page is displayed
-[INFO ] [2022-12-20 12:01:49,909] Add_Product_To_Cart_From_Wishlist - Step 06: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is displayed in Shopping cart page
-[INFO ] [2022-12-20 12:01:50,003] Add_Product_To_Cart_From_Wishlist - Step 07: Open Wishlist page
-[INFO ] [2022-12-20 12:01:50,405] Add_Product_To_Cart_From_Wishlist - Step 08: Verify Product Name  'Lenovo IdeaCentre 600 All-in-One PC' is Undisplayed in Wishlist page
-[INFO ] [2022-12-20 12:02:00,543] Remove_Product_In_Wishlist - Step 01: Click to Header menu
-[INFO ] [2022-12-20 12:02:01,714] Remove_Product_In_Wishlist - Step 02: Verify Page Title correctly
-[INFO ] [2022-12-20 12:02:01,838] Remove_Product_In_Wishlist - Step 03: Click to Category
-[INFO ] [2022-12-20 12:02:02,353] Remove_Product_In_Wishlist - Step 04: Verify Page Title correctly
-[INFO ] [2022-12-20 12:02:02,435] Remove_Product_In_Wishlist - Step 05: Click to Product Name
-[INFO ] [2022-12-20 12:02:03,796] Remove_Product_In_Wishlist - Step 06: Verify Product Name correctly
-[INFO ] [2022-12-20 12:02:03,885] Remove_Product_In_Wishlist - Step 07: Click to button Add to Wishlist
-[INFO ] [2022-12-20 12:02:04,020] Remove_Product_In_Wishlist - Step 08: Verify message 'The product has been added to your wishlist' is dispplayed
-[INFO ] [2022-12-20 12:02:04,392] Remove_Product_In_Wishlist - Step 09: Close Bar Notification
-[INFO ] [2022-12-20 12:02:04,908] Remove_Product_In_Wishlist - Step 10: Open Wishlist page
-[INFO ] [2022-12-20 12:02:06,646] Remove_Product_In_Wishlist - Step 11: Verify Page Title 'Wishlist' is displayed
-[INFO ] [2022-12-20 12:02:06,775] Remove_Product_In_Wishlist - Step 12: Verify the product name 'Digital Storm VANQUISH 3 Custom Performance PC' is displayed
-[INFO ] [2022-12-20 12:02:06,849] Remove_Product_In_Wishlist - Step 13: Click to Remove button
-[INFO ] [2022-12-20 12:02:07,309] Remove_Product_In_Wishlist - Step 14: Verify message 'The wishlist is empty!' is displayed
-[INFO ] [2022-12-20 12:02:07,394] Remove_Product_In_Wishlist - Step 15: Verify Product Name is Undisplayed in Wishlist page
-[INFO ] [2022-12-20 12:02:17,531] Add_Product_To_Compare - Step 01: Click to Header menu
-[INFO ] [2022-12-20 12:02:18,702] Add_Product_To_Compare - Step 02: Verify Page Title correctly
-[INFO ] [2022-12-20 12:02:18,776] Add_Product_To_Compare - Step 03: Click to Category
-[INFO ] [2022-12-20 12:02:19,312] Add_Product_To_Compare - Step 04: Verify Page Title correctly
-[INFO ] [2022-12-20 12:02:19,382] Add_Product_To_Compare - Step 05: Add product to Compare
-[INFO ] [2022-12-20 12:02:19,517] Add_Product_To_Compare - Step 06: Verify message 'The product has been added to your product comparison' 
-[INFO ] [2022-12-20 12:02:19,834] Add_Product_To_Compare - Step 07: Close Bar Notification
-[INFO ] [2022-12-20 12:02:20,961] Add_Product_To_Compare - Step 08: Add product to Compare
-[INFO ] [2022-12-20 12:02:21,131] Add_Product_To_Compare - Step 09: Verify message 'The product has been added to your product comparison' 
-[INFO ] [2022-12-20 12:02:21,534] Add_Product_To_Compare - Step 10: Close Bar Notification
-[INFO ] [2022-12-20 12:02:22,673] Add_Product_To_Compare - Step 11: Open Compare product page 
-[INFO ] [2022-12-20 12:02:23,208] Add_Product_To_Compare - Step 12: Verify page title 'Compare products' is displayed correctly 
-[INFO ] [2022-12-20 12:02:23,290] Add_Product_To_Compare - Step 13: Verify remove button displayed 
-[INFO ] [2022-12-20 12:02:23,369] Add_Product_To_Compare - Step 14: Verify product name displayed 
-[INFO ] [2022-12-20 12:02:23,430] Add_Product_To_Compare - Step 15: Verify product price displayed 
-[INFO ] [2022-12-20 12:02:23,491] Add_Product_To_Compare - Step 16: Verify remove button displayed 
-[INFO ] [2022-12-20 12:02:23,572] Add_Product_To_Compare - Step 17: Verify product name displayed 
-[INFO ] [2022-12-20 12:02:23,635] Add_Product_To_Compare - Step 18: Verify product price displayed 
-[INFO ] [2022-12-20 12:02:23,695] Add_Product_To_Compare - Step 19: Click to Clear List button
-[INFO ] [2022-12-20 12:02:24,401] Add_Product_To_Compare - Step 20: Verify message 'You have no items to compare.' is displayed 
-[INFO ] [2022-12-20 12:02:24,477] Add_Product_To_Compare - Step 21: Verify product name Undisplayed 
-[INFO ] [2022-12-20 12:02:34,623] Add_Product_To_Compare - Step 22: Verify product name Undisplayed 
-[INFO ] [2022-12-20 12:02:44,807] Recently_Viewed_Products - Step 01: Open Product Category page
-[INFO ] [2022-12-20 12:02:45,306] Recently_Viewed_Products - Step 02: Verify Page Title correctly
-[INFO ] [2022-12-20 12:02:45,386] Recently_Viewed_Products - Step 03: Click to Category
-[INFO ] [2022-12-20 12:02:45,929] Recently_Viewed_Products - Step 04: Verify Page Title correctly
-[INFO ] [2022-12-20 12:02:46,011] Recently_Viewed_Products - Step 05: Click to Product Name
-[INFO ] [2022-12-20 12:02:46,926] Recently_Viewed_Products - Step 06: Verify Product Name correctly
-[INFO ] [2022-12-20 12:02:47,009] Recently_Viewed_Products - Step 07: Hover To Header Menu
-[INFO ] [2022-12-20 12:02:47,201] Recently_Viewed_Products - Step 08: Click to Sub-menu
-[INFO ] [2022-12-20 12:02:47,678] Recently_Viewed_Products - Step 09: Verify Page Title correctly
-[INFO ] [2022-12-20 12:02:47,754] Recently_Viewed_Products - Step 10: Click to Product Name
-[INFO ] [2022-12-20 12:02:48,926] Recently_Viewed_Products - Step 11: Verify Product Name correctly
-[INFO ] [2022-12-20 12:02:49,017] Recently_Viewed_Products - Step 12: Hover To Header Menu
-[INFO ] [2022-12-20 12:02:49,182] Recently_Viewed_Products - Step 13: Click to Sub-menu
-[INFO ] [2022-12-20 12:02:50,351] Recently_Viewed_Products - Step 14: Verify Page Title correctly
-[INFO ] [2022-12-20 12:02:50,424] Recently_Viewed_Products - Step 15: Click to Product Name
-[INFO ] [2022-12-20 12:02:51,279] Recently_Viewed_Products - Step 16: Verify Product Name correctly
-[INFO ] [2022-12-20 12:02:51,376] Recently_Viewed_Products - Step 17: Hover To Header Menu
-[INFO ] [2022-12-20 12:02:51,554] Recently_Viewed_Products - Step 18: Click to Sub-menu
-[INFO ] [2022-12-20 12:02:52,722] Recently_Viewed_Products - Step 19: Verify Page Title correctly
-[INFO ] [2022-12-20 12:02:52,844] Recently_Viewed_Products - Step 20: Click to Product Name
-[INFO ] [2022-12-20 12:02:54,009] Recently_Viewed_Products - Step 21: Verify Product Name correctly
-[INFO ] [2022-12-20 12:02:54,083] Recently_Viewed_Products - Step 22: Hover To Header Menu
-[INFO ] [2022-12-20 12:02:54,248] Recently_Viewed_Products - Step 23: Click to Sub-menu
-[INFO ] [2022-12-20 12:02:55,423] Recently_Viewed_Products - Step 24: Verify Page Title correctly
-[INFO ] [2022-12-20 12:02:55,548] Recently_Viewed_Products - Step 25: Click to Product Name
-[INFO ] [2022-12-20 12:02:56,849] Recently_Viewed_Products - Step 26: Verify Product Name correctly 'Lenovo Thinkpad X1 Carbon Laptop' 
-[INFO ] [2022-12-20 12:02:56,946] Recently_Viewed_Products - Step 27: Open 'Recently viewed products' page
-[INFO ] [2022-12-20 12:02:57,439] Recently_Viewed_Products - Step 28: Verify Page Title 'Recently viewed products' is displayed
-[INFO ] [2022-12-20 12:02:57,523] Recently_Viewed_Products - Step 29: Verify just last 3 product are displayed
-[INFO ] [2022-12-20 12:02:57,727] Recently_Viewed_Products - Step 30: Click to Logout link
-[INFO ] [2022-12-20 12:02:58,479] OS name = windows 10
-[INFO ] [2022-12-20 12:02:58,480] Driver instance name = chromedriver: chrome on windows (39654d2b3fdd07aac5e7b150868ecaad)
+[INFO ] [2022-12-25 01:20:54,579] Pre-condition - Step 01: Navigate to 'Register' page
+[INFO ] [2022-12-25 01:20:56,025] Pre-condition - Step 02: Enter to Fistname textbox with value is 'Jonhny'
+[INFO ] [2022-12-25 01:20:56,221] Pre-condition - Step 03: Enter to Lastname textbox with value is 'Depp'
+[INFO ] [2022-12-25 01:20:56,443] Pre-condition - Step 04: Enter to Email textbox with value is 'jonh_50673@hotmail.com'
+[INFO ] [2022-12-25 01:20:56,656] Pre-condition - Step 05: Enter to Password textbox with value is '123456'
+[INFO ] [2022-12-25 01:20:56,840] Pre-condition - Step 06: Enter to Confirm Password textbox with value is '123456'
+[INFO ] [2022-12-25 01:20:57,020] Pre-condition - Step 07: Click to 'Register' button
+[INFO ] [2022-12-25 01:20:58,285] Pre-condition - Step 08: Verify Register success message is displayed
+[INFO ] [2022-12-25 01:20:58,375] -------------------------PASSED--------------------------
+[INFO ] [2022-12-25 01:20:58,375] Pre-condition - Step 09: Navigate to 'Login' page
+[INFO ] [2022-12-25 01:20:58,830] Pre-condition - Step 10: Enter to Email textbox with value is 'jonh_50673@hotmail.com'
+[INFO ] [2022-12-25 01:20:59,027] Pre-condition - Step 11: Enter to Password textbox with value is '123456'
+[INFO ] [2022-12-25 01:20:59,213] Pre-condition - Step 12: Click to Login button
+[INFO ] [2022-12-25 01:20:59,989] Pre-condition - Step 13: Verify 'My Account' link is displayed
+[INFO ] [2022-12-25 01:21:00,078] -------------------------PASSED--------------------------
+[INFO ] [2022-12-25 01:21:00,090] Checkout - Step 01: Hover To Header Menu Computers
+[INFO ] [2022-12-25 01:21:00,339] Checkout - Step 02: Click to Sub-menu Desktops
+[INFO ] [2022-12-25 01:21:02,936] Checkout - Step 03: Verify Page Title 'Notebooks' is displayed correctly
+[INFO ] [2022-12-25 01:21:03,074] Checkout - Step 04: Click to Product Name
+[INFO ] [2022-12-25 01:21:04,144] Checkout - Step 05: Verify Product Name 'Apple MacBook Pro 13-inch' is displayed correctly
+[INFO ] [2022-12-25 01:21:04,232] Checkout - Step 07: Verify Product Unit Price '$1,800.00' is dispplayed
+[INFO ] [2022-12-25 01:21:04,311] Checkout - Step 08: Click to Add to cart button
+[INFO ] [2022-12-25 01:21:05,468] Checkout - Step 09: Verify message 'The product has been added to your shopping cart' is dispplayed
+[INFO ] [2022-12-25 01:21:05,555] Checkout - Step 10: Verify Shopping cart (2) is dispplayed
+[INFO ] [2022-12-25 01:21:14,082] Checkout - Step 11: Hover into Shopping cart link
+[INFO ] [2022-12-25 01:21:14,255] Checkout - Step 12: Verify message 'There are 2 item(s) in your cart.' is displayed
+[INFO ] [2022-12-25 01:21:14,411] Checkout - Step 13: Verify product name 'Apple MacBook Pro 13-inch' is displayed
+[INFO ] [2022-12-25 01:21:14,547] Checkout - Step 14: Verify product unit price '$1,800.00' is displayed
+[INFO ] [2022-12-25 01:21:14,686] Checkout - Step 15: Verify product quantity is displayed
+[INFO ] [2022-12-25 01:21:14,846] Checkout - Step 16: Verify product totals 'Sub-Total: $3,600.00' is displayed
+[INFO ] [2022-12-25 01:21:14,982] Checkout - Step 17: open Shopping Cart page
+[INFO ] [2022-12-25 01:21:15,824] Checkout - Step 18: Verify Page Title 'Shopping cart' is displayed correctly
+[INFO ] [2022-12-25 01:21:15,904] Checkout - Step 19: Verify Product Name  'Apple MacBook Pro 13-inch' is displayed in Shopping cart page
+[INFO ] [2022-12-25 01:21:15,984] Checkout - Step 20: Open popup Estimate shipping
+[INFO ] [2022-12-25 01:21:16,158] Checkout - Step 21: Verify popup Estimate shipping is displayed 
+[INFO ] [2022-12-25 01:21:16,812] Checkout - Step 22: Select Country 
+[INFO ] [2022-12-25 01:21:17,005] Checkout - Step 23: Select State 
+[INFO ] [2022-12-25 01:21:17,410] Checkout - Step 24: Input ZipCode 
+[INFO ] [2022-12-25 01:21:20,691] Checkout - Step 25: Verify shipping method are displayed
+[INFO ] [2022-12-25 01:21:20,949] Checkout - Step 26: Choose shipping method is '2nd Day Air' 
+[INFO ] [2022-12-25 01:21:21,067] Checkout - Step 27: Click Apply button
+[INFO ] [2022-12-25 01:21:21,212] Checkout - Step 28: Verify popup Estimate shipping is Undisplayed
+[INFO ] [2022-12-25 01:21:21,899] Checkout - Step 29: Verify shipping method 2nd Day Air is displayed
+[INFO ] [2022-12-25 01:21:21,975] Checkout - Step 30: Choose checkbox 'I agree with the terms of service and I adhere to them unconditionally' 
+[INFO ] [2022-12-25 01:21:22,136] Checkout - Step 31: Open checkout page
+[INFO ] [2022-12-25 01:21:23,317] Checkout - Step 32: Verify Page Title 'Checkout' is displayed correctly
+[INFO ] [2022-12-25 01:21:23,409] Checkout - Step 32: Uncheck to checkbox Ship to the same address
+[INFO ] [2022-12-25 01:21:23,524] Checkout - Step 33: Verify Value First name is displayed correctly
+[INFO ] [2022-12-25 01:21:23,651] Checkout - Step 34: Verify Title Last name is displayed correctly
+[INFO ] [2022-12-25 01:21:23,760] Checkout - Step 35: Verify Title Email is displayed correctly
+[INFO ] [2022-12-25 01:21:23,868] Checkout - Step 36: Select Country
+[INFO ] [2022-12-25 01:21:24,056] Checkout - Step 37: Select State
+[INFO ] [2022-12-25 01:21:24,386] Checkout - Step 38: Input City
+[INFO ] [2022-12-25 01:21:24,558] Checkout - Step 39: Input Address 1
+[INFO ] [2022-12-25 01:21:24,780] Checkout - Step 40: Input ZipCode
+[INFO ] [2022-12-25 01:21:24,974] Checkout - Step 41: Input phone number
+[INFO ] [2022-12-25 01:21:25,184] Checkout - Step 42: Click to Continue button
+[INFO ] [2022-12-25 01:21:25,321] Checkout - Step 43: Select New  shipping sddress
+[INFO ] [2022-12-25 01:21:25,836] Checkout - Step 44: Verify Dropdow new addess is displayed
+[INFO ] [2022-12-25 01:21:25,926] Checkout - Step 45: Input First Name
+[INFO ] [2022-12-25 01:21:26,142] Checkout - Step 46: Input Last Name
+[INFO ] [2022-12-25 01:21:26,327] Checkout - Step 47: Input Email
+[INFO ] [2022-12-25 01:21:26,502] Checkout - Step 48: Select Country
+[INFO ] [2022-12-25 01:21:27,690] Checkout - Step 49: Select State
+[INFO ] [2022-12-25 01:21:27,875] Checkout - Step 50: Input City
+[INFO ] [2022-12-25 01:21:28,072] Checkout - Step 51: Input Address 1
+[INFO ] [2022-12-25 01:21:28,269] Checkout - Step 52: Input ZipCode
+[INFO ] [2022-12-25 01:21:28,436] Checkout - Step 53: Input phone number
+[INFO ] [2022-12-25 01:21:28,625] Checkout - Step 54: Click to Continue button
+[INFO ] [2022-12-25 01:21:28,775] Checkout - Step 55: Select to shipping method ' 2nd Day Air'
+[INFO ] [2022-12-25 01:21:29,184] Checkout - Step 56: Click to Continue button
+[INFO ] [2022-12-25 01:21:29,304] Checkout - Step 57: Choose Payment method is Credit Card
+[INFO ] [2022-12-25 01:21:29,727] Checkout - Step 58: Click to Continue button
+[INFO ] [2022-12-25 01:21:29,835] Checkout - Step 58: Select credit card is visa
+[INFO ] [2022-12-25 01:21:30,278] Checkout - Step 58: Input Card holder name
+[INFO ] [2022-12-25 01:21:30,458] Checkout - Step 58: Input Card number
+[INFO ] [2022-12-25 01:21:30,652] Checkout - Step 58: Select expiration month
+[INFO ] [2022-12-25 01:21:30,837] Checkout - Step 58: Select expiration year
+[INFO ] [2022-12-25 01:21:31,005] Checkout - Step 58: Input Card code
+[INFO ] [2022-12-25 01:21:31,168] Checkout - Step 58: Click to Continue button
+[INFO ] [2022-12-25 01:21:31,316] Checkout - Step 61: Verify Billing infor address
+[INFO ] [2022-12-25 01:21:32,124] Checkout - Step 62: Verify Shipping infor address
+[INFO ] [2022-12-25 01:21:32,638] Checkout - Step 63: Verify SKU number is correctly
+[INFO ] [2022-12-25 01:21:32,699] Checkout - Step 64: Verify Product Name  'Apple MacBook Pro 13-inch' is displayed correctly
+[INFO ] [2022-12-25 01:21:32,783] Checkout - Step 65: Verify Product Unit Price is equals '$1,800.00' 
+[INFO ] [2022-12-25 01:21:32,946] Checkout - Step 66: Verify product qty is correctly
+[INFO ] [2022-12-25 01:21:33,085] Checkout - Step 67: Verify Product Subtotal is equals '$3,600.00' 
+[INFO ] [2022-12-25 01:21:33,226] Checkout - Step 68: Verify 'Gift wrapping: No' is displayed correctly
+[INFO ] [2022-12-25 01:21:33,311] Checkout - Step 69: Verify Total Infor is displayed correctly
+[INFO ] [2022-12-25 01:21:33,565] Checkout - Step 70: Click to Confirm button
+[INFO ] [2022-12-25 01:21:33,668] Checkout - Step 71: Verify Page Title 'Thank you' is displayed correctly
+[INFO ] [2022-12-25 01:21:34,463] Checkout - Step 72: Verify message 'Your order has been successfully processed!' is displayed correctly
+[INFO ] [2022-12-25 01:21:34,522] Checkout - Step 73: Verify message 'order-number' is displayed
+[INFO ] [2022-12-25 01:21:34,603] Checkout - Step 74: Open My Customer Infor page
+[INFO ] [2022-12-25 01:21:35,031] Checkout - Step 75: Open My Oders page
+[INFO ] [2022-12-25 01:21:35,484] Checkout - Step 76: Verify Page Title 'My account - Orders' is displayed correctly
+[INFO ] [2022-12-25 01:21:35,589] Checkout - Step 77: Verify Order Number is displayed correctly
+[INFO ] [2022-12-25 01:21:35,678] Checkout - Step 78: Click to Details link
+[INFO ] [2022-12-25 01:21:36,144] Checkout - Step 79: Verify Page Title 'Order information' is displayed correctly
+[INFO ] [2022-12-25 01:21:36,234] Checkout - Step 80: Verify Order Number is displayed correctly
+[INFO ] [2022-12-25 01:21:36,296] Checkout - Step 81: Verify Order Overview Content are displayed correctly
+[INFO ] [2022-12-25 01:21:36,495] Checkout - Step 82: Verify Billing infor address
+[INFO ] [2022-12-25 01:21:37,037] Checkout - Step 83: Verify Shipping infor address
+[INFO ] [2022-12-25 01:21:37,551] Checkout - Step 84: Verify SKU number is correctly
+[INFO ] [2022-12-25 01:21:37,611] Checkout - Step 85: Verify Product Name  'Apple MacBook Pro 13-inch' is displayed correctly
+[INFO ] [2022-12-25 01:21:37,678] Checkout - Step 86: Verify Product Unit Price is equals '$1,800.00' 
+[INFO ] [2022-12-25 01:21:37,790] Checkout - Step 87: Verify product qty is correctly
+[INFO ] [2022-12-25 01:21:37,915] Checkout - Step 88: Verify Product Subtotal is equals '$3,600.00' 
+[INFO ] [2022-12-25 01:21:38,041] Checkout - Step 89: Verify 'Gift wrapping: No' is displayed correctly
+[INFO ] [2022-12-25 01:21:38,107] Checkout - Step 90: Verify Total Infor is displayed correctly
+[INFO ] [2022-12-25 01:21:38,192] Checkout - Step 07: Click button Re-order
+[INFO ] [2022-12-25 01:21:38,998] Checkout - Step 07: Input Qty is 10
+[INFO ] [2022-12-25 01:21:39,168] Checkout - Step 07: Click button
+[INFO ] [2022-12-25 01:21:39,727] Checkout - Step 20: Open popup Estimate shipping
+[INFO ] [2022-12-25 01:21:39,865] Checkout - Step 21: Verify popup Estimate shipping is displayed 
+[INFO ] [2022-12-25 01:21:39,970] Checkout - Step 22: Select Country 
+[INFO ] [2022-12-25 01:21:40,079] Checkout - Step 23: Select State 
+[INFO ] [2022-12-25 01:21:40,281] Checkout - Step 24: Input ZipCode 
+[INFO ] [2022-12-25 01:21:43,491] Checkout - Step 25: Verify shipping method are displayed
+[INFO ] [2022-12-25 01:21:43,750] Checkout - Step 26: Choose shipping method is 'Next Day Air' 
+[INFO ] [2022-12-25 01:21:43,858] Checkout - Step 27: Click Apply button
+[INFO ] [2022-12-25 01:21:43,986] Checkout - Step 28: Verify popup Estimate shipping is Undisplayed
+[INFO ] [2022-12-25 01:21:44,715] Checkout - Step 29: Verify shipping method 2nd Day Air is displayed
+[INFO ] [2022-12-25 01:21:44,839] Checkout - Step 30: Choose checkbox 'I agree with the terms of service and I adhere to them unconditionally' 
+[INFO ] [2022-12-25 01:21:44,980] Checkout - Step 31: Open checkout page
+[INFO ] [2022-12-25 01:21:46,099] Checkout - Step 32: Verify Page Title 'Checkout' is displayed correctly
+[INFO ] [2022-12-25 01:21:46,207] Checkout - Step 32: Uncheck to checkbox Ship to the same address
+[INFO ] [2022-12-25 01:21:46,360] Checkout - Step 32: Select a billing address is 'new address'
+[INFO ] [2022-12-25 01:21:46,534] Checkout - Step 45: Input First Name
+[INFO ] [2022-12-25 01:21:46,723] Checkout - Step 46: Input Last Name
+[INFO ] [2022-12-25 01:21:46,914] Checkout - Step 47: Input Email
+[INFO ] [2022-12-25 01:21:47,140] Checkout - Step 36: Select Country
+[INFO ] [2022-12-25 01:21:48,319] Checkout - Step 37: Select State
+[INFO ] [2022-12-25 01:21:48,507] Checkout - Step 38: Input City
+[INFO ] [2022-12-25 01:21:48,714] Checkout - Step 39: Input Address 1
+[INFO ] [2022-12-25 01:21:48,921] Checkout - Step 40: Input ZipCode
+[INFO ] [2022-12-25 01:21:49,098] Checkout - Step 41: Input phone number
+[INFO ] [2022-12-25 01:21:49,293] Checkout - Step 42: Click to Continue button
+[INFO ] [2022-12-25 01:21:49,438] Checkout - Step 43: Select New  shipping sddress
+[INFO ] [2022-12-25 01:21:49,886] Checkout - Step 44: Verify Dropdow new addess is displayed
+[INFO ] [2022-12-25 01:21:49,953] Checkout - Step 45: Input First Name
+[INFO ] [2022-12-25 01:21:50,170] Checkout - Step 46: Input Last Name
+[INFO ] [2022-12-25 01:21:50,338] Checkout - Step 47: Input Email
+[INFO ] [2022-12-25 01:21:50,543] Checkout - Step 48: Select Country
+[INFO ] [2022-12-25 01:21:51,700] Checkout - Step 49: Select State
+[INFO ] [2022-12-25 01:21:51,872] Checkout - Step 50: Input City
+[INFO ] [2022-12-25 01:21:52,102] Checkout - Step 51: Input Address 1
+[INFO ] [2022-12-25 01:21:52,297] Checkout - Step 52: Input ZipCode
+[INFO ] [2022-12-25 01:21:52,463] Checkout - Step 53: Input phone number
+[INFO ] [2022-12-25 01:21:52,638] Checkout - Step 54: Click to Continue button
+[INFO ] [2022-12-25 01:21:52,789] Checkout - Step 55: Select to shipping method 'Next Day Air'
+[INFO ] [2022-12-25 01:21:53,249] Checkout - Step 56: Click to Continue button
+[INFO ] [2022-12-25 01:21:53,391] Checkout - Step 57: Choose Payment method is Credit Card
+[INFO ] [2022-12-25 01:21:53,769] Checkout - Step 58: Click to Continue button
+[INFO ] [2022-12-25 01:21:53,897] Checkout - Step 58: Select credit card is visa
+[INFO ] [2022-12-25 01:21:54,279] Checkout - Step 58: Input Card holder name
+[INFO ] [2022-12-25 01:21:54,469] Checkout - Step 58: Input Card number
+[INFO ] [2022-12-25 01:21:54,673] Checkout - Step 58: Select expiration month
+[INFO ] [2022-12-25 01:21:54,845] Checkout - Step 58: Select expiration year
+[INFO ] [2022-12-25 01:21:55,023] Checkout - Step 58: Input Card code
+[INFO ] [2022-12-25 01:21:56,190] Checkout - Step 58: Click to Continue button
+[INFO ] [2022-12-25 01:21:56,363] Checkout - Step 61: Verify Billing infor address
+[INFO ] [2022-12-25 01:21:57,166] Checkout - Step 62: Verify Shipping infor address
+[INFO ] [2022-12-25 01:21:57,760] Checkout - Step 63: Verify SKU number is correctly
+[INFO ] [2022-12-25 01:21:57,839] Checkout - Step 64: Verify Product Name  'Apple MacBook Pro 13-inch' is displayed correctly
+[INFO ] [2022-12-25 01:21:57,919] Checkout - Step 65: Verify Product Unit Price is equals '$1,800.00' 
+[INFO ] [2022-12-25 01:21:58,082] Checkout - Step 66: Verify product qty is correctly
+[INFO ] [2022-12-25 01:21:58,217] Checkout - Step 67: Verify Product Subtotal is equals '$18,000.00' 
+[INFO ] [2022-12-25 01:21:58,355] Checkout - Step 68: Verify 'Gift wrapping: No' is displayed correctly
+[INFO ] [2022-12-25 01:21:58,423] Checkout - Step 69: Verify Total Infor is displayed correctly
+[INFO ] [2022-12-25 01:22:05,707] Checkout - Step 70: Click to Confirm button
+[INFO ] [2022-12-25 01:22:05,881] Checkout - Step 71: Verify Page Title 'Thank you' is displayed correctly
+[INFO ] [2022-12-25 01:22:08,244] Checkout - Step 72: Verify message 'Your order has been successfully processed!' is displayed correctly
+[INFO ] [2022-12-25 01:22:08,320] Checkout - Step 73: Verify message 'order-number' is displayed
+[INFO ] [2022-12-25 01:22:08,386] Checkout - Step 74: Open My Customer Infor page
+[INFO ] [2022-12-25 01:22:08,843] Checkout - Step 75: Open My Oders page
+[INFO ] [2022-12-25 01:22:09,314] Checkout - Step 76: Verify Page Title 'My account - Orders' is displayed correctly
+[INFO ] [2022-12-25 01:22:09,399] Checkout - Step 77: Verify Order Number is displayed correctly
+[INFO ] [2022-12-25 01:22:09,478] Checkout - Step 78: Click to Details link
+[INFO ] [2022-12-25 01:22:09,934] Checkout - Step 79: Verify Page Title 'Order information' is displayed correctly
+[INFO ] [2022-12-25 01:22:10,020] Checkout - Step 80: Verify Order Number is displayed correctly
+[INFO ] [2022-12-25 01:22:10,086] Checkout - Step 81: Verify Order Overview Content are displayed correctly
+[INFO ] [2022-12-25 01:22:10,276] Checkout - Step 82: Verify Billing infor address
+[INFO ] [2022-12-25 01:22:10,778] Checkout - Step 83: Verify Shipping infor address
+[INFO ] [2022-12-25 01:22:11,270] Checkout - Step 84: Verify SKU number is correctly
+[INFO ] [2022-12-25 01:22:11,332] Checkout - Step 85: Verify Product Name  'Apple MacBook Pro 13-inch' is displayed correctly
+[INFO ] [2022-12-25 01:22:11,393] Checkout - Step 86: Verify Product Unit Price is equals '$1,800.00' 
+[INFO ] [2022-12-25 01:22:11,514] Checkout - Step 87: Verify product qty is correctly
+[INFO ] [2022-12-25 01:22:11,623] Checkout - Step 88: Verify Product Subtotal is equals '$18,000.00' 
+[INFO ] [2022-12-25 01:22:11,746] Checkout - Step 89: Verify 'Gift wrapping: No' is displayed correctly
+[INFO ] [2022-12-25 01:22:11,829] Checkout - Step 90: Verify Total Infor is displayed correctly

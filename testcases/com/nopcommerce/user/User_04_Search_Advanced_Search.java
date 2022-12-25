@@ -112,7 +112,7 @@ public class User_04_Search_Advanced_Search extends BaseTest {
 		searchPage.inputToSearchTextbox(advancedSearch);
 
 		log.info("Advanced_Search_Parent_Categories - Step 03: Click to Advanced Search checkbox");
-		searchPage.checkedSearchCheckboxByID("advs");
+		searchPage.checkToCheckboxOrRadioByID(driver, "advs");
 
 		log.info("Advanced_Search_Parent_Categories - Step 04: Select Category");
 		searchPage.selectToDropdownByName(driver, "cid", category);
@@ -134,13 +134,13 @@ public class User_04_Search_Advanced_Search extends BaseTest {
 		searchPage.inputToSearchTextbox(advancedSearch);
 
 		log.info("Advanced_Sub_Categories - Step 03: Checked to Advanced Search checkbox");
-		searchPage.checkedSearchCheckboxByID("advs");
+		searchPage.checkToCheckboxOrRadioByID(driver, "advs");
 
 		log.info("Advanced_Sub_Categories - Step 04: Select Category");
 		searchPage.selectToDropdownByName(driver, "cid", category);
 
 		log.info("Advanced_Sub_Categories - Step 05: Checked to Automatically search sub categories");
-		searchPage.checkedSearchCheckboxByID("isc");
+		searchPage.checkToCheckboxOrRadioByID(driver, "isc");
 
 		log.info("Advanced_Sub_Categories - Step 06: Click to Search button");
 		searchPage.clickToButtonSearch();
@@ -158,14 +158,14 @@ public class User_04_Search_Advanced_Search extends BaseTest {
 		searchPage.inputToSearchTextbox(advancedSearch);
 
 		log.info("Advanced_Incorrect_Manufacturer - Step 03: Checked to Advanced Search checkbox");
-		searchPage.checkedSearchCheckboxByID("advs");
+		searchPage.checkToCheckboxOrRadioByID(driver, "advs");
 
 		log.info("Advanced_Incorrect_Manufacturer - Step 04: Select Category");
 		searchPage.selectToDropdownByName(driver, "cid", category);
 		searchPage.sleepInSecond(2);
 
 		log.info("Advanced_Incorrect_Manufacturer - Step 05: Checked to Automatically search sub categories");
-		searchPage.checkedSearchCheckboxByID("isc");
+		searchPage.checkToCheckboxOrRadioByID(driver, "isc");
 
 		log.info("Advanced_Incorrect_Manufacturer - Step 06: Select Manufacturer");
 		searchPage.selectToDropdownByName(driver, "mid", incorrectManufacturer);
@@ -188,14 +188,14 @@ public class User_04_Search_Advanced_Search extends BaseTest {
 		searchPage.inputToSearchTextbox(advancedSearch);
 
 		log.info("Advanced_Correct_Manufacturer - Step 03: Checked to Advanced Search checkbox");
-		searchPage.checkedSearchCheckboxByID("advs");
+		searchPage.checkToCheckboxOrRadioByID(driver, "advs");
 
 		log.info("Advanced_Correct_Manufacturer - Step 04: Select Category");
 		searchPage.selectToDropdownByName(driver, "cid", category);
 		searchPage.sleepInSecond(2);
 
 		log.info("Advanced_Correct_Manufacturer - Step 05: Checked to Automatically search sub categories");
-		searchPage.checkedSearchCheckboxByID("isc");
+		searchPage.checkToCheckboxOrRadioByID(driver, "isc");
 
 		log.info("Advanced_Correct_Manufacturer - Step 06: Select Manufacturer");
 		searchPage.selectToDropdownByName(driver, "mid", correctManufacturer);

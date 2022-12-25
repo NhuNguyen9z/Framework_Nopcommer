@@ -31,8 +31,8 @@ public class UserWishListPageObject extends BasePage {
 	}
 
 	public boolean isProductNameUnDisplayed(String attributeValue, String productName) {
-		waitForElementUndisplayed(driver, UserWishlistPageUI.DYNAMIC_PRODUCT_NAME, attributeValue, productName);
-		return isElementUndisplayed(driver, UserWishlistPageUI.DYNAMIC_PRODUCT_NAME, attributeValue, productName);
+		waitForElementUndisplayed(driver, BasePageUI.DYNAMIC_PRODUCT_NAME, attributeValue, productName);
+		return isElementUndisplayed(driver, BasePageUI.DYNAMIC_PRODUCT_NAME, attributeValue, productName);
 	}
 
 	public void clickToRemoveButton(String productName) {

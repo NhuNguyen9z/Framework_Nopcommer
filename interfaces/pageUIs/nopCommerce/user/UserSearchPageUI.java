@@ -6,6 +6,5 @@ public class UserSearchPageUI {
 	public static final String SEARCH_TEXTBOX = "xpath=//input[@class='search-text']";
 	public static final String NO_RESULT = "xpath=//div[@class='no-result']";
 	public static final String PRODUCT_NAME_RELATIVE = "xpath=//div[@class='search-results']//h2/a[contains(text(),'%s')]";
-	public static final String ADVANCED_SEARCH_CHECKBOX = "xpath=//input[@id='%s']";
 
 }

@@ -15,22 +15,23 @@ public class BasePageUI {
 	// Pattern Object
 	public static final String DYNAMIC_TEXTBOX_BY_ID = "xpath=//input[@id='%s']";
 	public static final String DYNAMIC_BUTTON_BY_TEXT = "xpath=//button[text()='%s']";
+	public static final String DYNAMIC_BUTTON_BY_ID = "xpath=//button[@id='%s']";
 	public static final String DYNAMIC_DROPDOWN_BY_NAME = "xpath=//select[@name='%s']";
+	public static final String DYNAMIC_CHECKBOX_OR_RADIO = "xpath=//input[@id='%s']";
 	public static final String DYNAMIC_RADIO_BY_TEXT = "xpath=//label[text()='%s']/preceding-sibling::input";
 	public static final String DYNAMIC_CHECKBOX_BY_TEXT = "xpath=//label[contains(text(),'%s')]/following-sibling::input";
 	public static final String DYNAMIC_DROPDOWN_VALUE = "xpath=//select[@name='%s']/option[text()='%s']";
 	public static final String DYNAMIC_RADIO_VALUE_BY_TEXT = "xpath=//label[text()='%s']/preceding-sibling::input";
 
-	public static final String DYNAMIC_PRODUCT_NAME = "xpath=//div[@class='%s']/h1[text()='%s']";
+	public static final String PRODUCT_NAME_DETAIL_PAGE = "xpath=//div[@class='%s']/h1[text()='%s']";
 	public static final String HEADER_MENU_BY_TEXT = "xpath=//ul[contains(@class,'notmobile')]//a[contains(text(),'%s')]";
 	public static final String PRODUCT_CATEGORY_BY_TEXT = "xpath=//div[@class='sub-category-item']//a[contains(text(),'%s')]";
-	public static final String PRODUCT_NAME_BY_TEXT = "xpath=//div[@class='products-container']//div[@class='item-box']//a[text()='%s']";
+	public static final String PRODUCT_NAME_LIST_BY_TEXT = "xpath=//div[@class='products-container']//div[@class='item-box']//a[text()='%s']";
+	public static final String DYNAMIC_PRODUCT_NAME = "xpath=//a[@class='%s' and text()='%s']";
 
-	public static final String BAR_NOTIFICATION_SUCCESS = "xpath=//div[contains(@class,'success')]//span";
+	public static final String BAR_NOTIFICATION_SUCCESS = "css=div.success>p.content";
 
 	public static final String FOOTER_LINK_BY_TEXT = "xpath=//div[@class='footer']//a[text()='%s']";
-
-	public static final String BAR_NOTIFICATION_CONTENT = "xpath=//div[@id='bar-notification']//p";
 	public static final String EMPTY_MESSAGE = "xpath=//div[@class='no-data']";
 
 }

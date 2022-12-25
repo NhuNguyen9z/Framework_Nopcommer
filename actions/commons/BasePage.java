@@ -25,6 +25,7 @@ import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserProductCategoryPageObject;
+import pageObjects.nopCommerce.user.UserProductListPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 import pageObjects.nopCommerce.user.UserSearchPageObject;
 import pageObjects.nopCommerce.user.UserWishListPageObject;
@@ -32,9 +33,10 @@ import pageObjects.nopCommerce.user.UserWishListPageObject;
 //import pageObjects.wordpress.UserHomePO;
 import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
 import pageUIs.nopCommerce.user.BasePageUI;
+import pageUIs.nopCommerce.user.UserCheckoutPageUI;
 import pageUIs.nopCommerce.user.UserCustomerInforPageUI;
 import pageUIs.nopCommerce.user.UserProductDetailPageUI;
-import pageUIs.nopCommerce.user.UserWishlistPageUI;
+import pageUIs.nopCommerce.user.UserShoppingCartPageUI;
 
 public class BasePage {
 
@@ -739,7 +741,9 @@ public class BasePage {
 	 * 
 	 * @param driver
 	 * @param buttonText
+	 * @return
 	 */
+
 	public void clickToButtonByText(WebDriver driver, String buttonText) {
 		waitForElementClickable(driver, BasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
 		clickToElement(driver, BasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonText);
@@ -844,8 +848,8 @@ public class BasePage {
 	}
 
 	public boolean isPageTitleByTextDisplayed(WebDriver driver, String attributeValue, String textLabel) {
-		waitForElementVisible(driver, BasePageUI.DYNAMIC_PRODUCT_NAME, attributeValue, textLabel);
-		return isElementDisplayed(driver, BasePageUI.DYNAMIC_PRODUCT_NAME, attributeValue, textLabel);
+		waitForElementVisible(driver, BasePageUI.PRODUCT_NAME_DETAIL_PAGE, attributeValue, textLabel);
+		return isElementDisplayed(driver, BasePageUI.PRODUCT_NAME_DETAIL_PAGE, attributeValue, textLabel);
 	}
 
 	public boolean isSideBarPageDisplayed(WebDriver driver, String textLabel) {
@@ -866,13 +870,13 @@ public class BasePage {
 	}
 
 	public boolean isProductNameDisplayed(WebDriver driver, String atributeValue, String productName) {
-		waitForElementVisible(driver, UserWishlistPageUI.DYNAMIC_PRODUCT_NAME, atributeValue, productName);
-		return isElementDisplayed(driver, UserWishlistPageUI.DYNAMIC_PRODUCT_NAME, atributeValue, productName);
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_PRODUCT_NAME, atributeValue, productName);
+		return isElementDisplayed(driver, BasePageUI.DYNAMIC_PRODUCT_NAME, atributeValue, productName);
 	}
 
 	public boolean isBarNotificationDisplayed(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUI.BAR_NOTIFICATION_CONTENT);
-		return isElementDisplayed(driver, BasePageUI.BAR_NOTIFICATION_CONTENT);
+		waitForElementVisible(driver, BasePageUI.BAR_NOTIFICATION_SUCCESS);
+		return isElementDisplayed(driver, BasePageUI.BAR_NOTIFICATION_SUCCESS);
 	}
 
 	public boolean isMessageEmptytDisplayed(WebDriver driver) {
@@ -895,6 +899,52 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageUI.DYNAMIC_LINK_BY_CLASS, attributeValue);
 		clickToElement(driver, BasePageUI.DYNAMIC_LINK_BY_CLASS, attributeValue);
 		return PageGeneratorManager.getUserHomePage(driver);
+	}
+
+	public void hoverToHeaderMenu(WebDriver driver, String dynamicValues) {
+		waitForElementVisible(driver, BasePageUI.HEADER_MENU_BY_TEXT, dynamicValues);
+		hoverMouse(driver, BasePageUI.HEADER_MENU_BY_TEXT, dynamicValues);
+	}
+
+	public UserProductListPageObject clickToSubMenu(WebDriver driver, String dynamicValues, String textLabel) {
+		clickToElement(driver, UserProductDetailPageUI.SUB_MENU, dynamicValues, textLabel);
+		return PageGeneratorManager.getUserProductListPage(driver);
+	}
+
+	public void checkToCheckboxOrRadioByID(WebDriver driver, String atributeName) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_CHECKBOX_OR_RADIO, atributeName);
+		checkToDefaultCheckboxOrRadio(driver, BasePageUI.DYNAMIC_CHECKBOX_OR_RADIO, atributeName);
+	}
+
+	public String getBarNotificationSuccess(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.BAR_NOTIFICATION_SUCCESS);
+		return getElementText(driver, BasePageUI.BAR_NOTIFICATION_SUCCESS);
+	}
+
+	public String getShoppingCartQty(WebDriver driver, String attributeValue) {
+		waitForElementUndisplayed(driver, BasePageUI.BAR_NOTIFICATION_SUCCESS);
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_LINK_BY_CLASS, attributeValue);
+		return getElementText(driver, BasePageUI.DYNAMIC_LINK_BY_CLASS, attributeValue);
+	}
+
+	public void uncheckToCheckboxOrRadioByID(WebDriver driver, String attributeValue) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_CHECKBOX_OR_RADIO, attributeValue);
+		uncheckToDefaultCheckbox(driver, BasePageUI.DYNAMIC_CHECKBOX_OR_RADIO, attributeValue);
+	}
+
+	public String getProductInforByClass(WebDriver driver, String attributeValue) {
+		waitForElementVisible(driver, UserShoppingCartPageUI.DYNAMIC_PRODUCT_INFOR, attributeValue);
+		return getElementText(driver, UserShoppingCartPageUI.DYNAMIC_PRODUCT_INFOR, attributeValue);
+	}
+
+	public String getBillingInfor(WebDriver driver, String attributeValue, String dynamicValues) {
+		waitForElementVisible(driver, UserCheckoutPageUI.DYNAMIC_BILLING_INFOR, attributeValue, dynamicValues);
+		return getElementText(driver, UserCheckoutPageUI.DYNAMIC_BILLING_INFOR, attributeValue, dynamicValues);
+	}
+
+	public String getCheckoutAttributesByClass(WebDriver driver) {
+		waitForElementVisible(driver, UserCheckoutPageUI.CHECKOUT_ATTRIBUTES);
+		return getElementText(driver, UserCheckoutPageUI.CHECKOUT_ATTRIBUTES);
 	}
 	// public UserHomePO openEndUserSite(WebDriver driver, String urlUserSite) {
 	// openPageUrl(driver, urlUserSite);

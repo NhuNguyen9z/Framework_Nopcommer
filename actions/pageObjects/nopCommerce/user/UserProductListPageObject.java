@@ -25,8 +25,8 @@ public class UserProductListPageObject extends BasePage {
 	}
 
 	public UserProductDetailPageObject openProductDetailPage(String textLabel) {
-		waitForElementClickable(driver, BasePageUI.PRODUCT_NAME_BY_TEXT, textLabel);
-		clickToElement(driver, BasePageUI.PRODUCT_NAME_BY_TEXT, textLabel);
+		waitForElementClickable(driver, BasePageUI.PRODUCT_NAME_LIST_BY_TEXT, textLabel);
+		clickToElement(driver, BasePageUI.PRODUCT_NAME_LIST_BY_TEXT, textLabel);
 		return PageGeneratorManager.getUserProductDetailPage(driver);
 	}
 

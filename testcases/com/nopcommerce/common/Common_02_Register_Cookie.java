@@ -51,6 +51,9 @@ public class Common_02_Register_Cookie extends BaseTest {
 		log.info("Pre-condition - Step 08: Verify Register success message is displayed");
 		verifyEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
+		// log.info("Pre-condition - Step 09: Click to Logout link");
+		// homePage = registerPage.clickToLogoutLink();
+
 		log.info("Pre-condition - Step 09: Navigate to 'Login' page");
 		loginPage = homePage.openLoginPage();
 

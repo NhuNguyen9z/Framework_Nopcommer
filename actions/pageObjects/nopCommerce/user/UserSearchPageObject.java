@@ -38,9 +38,4 @@ public class UserSearchPageObject extends BasePage {
 		return isElementDisplayed(driver, UserSearchPageUI.PRODUCT_NAME_RELATIVE, textLabel);
 	}
 
-	public void checkedSearchCheckboxByID(String atributeName) {
-		waitForElementClickable(driver, UserSearchPageUI.ADVANCED_SEARCH_CHECKBOX, atributeName);
-		checkToDefaultCheckboxOrRadio(driver, UserSearchPageUI.ADVANCED_SEARCH_CHECKBOX, atributeName);
-	}
-
 }
